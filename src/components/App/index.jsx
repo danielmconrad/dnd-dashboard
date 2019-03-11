@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Dashboard from '../Dashboard';
+import Footer from '../Footer';
 
 import './index.css';
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Dashboard />
+        <Footer />
       </div>
     );
   }

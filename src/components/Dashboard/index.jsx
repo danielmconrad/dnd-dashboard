@@ -22,7 +22,7 @@ class Dashboard extends Component {
       <div className="Dashboard">
         {this.state.characters.map(character => (
           <div key={character.id}>
-            <img src={character.avatarUrl} />
+            <img src={character.avatarUrl} alt={character.name} />
             <h2>{character.name}</h2>
             <p>
               <span className="current">
