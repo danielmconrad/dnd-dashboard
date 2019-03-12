@@ -8,8 +8,8 @@ const proxyMiddleware = proxy('/', {
   target: config.dndBeyondURL,
   changeOrigin: true,
   protocolRewrite: true,
-  onProxyRes(proxyRes, req, res) {
-    res.headers['Access-Control-Allow-Origin'] = config.host;
+  onProxyRes(proxyRes) {
+    proxyRes.headers['Access-Control-Allow-Origin'] = config.host;
   }
 });
 
