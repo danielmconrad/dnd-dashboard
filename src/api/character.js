@@ -14,7 +14,7 @@ const hitPoints = c => {
   return {
     current: c.overrideHitPoints || max - c.removedHitPoints,
     max: c.overrideHitPoints || max,
-    temp: c.temporaryHitPoints,
+    temp: c.temporaryHitPoints ? c.temporaryHitPoints : null,
   };
 };
 

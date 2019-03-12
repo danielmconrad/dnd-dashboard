@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import DnDBeyond from '../../dnd-beyond';
+import api from '../../api';
 import './index.css';
 
 const ONE_SECOND = 1000;
@@ -23,10 +23,10 @@ class Dashboard extends Component {
   componentDidMount() {
     if (!this.state.characterIDs) return;
 
-    DnDBeyond.characters(this.state.characterIDs)
+    api.characters(this.state.characterIDs)
       .then(characters => this.setState({ characters }));
 
-    setInterval(this.refreshNext, 30 * ONE_SECOND);
+    setInterval(this.refreshNext, 10 * ONE_SECOND);
   }
   
   componentWillUnmount() {
@@ -36,7 +36,7 @@ class Dashboard extends Component {
   refreshNext() {
     const {characters} = this.state;
     
-    DnDBeyond.character(this.state.characterIDs[this.state.refreshIdx])
+    api.character(this.state.characterIDs[this.state.refreshIdx])
       .then(character => characters[this.state.refreshIdx] = character)
       .then(() => this.setState({ characters }))
       .then(() => this.incrementIndex());
