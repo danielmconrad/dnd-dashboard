@@ -6,7 +6,7 @@ import config from '../config';
 
 const baseAPI = Axios.create({
   baseURL: config.apiURL,
-  timeout: 1000,
+  timeout: 10000,
   headers: { 'Content-type': 'application/json; charset=utf-8' },
 });
 
