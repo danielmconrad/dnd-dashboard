@@ -9,7 +9,7 @@ const constitutionModifier = c =>
 
 const hitPoints = c => {
   const levelConstitutions = constitutionModifier(c) * c.classes[0].level;
-  const max = c.baseHitPoints + levelConstitutions;
+  const max = c.baseHitPoints + c.bonusHitPoints + levelConstitutions;
 
   return {
     current: c.overrideHitPoints || max - c.removedHitPoints,

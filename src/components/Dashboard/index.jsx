@@ -26,7 +26,7 @@ class Dashboard extends Component {
     api.characters(this.state.characterIDs)
       .then(characters => this.setState({ characters }));
 
-    setInterval(this.refreshNext, 10 * ONE_SECOND);
+    setInterval(this.refreshNext, 30 * ONE_SECOND);
   }
   
   componentWillUnmount() {
