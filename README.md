@@ -19,7 +19,7 @@
 
 ## Install
 
-```
+```bash
 git clone git@github.com:danielmconrad/dnd-dashboard.git
 cd dnd-dashboard
 npm install
@@ -27,8 +27,8 @@ npm install
 
 ## Usage
 
-```
-npm start
+```bash
+npm run dev
 ```
 
 ## Maintainers
