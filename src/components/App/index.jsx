@@ -11,7 +11,7 @@ export default () => (
   <HashRouter>
     <div className="App">
       <Route exact path="/" component={Home} />
-      <Route path="/dashboard" component={Dashboard} />
+      <Route path="/dashboard/:characterIDs" component={Dashboard} />
       <Footer />
     </div>
   </HashRouter>

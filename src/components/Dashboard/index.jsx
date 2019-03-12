@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {parse as parseSearch} from 'querystring';
 
 import DnDBeyond from '../../dnd-beyond';
 import './index.css';
@@ -17,7 +16,7 @@ class Dashboard extends Component {
     this.refreshNext = this.refreshNext.bind(this);
 
     this.setState({ 
-      characterIDs: (this.getParams().character_ids || '').split(',')
+      characterIDs: (this.props.match.params.characterIDs || '').split(',')
     });
   }
 
@@ -32,10 +31,6 @@ class Dashboard extends Component {
   
   componentWillUnmount() {
     clearInterval(this.refreshNext);
-  }
-
-  getParams() {
-    return parseSearch(window.location.search.substring(1));
   }
 
   refreshNext() {
