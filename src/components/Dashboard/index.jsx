@@ -1,20 +1,58 @@
 import React, { Component } from 'react';
+import {parse as parseSearch} from 'querystring';
 
 import DnDBeyond from '../../dnd-beyond';
-
 import './index.css';
+
+const ONE_SECOND = 1000;
 
 class Dashboard extends Component {
   state = {
-    characters: DnDBeyond.fixtures,
-    // characterIDs: ['8958758'],
-    // characters: [],
+    characters: [],
+    refreshIdx: 0,
+    params: {},
+  }
+
+  componentWillMount() {
+    this.refreshNext = this.refreshNext.bind(this);
+
+    this.setState({ 
+      characterIDs: (this.getParams().character_ids || '').split(',')
+    });
   }
 
   componentDidMount() {
-    // Promise
-    //   .all(this.state.characterIDs.map(id => DnDBeyond.character(id)))
-    //   .then(characters => this.setState({ characters }));
+    if (!this.state.characterIDs) return;
+
+    DnDBeyond.characters(this.state.characterIDs)
+      .then(characters => this.setState({ characters }));
+
+    setInterval(this.refreshNext, 30 * ONE_SECOND);
+  }
+  
+  componentWillUnmount() {
+    clearInterval(this.refreshNext);
+  }
+
+  getParams() {
+    return parseSearch(window.location.search.substring(1));
+  }
+
+  refreshNext() {
+    const {characters} = this.state;
+    
+    DnDBeyond.character(this.state.characterIDs[this.state.refreshIdx])
+      .then(character => characters[this.state.refreshIdx] = character)
+      .then(() => this.setState({ characters }))
+      .then(() => this.incrementIndex());
+  }
+
+  incrementIndex() {
+    let newIndex = this.state.refreshIdx + 1;
+
+    this.setState({ 
+      refreshIdx: newIndex >= this.state.characters.length ? 0 : newIndex
+    });
   }
 
   render() {
@@ -38,6 +76,9 @@ class Dashboard extends Component {
             </p>
           </div>
         ))}
+        {!this.state.characterIDs && (
+          <div>No characters selected!</div>
+        )}
       </div>
     );
   }

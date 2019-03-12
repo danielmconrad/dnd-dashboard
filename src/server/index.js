@@ -1,15 +1,20 @@
 const proxy = require('http-proxy-middleware');
 const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
+const config = require('../config');
 
-app.use(proxy('/api', { 
-  target: 'https://www.dndbeyond.com',
+const app = express();
+
+const proxyMiddleware = proxy('/', { 
+  target: config.dndBeyondURL,
   changeOrigin: true,
   protocolRewrite: true,
-  pathRewrite: function (path, req) { 
-    return path.replace('/api', '') 
+  onProxyRes(proxyRes, req, res) {
+    proxyRes.headers['Access-Control-Allow-Origin'] = config.host;
   }
-}));
+});
 
-app.listen(port, () => console.log(`Listening on port ${port}!`));
+app.use(proxyMiddleware);
+
+app.listen(config.apiPort, () => 
+  console.log(`Listening on port ${config.apiPort}!`)
+);

@@ -6,9 +6,12 @@
     "axios": "^0.18.0",
     "express": "^4.16.4",
     "gh-pages": "^2.0.1",
+    "history": "^4.7.2",
     "http-proxy-middleware": "^0.19.1",
+    "querystring": "^0.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },
   "scripts": {
