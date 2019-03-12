@@ -9,7 +9,7 @@ const proxyMiddleware = proxy('/', {
   changeOrigin: true,
   protocolRewrite: true,
   onProxyRes(proxyRes) {
-    proxyRes.headers['Access-Control-Allow-Origin'] = config.host;
+    proxyRes.headers['Access-Control-Allow-Origin'] = config.siteURL;
   }
 });
 
