@@ -20,7 +20,7 @@ const hitPoints = c => {
 
 const character = c => ({
   id: c.id,
-  avatarUrl: c.avatarUrl,
+  avatarUrl: c.avatarUrl || c.race.portraitAvatarUrl,
   name: c.name,
   hitPoints: hitPoints(c),
 });
