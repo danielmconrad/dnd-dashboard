@@ -1,0 +1,4588 @@
+{
+  "id": 7893290,
+  "readonlyUrl": "https://dndbeyond.com/characters/7893290",
+  "avatarUrl": "",
+  "frameAvatarUrl": "",
+  "backdropAvatarUrl": "",
+  "smallBackdropAvatarUrl": "",
+  "largeBackdropAvatarUrl": "",
+  "thumbnailBackdropAvatarUrl": "",
+  "defaultBackdrop": {
+    "backdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/475/636453123635897181.jpeg",
+    "smallBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/476/636453123636366109.jpeg",
+    "largeBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/477/636453123637147253.jpeg",
+    "thumbnailBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/478/636453123637459681.jpeg"
+  },
+  "avatarId": null,
+  "frameAvatarId": null,
+  "backdropAvatarId": null,
+  "smallBackdropAvatarId": null,
+  "largeBackdropAvatarId": null,
+  "thumbnailAvatarId": null,
+  "themeColorId": null,
+  "themeColor": null,
+  "name": "Enrique Shockwave",
+  "socialName": null,
+  "gender": null,
+  "faith": null,
+  "age": null,
+  "hair": null,
+  "eyes": null,
+  "skin": null,
+  "height": null,
+  "weight": null,
+  "inspiration": false,
+  "baseHitPoints": 13,
+  "bonusHitPoints": null,
+  "overrideHitPoints": null,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
+  "currentXp": 300,
+  "alignmentId": 6,
+  "lifestyleId": null,
+  "stats": [
+    {
+      "id": 1,
+      "name": null,
+      "value": 14
+    },
+    {
+      "id": 2,
+      "name": null,
+      "value": 12
+    },
+    {
+      "id": 3,
+      "name": null,
+      "value": 15
+    },
+    {
+      "id": 4,
+      "name": null,
+      "value": 8
+    },
+    {
+      "id": 5,
+      "name": null,
+      "value": 8
+    },
+    {
+      "id": 6,
+      "name": null,
+      "value": 14
+    }
+  ],
+  "bonusStats": [
+    {
+      "id": 1,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 2,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 3,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 4,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 5,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 6,
+      "name": null,
+      "value": null
+    }
+  ],
+  "overrideStats": [
+    {
+      "id": 1,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 2,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 3,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 4,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 5,
+      "name": null,
+      "value": null
+    },
+    {
+      "id": 6,
+      "name": null,
+      "value": null
+    }
+  ],
+  "background": {
+    "hasCustomBackground": true,
+    "definition": null,
+    "customBackground": {
+      "id": 7893290,
+      "entityTypeId": 1581111423,
+      "name": "Charlatan",
+      "description": null,
+      "featuresBackground": null,
+      "characteristicsBackground": null,
+      "backgroundType": 1
+    }
+  },
+  "race": {
+    "entityRaceId": 2,
+    "entityRaceTypeId": 1743923279,
+    "fullName": "Half-Orc",
+    "baseRaceId": 2,
+    "baseRaceTypeId": 1743923279,
+    "description": "<p>Half-orcs&rsquo; grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see.</p>\r\n<p class=\"characters-statblock\" style=\"font-family:Roboto Condensed\"><strong>Racial Traits</strong><br>+2 Strength, +1 Constitution, Darkvision, Menacing, Relentless Endurance, Savage Attacks</p>",
+    "avatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/465/315/315/636274570629837473.png",
+    "largeAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/6/466/636274570630462055.png",
+    "portraitAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/9/385/636327460616726799.jpeg",
+    "moreDetailsUrl": "/races/half-orc",
+    "isHomebrew": false,
+    "sourceIds": [
+      1,
+      2
+    ],
+    "groupIds": [
+      2
+    ],
+    "type": 1,
+    "subRaceShortName": null,
+    "baseName": "Half-Orc",
+    "racialTraits": [
+      {
+        "definition": {
+          "id": 99,
+          "entityTypeId": 1960452172,
+          "displayOrder": 1,
+          "name": "Ability Score Increase",
+          "description": "<p>Your Strength score increases by 2, and your Constitution score in<span>creases by 1.</span></p>",
+          "snippet": null,
+          "hideInBuilder": true,
+          "hideInSheet": true,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 146,
+          "entityTypeId": 1960452172,
+          "displayOrder": 2,
+          "name": "Age",
+          "description": "<p>Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</p>",
+          "snippet": "",
+          "hideInBuilder": true,
+          "hideInSheet": true,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 147,
+          "entityTypeId": 1960452172,
+          "displayOrder": 3,
+          "name": "Alignment",
+          "description": "<p>Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.</p>",
+          "snippet": null,
+          "hideInBuilder": true,
+          "hideInSheet": true,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 148,
+          "entityTypeId": 1960452172,
+          "displayOrder": 4,
+          "name": "Size",
+          "description": "<p>Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.</p>",
+          "snippet": null,
+          "hideInBuilder": true,
+          "hideInSheet": true,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 149,
+          "entityTypeId": 1960452172,
+          "displayOrder": 5,
+          "name": "Speed",
+          "description": "<p>Your base walking speed is 30 feet.</p>",
+          "snippet": null,
+          "hideInBuilder": true,
+          "hideInSheet": true,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 56,
+          "entityTypeId": 1960452172,
+          "displayOrder": 6,
+          "name": "Darkvision",
+          "description": "<p>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&rsquo;t discern color in darkness, only shades of gray.</p>",
+          "snippet": "You can see in darkness (shades of gray) up to 60 ft.",
+          "hideInBuilder": false,
+          "hideInSheet": false,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 57,
+          "entityTypeId": 1960452172,
+          "displayOrder": 7,
+          "name": "Menacing",
+          "description": "<p>You gain proficiency in the Intimidation skill.</p>",
+          "snippet": "You gain proficiency in the Intimidation skill.",
+          "hideInBuilder": false,
+          "hideInSheet": false,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 58,
+          "entityTypeId": 1960452172,
+          "displayOrder": 8,
+          "name": "Relentless Endurance",
+          "description": "<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can&rsquo;t use this feature again until you finish a long rest.</p>",
+          "snippet": "When you are reduced to 0 HP but not killed, you can drop to 1 HP instead once per long rest.",
+          "hideInBuilder": false,
+          "hideInSheet": false,
+          "activation": {
+            "activationTime": null,
+            "activationType": 8
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 59,
+          "entityTypeId": 1960452172,
+          "displayOrder": 9,
+          "name": "Savage Attacks",
+          "description": "<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon&rsquo;s damage dice one additional time and add it to the extra damage of the critical hit.</p>",
+          "snippet": "When you score a critical hit, roll one of the dice an additional time and add it to the extra damage.",
+          "hideInBuilder": false,
+          "hideInSheet": false,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      },
+      {
+        "definition": {
+          "id": 100,
+          "entityTypeId": 1960452172,
+          "displayOrder": 10,
+          "name": "Languages",
+          "description": "<p>You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.</p>",
+          "snippet": null,
+          "hideInBuilder": true,
+          "hideInSheet": true,
+          "activation": {
+            "activationTime": null,
+            "activationType": null
+          },
+          "sourceId": 2,
+          "sourcePageNumber": 41,
+          "creatureRules": []
+        }
+      }
+    ],
+    "weightSpeeds": {
+      "normal": {
+        "walk": 30,
+        "fly": 0,
+        "burrow": 0,
+        "swim": 0,
+        "climb": 0
+      },
+      "encumbered": null,
+      "heavilyEncumbered": null,
+      "pushDragLift": null,
+      "override": null
+    },
+    "featIds": [],
+    "size": "Medium",
+    "sizeId": 4
+  },
+  "notes": {
+    "allies": null,
+    "personalPossessions": null,
+    "otherHoldings": null,
+    "organizations": null,
+    "enemies": null,
+    "backstory": null,
+    "otherNotes": null
+  },
+  "traits": {
+    "personalityTraits": "",
+    "ideals": null,
+    "bonds": null,
+    "flaws": null,
+    "appearance": null
+  },
+  "preferences": {
+    "useHomebrewContent": true,
+    "progressionType": 1,
+    "encumbranceType": 1,
+    "ignoreCoinWeight": true,
+    "hitPointType": 1,
+    "showUnarmedStrike": true,
+    "showCompanions": false,
+    "showWildShape": false,
+    "primarySense": 5,
+    "primaryMovement": 1,
+    "privacyType": 3,
+    "sharingType": 2,
+    "abilityScoreDisplayType": 2,
+    "enforceFeatRules": true,
+    "enforceMulticlassRules": true
+  },
+  "lifestyle": null,
+  "inventory": [],
+  "currencies": {
+    "cp": 0,
+    "sp": 0,
+    "gp": 0,
+    "ep": 0,
+    "pp": 0
+  },
+  "classes": [
+    {
+      "id": 8861065,
+      "entityTypeId": 1446578651,
+      "level": 2,
+      "isStartingClass": true,
+      "hitDiceUsed": 0,
+      "definition": {
+        "id": 1,
+        "name": "Bard",
+        "description": "<p>An inspiring magician whose power echoes the music of creation</p>\r\n<p class=\"characters-statblock\" style=\"font-family:Roboto Condensed;font-size:14px\"><strong>Hit Die:</strong> d8<br><strong>Primary Ability:</strong>&nbsp;Charisma<br><strong>Saves:</strong>&nbsp;Dexterity &amp; Charisma</p>",
+        "equipmentDescription": "<p>You start with the following equipment, in addition to the equipment granted by your background:</p>\r\n<ul>\r\n<li>(<span>a</span>) a rapier, (<span>b</span>) a longsword, or (<span>c</span>) any simple weapon</li>\r\n<li>(<span>a</span>) a diplomat&rsquo;s pack or (<span>b</span>) an entertainer&rsquo;s pack</li>\r\n<li>(<span>a</span>) a lute or (<span>b</span>) any other musical instrument</li>\r\n<li>Leather armor and a dagger</li>\r\n</ul>",
+        "parentClassId": null,
+        "avatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/368/315/315/636272705936235645.png",
+        "largeAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/6/369/636272705936709430.png",
+        "portraitAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/10/1/636336416923635770.jpeg",
+        "moreDetailsUrl": "/classes/bard",
+        "spellCastingAbilityId": 6,
+        "sourceIds": [
+          1
+        ],
+        "hitDice": 8,
+        "classFeatures": [
+          {
+            "id": 531,
+            "name": "Hit Points",
+            "prerequisite": null,
+            "description": "<p><strong><span>Hit Dice:</span></strong> 1d8 p<span>er bard level<br></span><strong><span>Hit Points at 1st Level:</span></strong> 8 + your Constitu<span>tion modifier<br></span><strong><span>Hit Points at Higher Levels:</span></strong> 1d8 (or 5) + your Constitution modifier per bard le<span>vel after 1st</span></p>",
+            "requiredLevel": 1,
+            "displayOrder": 1
+          },
+          {
+            "id": 460,
+            "name": "Proficiencies",
+            "prerequisite": null,
+            "description": "<p><strong><span>Armor</span><span><span>:</span></span></strong><span> Light armor<br></span><strong><span>Weapons:</span></strong> Simple weapons, hand crossbows, longswords, rapiers<span>, shortswords<br></span><strong><span>Tools:</span></strong> Three musical instruments o<span>f your choice<br></span><strong><span>Saving Throws:</span></strong> Dexter<span>ity, Charisma<br></span><strong><span>Skills:</span></strong> Cho<span>ose any three</span></p>",
+            "requiredLevel": 1,
+            "displayOrder": 2
+          },
+          {
+            "id": 74,
+            "name": "Spellcasting",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See </span><span style=\"color:#47d18c\"><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/spellcasting\" rel=\"nofollow\"><span style=\"font-weight:400\">Spells Rules</span></a></span><span style=\"font-weight:400\"> for the general rules of spellcasting and the </span><span style=\"color:#704cd9\"><a style=\"color:#704cd9\" href=\"https://www.dndbeyond.com/spells?filter-class=1&filter-search=&filter-sub-class=&filter-concentration=&filter-ritual=&filter-unlocked-content=\" rel=\"nofollow\"><span style=\"font-weight:400\">Spells Listing</span></a></span><span style=\"font-weight:400\"> for the bard spell list.</span></p>\r\n<h5><strong>Cantrips</strong></h5>\r\n<p><span style=\"font-weight:400\">You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.</span></p>\r\n<h5><strong>Spell Slots</strong></h5>\r\n<p><span style=\"font-weight:400\">The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell&rsquo;s level or higher. You regain all expended spell slots when you finish a long rest.</span></p>\r\n<p><span style=\"font-weight:400\">For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</span></p>\r\n<h5><strong>Spells Known of 1st Level and Higher</strong></h5>\r\n<p><span style=\"font-weight:400\">You know four 1st-level spells of your choice from the bard spell list.</span></p>\r\n<p><span style=\"font-weight:400\">The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</span></p>\r\n<p><span style=\"font-weight:400\">Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</span></p>\r\n<h5><strong>Spellcasting Ability</strong></h5>\r\n<p><span style=\"font-weight:400\">Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</span></p>\r\n<p><strong>Spell save DC </strong><span style=\"font-weight:400\">= 8 + your proficiency bonus + your Charisma modifier</span></p>\r\n<p><strong>Spell attack modifier </strong><span style=\"font-weight:400\">= your proficiency bonus + your Charisma modifier</span></p>\r\n<h5><strong>Ritual Casting</strong></h5>\r\n<p><span style=\"font-weight:400\">You can cast any bard spell you know as a ritual if that spell has the ritual tag.</span></p>\r\n<h5><strong>Spellcasting Focus</strong></h5>\r\n<p><span style=\"font-weight:400\">You can use a musical instrument (see the </span><span style=\"color:#47d18c\"><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#Tools\" rel=\"nofollow\"><span style=\"font-weight:400\">Tools</span></a></span><span style=\"font-weight:400\"> section) as a spellcasting focus for your bard spells.</span></p>",
+            "requiredLevel": 1,
+            "displayOrder": 3
+          },
+          {
+            "id": 75,
+            "name": "Bardic Inspiration",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.</span></p>\r\n<p><span style=\"font-weight:400\">Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</span></p>\r\n<p><span style=\"font-weight:400\">You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</span></p>\r\n<p><span style=\"font-weight:400\">Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 a<span>t 15th level.</span></span></p>",
+            "requiredLevel": 1,
+            "displayOrder": 4
+          },
+          {
+            "id": 79,
+            "name": "Jack of All Trades",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn&rsquo;t already include your proficiency bonus.</span></p>",
+            "requiredLevel": 2,
+            "displayOrder": 5
+          },
+          {
+            "id": 80,
+            "name": "Song of Rest",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.</span></p>\r\n<p><span style=\"font-weight:400\">The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 a<span>t 17th level.</span></span></p>",
+            "requiredLevel": 2,
+            "displayOrder": 6
+          },
+          {
+            "id": 84,
+            "name": "Bard College",
+            "prerequisite": null,
+            "description": "<p>&nbsp;<span style=\"font-weight:400\">At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the </span><em><span style=\"font-weight:400\">Player's Handbook</span></em><span style=\"font-weight:400\"> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</span></p>",
+            "requiredLevel": 3,
+            "displayOrder": 7
+          },
+          {
+            "id": 85,
+            "name": "Expertise",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</span></p>",
+            "requiredLevel": 3,
+            "displayOrder": 8
+          },
+          {
+            "id": 87,
+            "name": "Ability Score Improvement",
+            "prerequisite": null,
+            "description": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "requiredLevel": 4,
+            "displayOrder": 9
+          },
+          {
+            "id": 92,
+            "name": "Font of Inspiration",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</span></p>",
+            "requiredLevel": 5,
+            "displayOrder": 11
+          },
+          {
+            "id": 93,
+            "name": "Countercharm",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</span></p>",
+            "requiredLevel": 6,
+            "displayOrder": 12
+          },
+          {
+            "id": 88,
+            "name": "Ability Score Improvement",
+            "prerequisite": null,
+            "description": "<p>When you reach 8th level, and again at 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "requiredLevel": 8,
+            "displayOrder": 13
+          },
+          {
+            "id": 86,
+            "name": "Expertise",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">At 10th&nbsp;level, choose two more of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</span></p>",
+            "requiredLevel": 10,
+            "displayOrder": 14
+          },
+          {
+            "id": 592,
+            "name": "Magical Secrets",
+            "prerequisite": null,
+            "description": "<p>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table,&nbsp;<span>or a cantrip.</span></p>\r\n<p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of th<span>e Bard table.</span></p>\r\n<p>You learn two additional spells from any classes at 14th level and again a<span>t 18th level.</span></p>",
+            "requiredLevel": 10,
+            "displayOrder": 14
+          },
+          {
+            "id": 89,
+            "name": "Ability Score Improvement",
+            "prerequisite": null,
+            "description": "<p>When you reach 12th level, and again at 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "requiredLevel": 12,
+            "displayOrder": 15
+          },
+          {
+            "id": 593,
+            "name": "Magical Secrets",
+            "prerequisite": null,
+            "description": "<p>At&nbsp;14th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table,&nbsp;<span>or a cantrip.</span></p>\r\n<p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of th<span>e Bard table.</span></p>\r\n<p>You learn two additional spells from any classes a<span>t 18th level.</span></p>",
+            "requiredLevel": 14,
+            "displayOrder": 15
+          },
+          {
+            "id": 90,
+            "name": "Ability Score Improvement",
+            "prerequisite": null,
+            "description": "<p>When you reach 16th level, and again at 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "requiredLevel": 16,
+            "displayOrder": 16
+          },
+          {
+            "id": 594,
+            "name": "Magical Secrets",
+            "prerequisite": null,
+            "description": "<p>At&nbsp;18th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table,&nbsp;<span>or a cantrip.</span></p>\r\n<p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of th<span>e Bard table.</span></p>",
+            "requiredLevel": 18,
+            "displayOrder": 16
+          },
+          {
+            "id": 91,
+            "name": "Ability Score Improvement",
+            "prerequisite": null,
+            "description": "<p>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using this feature.</p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "requiredLevel": 19,
+            "displayOrder": 17
+          },
+          {
+            "id": 94,
+            "name": "Superior Inspiration",
+            "prerequisite": null,
+            "description": "<p><span style=\"font-weight:400\">At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</span></p>",
+            "requiredLevel": 20,
+            "displayOrder": 18
+          }
+        ],
+        "wealthDice": {
+          "diceCount": 5,
+          "diceValue": 4,
+          "diceMultiplier": 10,
+          "fixedValue": null,
+          "diceString": "5d4"
+        },
+        "canCastSpells": true,
+        "knowsAllSpells": false,
+        "spellPrepareType": null,
+        "spellContainerName": null,
+        "sourceId": 1,
+        "sourcePageNumber": 51
+      },
+      "subclassDefinition": null,
+      "classFeatures": [
+        {
+          "definition": {
+            "id": 531,
+            "entityTypeId": 12168134,
+            "displayOrder": 1,
+            "name": "Hit Points",
+            "description": "<p><strong><span>Hit Dice:</span></strong> 1d8 p<span>er bard level<br></span><strong><span>Hit Points at 1st Level:</span></strong> 8 + your Constitu<span>tion modifier<br></span><strong><span>Hit Points at Higher Levels:</span></strong> 1d8 (or 5) + your Constitution modifier per bard le<span>vel after 1st</span></p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 1,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": 52,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 460,
+            "entityTypeId": 12168134,
+            "displayOrder": 2,
+            "name": "Proficiencies",
+            "description": "<p><strong><span>Armor</span><span><span>:</span></span></strong><span> Light armor<br></span><strong><span>Weapons:</span></strong> Simple weapons, hand crossbows, longswords, rapiers<span>, shortswords<br></span><strong><span>Tools:</span></strong> Three musical instruments o<span>f your choice<br></span><strong><span>Saving Throws:</span></strong> Dexter<span>ity, Charisma<br></span><strong><span>Skills:</span></strong> Cho<span>ose any three</span></p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "<p><strong><span>Armor</span><span><span>:</span></span></strong><span> Light armor</span><span><br></span><strong><span>Tools:</span></strong>&nbsp;One musical instruments o<span>f your choice</span><span><br></span><strong><span>Skills:</span></strong> Cho<span>ose any&nbsp;skill</span></p>",
+            "requiredLevel": 1,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": true,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": 52,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 74,
+            "entityTypeId": 12168134,
+            "displayOrder": 3,
+            "name": "Spellcasting",
+            "description": "<p><span style=\"font-weight:400\">You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See </span><span style=\"color:#47d18c\"><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/spellcasting\" rel=\"nofollow\"><span style=\"font-weight:400\">Spells Rules</span></a></span><span style=\"font-weight:400\"> for the general rules of spellcasting and the </span><span style=\"color:#704cd9\"><a style=\"color:#704cd9\" href=\"https://www.dndbeyond.com/spells?filter-class=1&filter-search=&filter-sub-class=&filter-concentration=&filter-ritual=&filter-unlocked-content=\" rel=\"nofollow\"><span style=\"font-weight:400\">Spells Listing</span></a></span><span style=\"font-weight:400\"> for the bard spell list.</span></p>\r\n<h5><strong>Cantrips</strong></h5>\r\n<p><span style=\"font-weight:400\">You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.</span></p>\r\n<h5><strong>Spell Slots</strong></h5>\r\n<p><span style=\"font-weight:400\">The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell&rsquo;s level or higher. You regain all expended spell slots when you finish a long rest.</span></p>\r\n<p><span style=\"font-weight:400\">For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</span></p>\r\n<h5><strong>Spells Known of 1st Level and Higher</strong></h5>\r\n<p><span style=\"font-weight:400\">You know four 1st-level spells of your choice from the bard spell list.</span></p>\r\n<p><span style=\"font-weight:400\">The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</span></p>\r\n<p><span style=\"font-weight:400\">Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</span></p>\r\n<h5><strong>Spellcasting Ability</strong></h5>\r\n<p><span style=\"font-weight:400\">Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</span></p>\r\n<p><strong>Spell save DC </strong><span style=\"font-weight:400\">= 8 + your proficiency bonus + your Charisma modifier</span></p>\r\n<p><strong>Spell attack modifier </strong><span style=\"font-weight:400\">= your proficiency bonus + your Charisma modifier</span></p>\r\n<h5><strong>Ritual Casting</strong></h5>\r\n<p><span style=\"font-weight:400\">You can cast any bard spell you know as a ritual if that spell has the ritual tag.</span></p>\r\n<h5><strong>Spellcasting Focus</strong></h5>\r\n<p><span style=\"font-weight:400\">You can use a musical instrument (see the </span><span style=\"color:#47d18c\"><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#Tools\" rel=\"nofollow\"><span style=\"font-weight:400\">Tools</span></a></span><span style=\"font-weight:400\"> section) as a spellcasting focus for your bard spells.</span></p>",
+            "snippet": "You can cast known bard spells using CHA as your spellcasting modifier (Spell DC {{savedc:cha}}, Spell Attack {{spellattack:cha}}) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus.",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "<p><em>This feature is affected by multiclassing</em>. See the <a href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/customization-options#ClassFeatures\" rel=\"nofollow\">Multiclassing</a> rules for more information.</p>\r\n<p><span style=\"font-weight:400\">You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See </span><span style=\"color:#47d18c\"><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/spellcasting\" rel=\"nofollow\"><span style=\"font-weight:400\">Spells Rules</span></a></span><span style=\"font-weight:400\"> for the general rules of spellcasting and the </span><span style=\"color:#704cd9\"><a style=\"color:#704cd9\" href=\"https://www.dndbeyond.com/spells?filter-class=1&filter-search=&filter-sub-class=&filter-concentration=&filter-ritual=&filter-unlocked-content=\" rel=\"nofollow\"><span style=\"font-weight:400\">Spells Listing</span></a></span><span style=\"font-weight:400\"> for the bard spell list.</span></p>\r\n<h5><strong>Cantrips</strong></h5>\r\n<p><span style=\"font-weight:400\">You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.</span></p>\r\n<h5><strong>Spell Slots</strong></h5>\r\n<p><span style=\"font-weight:400\">The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell&rsquo;s level or higher. You regain all expended spell slots when you finish a long rest.</span></p>\r\n<p><span style=\"font-weight:400\">For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</span></p>\r\n<h5><strong>Spells Known of 1st Level and Higher</strong></h5>\r\n<p><span style=\"font-weight:400\">You know four 1st-level spells of your choice from the bard spell list.</span></p>\r\n<p><span style=\"font-weight:400\">The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</span></p>\r\n<p><span style=\"font-weight:400\">Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</span></p>\r\n<h5><strong>Spellcasting Ability</strong></h5>\r\n<p><span style=\"font-weight:400\">Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</span></p>\r\n<p><strong>Spell save DC </strong><span style=\"font-weight:400\">= 8 + your proficiency bonus + your Charisma modifier</span></p>\r\n<p><strong>Spell attack modifier </strong><span style=\"font-weight:400\">= your proficiency bonus + your Charisma modifier</span></p>\r\n<h5><strong>Ritual Casting</strong></h5>\r\n<p><span style=\"font-weight:400\">You can cast any bard spell you know as a ritual if that spell has the ritual tag.</span></p>\r\n<h5><strong>Spellcasting Focus</strong></h5>\r\n<p><span style=\"font-weight:400\">You can use a musical instrument (see the </span><span style=\"color:#47d18c\"><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/equipment#Tools\" rel=\"nofollow\"><span style=\"font-weight:400\">Tools</span></a></span><span style=\"font-weight:400\"> section) as a spellcasting focus for your bard spells.</span></p>",
+            "requiredLevel": 1,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 52,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 75,
+            "entityTypeId": 12168134,
+            "displayOrder": 4,
+            "name": "Bardic Inspiration",
+            "description": "<p><span style=\"font-weight:400\">You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.</span></p>\r\n<p><span style=\"font-weight:400\">Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</span></p>\r\n<p><span style=\"font-weight:400\">You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</span></p>\r\n<p><span style=\"font-weight:400\">Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 a<span>t 15th level.</span></span></p>",
+            "snippet": "As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die ({{scalevalue}}). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome.",
+            "activation": {
+              "activationTime": 1,
+              "activationType": 3
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 1,
+            "isSubClassFeature": false,
+            "limitedUse": [
+              {
+                "level": null,
+                "uses": 0
+              }
+            ],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 53,
+            "creatureRules": []
+          },
+          "levelScale": {
+            "id": 5,
+            "level": 1,
+            "description": "d6",
+            "dice": {
+              "diceCount": 1,
+              "diceValue": 6,
+              "diceMultiplier": null,
+              "fixedValue": null,
+              "diceString": "1d6"
+            },
+            "fixedValue": null
+          }
+        },
+        {
+          "definition": {
+            "id": 79,
+            "entityTypeId": 12168134,
+            "displayOrder": 5,
+            "name": "Jack of All Trades",
+            "description": "<p><span style=\"font-weight:400\">Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn&rsquo;t already include your proficiency bonus.</span></p>",
+            "snippet": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include it.",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 2,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 80,
+            "entityTypeId": 12168134,
+            "displayOrder": 6,
+            "name": "Song of Rest",
+            "description": "<p><span style=\"font-weight:400\">Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.</span></p>\r\n<p><span style=\"font-weight:400\">The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 a<span>t 17th level.</span></span></p>",
+            "snippet": "During a short rest, friendly creatures who can hear your performance regain additional hit points when they spend Hit Dice based on your level:\n[2nd] 1d6, [9th] 1d8, [13th] 1d10, [17th] 1d12",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 2,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": {
+            "id": 11204,
+            "level": 2,
+            "description": "+1d6 HP",
+            "dice": {
+              "diceCount": 1,
+              "diceValue": 6,
+              "diceMultiplier": null,
+              "fixedValue": null,
+              "diceString": "1d6"
+            },
+            "fixedValue": null
+          }
+        },
+        {
+          "definition": {
+            "id": 84,
+            "entityTypeId": 12168134,
+            "displayOrder": 7,
+            "name": "Bard College",
+            "description": "<p>&nbsp;<span style=\"font-weight:400\">At 3rd level, you delve into the advanced techniques of a bard college of your choice: the College of Lore detailed at the end of the class description or another from the </span><em><span style=\"font-weight:400\">Player's Handbook</span></em><span style=\"font-weight:400\"> or other sources. Your choice grants you features at 3rd level and again at 6th and 14th level.</span></p>",
+            "snippet": "",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 3,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 85,
+            "entityTypeId": 12168134,
+            "displayOrder": 8,
+            "name": "Expertise",
+            "description": "<p><span style=\"font-weight:400\">At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</span></p>",
+            "snippet": "Your proficiency bonus is doubled for any ability check you make with chosen proficiencies (2 at 3rd and 10th level).",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 3,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 87,
+            "entityTypeId": 12168134,
+            "displayOrder": 9,
+            "name": "Ability Score Improvement",
+            "description": "<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 4,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 92,
+            "entityTypeId": 12168134,
+            "displayOrder": 11,
+            "name": "Font of Inspiration",
+            "description": "<p><span style=\"font-weight:400\">Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</span></p>",
+            "snippet": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 5,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": null,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 93,
+            "entityTypeId": 12168134,
+            "displayOrder": 12,
+            "name": "Countercharm",
+            "description": "<p><span style=\"font-weight:400\">At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</span></p>",
+            "snippet": "As an action, you can perform until the end of your next turn. During that time, you and any friendly creatures within 30 ft. that can hear you gain advantage on saving throws against being frightened or charmed.",
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 6,
+            "isSubClassFeature": false,
+            "limitedUse": [
+              {
+                "level": null,
+                "uses": 1
+              }
+            ],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": null,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 88,
+            "entityTypeId": 12168134,
+            "displayOrder": 13,
+            "name": "Ability Score Improvement",
+            "description": "<p>When you reach 8th level, and again at 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 8,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": null,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 86,
+            "entityTypeId": 12168134,
+            "displayOrder": 14,
+            "name": "Expertise",
+            "description": "<p><span style=\"font-weight:400\">At 10th&nbsp;level, choose two more of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</span></p>",
+            "snippet": "Your proficiency bonus is doubled for any ability check you make with chosen proficiencies (2 at 3rd and 10th level).",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 10,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 592,
+            "entityTypeId": 12168134,
+            "displayOrder": 14,
+            "name": "Magical Secrets",
+            "description": "<p>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table,&nbsp;<span>or a cantrip.</span></p>\r\n<p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of th<span>e Bard table.</span></p>\r\n<p>You learn two additional spells from any classes at 14th level and again a<span>t 18th level.</span></p>",
+            "snippet": "You can add spells from any class lists as bard spells to your known spells (choose 2 at 10th, 14th, and 18th level).",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 10,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 89,
+            "entityTypeId": 12168134,
+            "displayOrder": 15,
+            "name": "Ability Score Improvement",
+            "description": "<p>When you reach 12th level, and again at 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 12,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 593,
+            "entityTypeId": 12168134,
+            "displayOrder": 15,
+            "name": "Magical Secrets",
+            "description": "<p>At&nbsp;14th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table,&nbsp;<span>or a cantrip.</span></p>\r\n<p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of th<span>e Bard table.</span></p>\r\n<p>You learn two additional spells from any classes a<span>t 18th level.</span></p>",
+            "snippet": "You can add spells from any class lists as bard spells to your known spells (choose 2 at 10th, 14th, and 18th level).",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 14,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 90,
+            "entityTypeId": 12168134,
+            "displayOrder": 16,
+            "name": "Ability Score Improvement",
+            "description": "<p>When you reach 16th level, and again at 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using <span>this feature.</span></p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 16,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 594,
+            "entityTypeId": 12168134,
+            "displayOrder": 16,
+            "name": "Magical Secrets",
+            "description": "<p>At&nbsp;18th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table,&nbsp;<span>or a cantrip.</span></p>\r\n<p>The chosen spells count as bard spells for you and are included in the number in the Spells Known column of th<span>e Bard table.</span></p>",
+            "snippet": "You can add spells from any class lists as bard spells to your known spells (choose 2 at 10th, 14th, and 18th level).",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 18,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 91,
+            "entityTypeId": 12168134,
+            "displayOrder": 17,
+            "name": "Ability Score Improvement",
+            "description": "<p>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using this feature.</p>\r\n<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+            "snippet": null,
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 19,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": true,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        },
+        {
+          "definition": {
+            "id": 94,
+            "entityTypeId": 12168134,
+            "displayOrder": 18,
+            "name": "Superior Inspiration",
+            "description": "<p><span style=\"font-weight:400\">At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</span></p>",
+            "snippet": "When you roll initiative and have no uses of Bardic Inspiration left, you regain one use.",
+            "activation": {
+              "activationTime": null,
+              "activationType": null
+            },
+            "multiClassDescription": "",
+            "requiredLevel": 20,
+            "isSubClassFeature": false,
+            "limitedUse": [],
+            "hideInBuilder": false,
+            "hideInSheet": false,
+            "sourceId": 2,
+            "sourcePageNumber": 54,
+            "creatureRules": []
+          },
+          "levelScale": null
+        }
+      ]
+    }
+  ],
+  "feats": [],
+  "customDefenseAdjustments": [],
+  "customSenses": [],
+  "customSpeeds": [],
+  "customProficiencies": [],
+  "spellDefenses": null,
+  "customActions": [],
+  "characterValues": [],
+  "conditions": [],
+  "deathSaves": {
+    "failCount": null,
+    "successCount": null,
+    "isStabilized": false
+  },
+  "adjustmentXp": null,
+  "spellSlots": [
+    {
+      "level": 1,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 2,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 3,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 4,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 5,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 6,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 7,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 8,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 9,
+      "used": 0,
+      "available": 0
+    }
+  ],
+  "pactMagic": [
+    {
+      "level": 1,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 2,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 3,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 4,
+      "used": 0,
+      "available": 0
+    },
+    {
+      "level": 5,
+      "used": 0,
+      "available": 0
+    }
+  ],
+  "activeSourceCategories": [
+    1,
+    2,
+    3,
+    7,
+    8
+  ],
+  "spells": {
+    "race": [],
+    "class": [],
+    "item": [],
+    "feat": []
+  },
+  "options": {
+    "race": [],
+    "class": [],
+    "feat": []
+  },
+  "choices": {
+    "race": [],
+    "class": [
+      {
+        "id": "2-1489",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3901,
+        "label": "Choose a Musical Instrument",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3900,
+            "label": "Bagpipes",
+            "description": null
+          },
+          {
+            "id": 3901,
+            "label": "Drum",
+            "description": null
+          },
+          {
+            "id": 3902,
+            "label": "Dulcimer",
+            "description": null
+          },
+          {
+            "id": 3903,
+            "label": "Flute",
+            "description": null
+          },
+          {
+            "id": 3906,
+            "label": "Horn",
+            "description": null
+          },
+          {
+            "id": 3904,
+            "label": "Lute",
+            "description": null
+          },
+          {
+            "id": 3905,
+            "label": "Lyre",
+            "description": null
+          },
+          {
+            "id": 3907,
+            "label": "Pan Flute",
+            "description": null
+          },
+          {
+            "id": 3908,
+            "label": "Shawm",
+            "description": null
+          },
+          {
+            "id": 3909,
+            "label": "Viol",
+            "description": null
+          }
+        ],
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "2-1490",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3906,
+        "label": "Choose a Musical Instrument",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3900,
+            "label": "Bagpipes",
+            "description": null
+          },
+          {
+            "id": 3901,
+            "label": "Drum",
+            "description": null
+          },
+          {
+            "id": 3902,
+            "label": "Dulcimer",
+            "description": null
+          },
+          {
+            "id": 3903,
+            "label": "Flute",
+            "description": null
+          },
+          {
+            "id": 3906,
+            "label": "Horn",
+            "description": null
+          },
+          {
+            "id": 3904,
+            "label": "Lute",
+            "description": null
+          },
+          {
+            "id": 3905,
+            "label": "Lyre",
+            "description": null
+          },
+          {
+            "id": 3907,
+            "label": "Pan Flute",
+            "description": null
+          },
+          {
+            "id": 3908,
+            "label": "Shawm",
+            "description": null
+          },
+          {
+            "id": 3909,
+            "label": "Viol",
+            "description": null
+          }
+        ],
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "2-1491",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3907,
+        "label": "Choose a Musical Instrument",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3900,
+            "label": "Bagpipes",
+            "description": null
+          },
+          {
+            "id": 3901,
+            "label": "Drum",
+            "description": null
+          },
+          {
+            "id": 3902,
+            "label": "Dulcimer",
+            "description": null
+          },
+          {
+            "id": 3903,
+            "label": "Flute",
+            "description": null
+          },
+          {
+            "id": 3906,
+            "label": "Horn",
+            "description": null
+          },
+          {
+            "id": 3904,
+            "label": "Lute",
+            "description": null
+          },
+          {
+            "id": 3905,
+            "label": "Lyre",
+            "description": null
+          },
+          {
+            "id": 3907,
+            "label": "Pan Flute",
+            "description": null
+          },
+          {
+            "id": 3908,
+            "label": "Shawm",
+            "description": null
+          },
+          {
+            "id": 3909,
+            "label": "Viol",
+            "description": null
+          }
+        ],
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "2-1494",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3784,
+        "label": "Choose a Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3784,
+            "label": "Acrobatics",
+            "description": null
+          },
+          {
+            "id": 3792,
+            "label": "Animal Handling",
+            "description": null
+          },
+          {
+            "id": 3787,
+            "label": "Arcana",
+            "description": null
+          },
+          {
+            "id": 3783,
+            "label": "Athletics",
+            "description": null
+          },
+          {
+            "id": 3797,
+            "label": "Deception",
+            "description": null
+          },
+          {
+            "id": 3788,
+            "label": "History",
+            "description": null
+          },
+          {
+            "id": 3793,
+            "label": "Insight",
+            "description": null
+          },
+          {
+            "id": 3798,
+            "label": "Intimidation",
+            "description": null
+          },
+          {
+            "id": 3789,
+            "label": "Investigation",
+            "description": null
+          },
+          {
+            "id": 3794,
+            "label": "Medicine",
+            "description": null
+          },
+          {
+            "id": 3790,
+            "label": "Nature",
+            "description": null
+          },
+          {
+            "id": 3795,
+            "label": "Perception",
+            "description": null
+          },
+          {
+            "id": 3799,
+            "label": "Performance",
+            "description": null
+          },
+          {
+            "id": 3800,
+            "label": "Persuasion",
+            "description": null
+          },
+          {
+            "id": 3791,
+            "label": "Religion",
+            "description": null
+          },
+          {
+            "id": 3785,
+            "label": "Sleight of Hand",
+            "description": null
+          },
+          {
+            "id": 3786,
+            "label": "Stealth",
+            "description": null
+          },
+          {
+            "id": 3796,
+            "label": "Survival",
+            "description": null
+          }
+        ],
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "2-1495",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3783,
+        "label": "Choose a Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3784,
+            "label": "Acrobatics",
+            "description": null
+          },
+          {
+            "id": 3792,
+            "label": "Animal Handling",
+            "description": null
+          },
+          {
+            "id": 3787,
+            "label": "Arcana",
+            "description": null
+          },
+          {
+            "id": 3783,
+            "label": "Athletics",
+            "description": null
+          },
+          {
+            "id": 3797,
+            "label": "Deception",
+            "description": null
+          },
+          {
+            "id": 3788,
+            "label": "History",
+            "description": null
+          },
+          {
+            "id": 3793,
+            "label": "Insight",
+            "description": null
+          },
+          {
+            "id": 3798,
+            "label": "Intimidation",
+            "description": null
+          },
+          {
+            "id": 3789,
+            "label": "Investigation",
+            "description": null
+          },
+          {
+            "id": 3794,
+            "label": "Medicine",
+            "description": null
+          },
+          {
+            "id": 3790,
+            "label": "Nature",
+            "description": null
+          },
+          {
+            "id": 3795,
+            "label": "Perception",
+            "description": null
+          },
+          {
+            "id": 3799,
+            "label": "Performance",
+            "description": null
+          },
+          {
+            "id": 3800,
+            "label": "Persuasion",
+            "description": null
+          },
+          {
+            "id": 3791,
+            "label": "Religion",
+            "description": null
+          },
+          {
+            "id": 3785,
+            "label": "Sleight of Hand",
+            "description": null
+          },
+          {
+            "id": 3786,
+            "label": "Stealth",
+            "description": null
+          },
+          {
+            "id": 3796,
+            "label": "Survival",
+            "description": null
+          }
+        ],
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "2-1496",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3797,
+        "label": "Choose a Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3784,
+            "label": "Acrobatics",
+            "description": null
+          },
+          {
+            "id": 3792,
+            "label": "Animal Handling",
+            "description": null
+          },
+          {
+            "id": 3787,
+            "label": "Arcana",
+            "description": null
+          },
+          {
+            "id": 3783,
+            "label": "Athletics",
+            "description": null
+          },
+          {
+            "id": 3797,
+            "label": "Deception",
+            "description": null
+          },
+          {
+            "id": 3788,
+            "label": "History",
+            "description": null
+          },
+          {
+            "id": 3793,
+            "label": "Insight",
+            "description": null
+          },
+          {
+            "id": 3798,
+            "label": "Intimidation",
+            "description": null
+          },
+          {
+            "id": 3789,
+            "label": "Investigation",
+            "description": null
+          },
+          {
+            "id": 3794,
+            "label": "Medicine",
+            "description": null
+          },
+          {
+            "id": 3790,
+            "label": "Nature",
+            "description": null
+          },
+          {
+            "id": 3795,
+            "label": "Perception",
+            "description": null
+          },
+          {
+            "id": 3799,
+            "label": "Performance",
+            "description": null
+          },
+          {
+            "id": 3800,
+            "label": "Persuasion",
+            "description": null
+          },
+          {
+            "id": 3791,
+            "label": "Religion",
+            "description": null
+          },
+          {
+            "id": 3785,
+            "label": "Sleight of Hand",
+            "description": null
+          },
+          {
+            "id": 3786,
+            "label": "Stealth",
+            "description": null
+          },
+          {
+            "id": 3796,
+            "label": "Survival",
+            "description": null
+          }
+        ],
+        "componentId": 460,
+        "componentTypeId": 12168134
+      }
+    ],
+    "background": [
+      {
+        "id": "2-4994575",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3800,
+        "label": "Choose a Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3784,
+            "label": "Acrobatics",
+            "description": null
+          },
+          {
+            "id": 3792,
+            "label": "Animal Handling",
+            "description": null
+          },
+          {
+            "id": 3787,
+            "label": "Arcana",
+            "description": null
+          },
+          {
+            "id": 3783,
+            "label": "Athletics",
+            "description": null
+          },
+          {
+            "id": 3797,
+            "label": "Deception",
+            "description": null
+          },
+          {
+            "id": 3788,
+            "label": "History",
+            "description": null
+          },
+          {
+            "id": 3793,
+            "label": "Insight",
+            "description": null
+          },
+          {
+            "id": 3798,
+            "label": "Intimidation",
+            "description": null
+          },
+          {
+            "id": 3789,
+            "label": "Investigation",
+            "description": null
+          },
+          {
+            "id": 3794,
+            "label": "Medicine",
+            "description": null
+          },
+          {
+            "id": 3790,
+            "label": "Nature",
+            "description": null
+          },
+          {
+            "id": 3795,
+            "label": "Perception",
+            "description": null
+          },
+          {
+            "id": 3799,
+            "label": "Performance",
+            "description": null
+          },
+          {
+            "id": 3800,
+            "label": "Persuasion",
+            "description": null
+          },
+          {
+            "id": 3791,
+            "label": "Religion",
+            "description": null
+          },
+          {
+            "id": 3785,
+            "label": "Sleight of Hand",
+            "description": null
+          },
+          {
+            "id": 3786,
+            "label": "Stealth",
+            "description": null
+          },
+          {
+            "id": 3796,
+            "label": "Survival",
+            "description": null
+          }
+        ],
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      },
+      {
+        "id": "2-4994576",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3785,
+        "label": "Choose a Skill",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3784,
+            "label": "Acrobatics",
+            "description": null
+          },
+          {
+            "id": 3792,
+            "label": "Animal Handling",
+            "description": null
+          },
+          {
+            "id": 3787,
+            "label": "Arcana",
+            "description": null
+          },
+          {
+            "id": 3783,
+            "label": "Athletics",
+            "description": null
+          },
+          {
+            "id": 3797,
+            "label": "Deception",
+            "description": null
+          },
+          {
+            "id": 3788,
+            "label": "History",
+            "description": null
+          },
+          {
+            "id": 3793,
+            "label": "Insight",
+            "description": null
+          },
+          {
+            "id": 3798,
+            "label": "Intimidation",
+            "description": null
+          },
+          {
+            "id": 3789,
+            "label": "Investigation",
+            "description": null
+          },
+          {
+            "id": 3794,
+            "label": "Medicine",
+            "description": null
+          },
+          {
+            "id": 3790,
+            "label": "Nature",
+            "description": null
+          },
+          {
+            "id": 3795,
+            "label": "Perception",
+            "description": null
+          },
+          {
+            "id": 3799,
+            "label": "Performance",
+            "description": null
+          },
+          {
+            "id": 3800,
+            "label": "Persuasion",
+            "description": null
+          },
+          {
+            "id": 3791,
+            "label": "Religion",
+            "description": null
+          },
+          {
+            "id": 3785,
+            "label": "Sleight of Hand",
+            "description": null
+          },
+          {
+            "id": 3786,
+            "label": "Stealth",
+            "description": null
+          },
+          {
+            "id": 3796,
+            "label": "Survival",
+            "description": null
+          }
+        ],
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      },
+      {
+        "id": "2-4994577",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3953,
+        "label": "Choose a Tool",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3930,
+            "label": "Alchemist's Supplies",
+            "description": null
+          },
+          {
+            "id": 3955,
+            "label": "Bagpipes",
+            "description": null
+          },
+          {
+            "id": 3931,
+            "label": "Brewer's Supplies",
+            "description": null
+          },
+          {
+            "id": 3932,
+            "label": "Calligrapher's Supplies",
+            "description": null
+          },
+          {
+            "id": 3933,
+            "label": "Carpenter's Tools",
+            "description": null
+          },
+          {
+            "id": 3934,
+            "label": "Cartographer's Tools",
+            "description": null
+          },
+          {
+            "id": 3935,
+            "label": "Cobbler's Tools",
+            "description": null
+          },
+          {
+            "id": 3936,
+            "label": "Cook's Utensils",
+            "description": null
+          },
+          {
+            "id": 3953,
+            "label": "Dice Set",
+            "description": null
+          },
+          {
+            "id": 3947,
+            "label": "Disguise Kit",
+            "description": null
+          },
+          {
+            "id": 4377,
+            "label": "Dragonchess Set",
+            "description": null
+          },
+          {
+            "id": 3956,
+            "label": "Drum",
+            "description": null
+          },
+          {
+            "id": 3957,
+            "label": "Dulcimer",
+            "description": null
+          },
+          {
+            "id": 3958,
+            "label": "Flute",
+            "description": null
+          },
+          {
+            "id": 3948,
+            "label": "Forgery Kit",
+            "description": null
+          },
+          {
+            "id": 3937,
+            "label": "Glassblower's Tools",
+            "description": null
+          },
+          {
+            "id": 3949,
+            "label": "Herbalism Kit",
+            "description": null
+          },
+          {
+            "id": 3961,
+            "label": "Horn",
+            "description": null
+          },
+          {
+            "id": 3938,
+            "label": "Jeweler's Tools",
+            "description": null
+          },
+          {
+            "id": 3939,
+            "label": "Leatherworker's Tools",
+            "description": null
+          },
+          {
+            "id": 3959,
+            "label": "Lute",
+            "description": null
+          },
+          {
+            "id": 3960,
+            "label": "Lyre",
+            "description": null
+          },
+          {
+            "id": 3940,
+            "label": "Mason's Tools",
+            "description": null
+          },
+          {
+            "id": 3950,
+            "label": "Navigator's Tools",
+            "description": null
+          },
+          {
+            "id": 3941,
+            "label": "Painter's Supplies",
+            "description": null
+          },
+          {
+            "id": 3962,
+            "label": "Pan Flute",
+            "description": null
+          },
+          {
+            "id": 3954,
+            "label": "Playing Card Set",
+            "description": null
+          },
+          {
+            "id": 3951,
+            "label": "Poisoner's Kit",
+            "description": null
+          },
+          {
+            "id": 3942,
+            "label": "Potter's Tools",
+            "description": null
+          },
+          {
+            "id": 3963,
+            "label": "Shawm",
+            "description": null
+          },
+          {
+            "id": 3943,
+            "label": "Smith's Tools",
+            "description": null
+          },
+          {
+            "id": 3952,
+            "label": "Thieves' Tools",
+            "description": null
+          },
+          {
+            "id": 4378,
+            "label": "Three-Dragon Ante Set",
+            "description": null
+          },
+          {
+            "id": 3944,
+            "label": "Tinker's Tools",
+            "description": null
+          },
+          {
+            "id": 4345,
+            "label": "Vehicles (Land)",
+            "description": null
+          },
+          {
+            "id": 5080,
+            "label": "Vehicles (Sea/Air)",
+            "description": null
+          },
+          {
+            "id": 4346,
+            "label": "Vehicles (Water)",
+            "description": null
+          },
+          {
+            "id": 3964,
+            "label": "Viol",
+            "description": null
+          },
+          {
+            "id": 3945,
+            "label": "Weaver's Tools",
+            "description": null
+          },
+          {
+            "id": 3946,
+            "label": "Woodcarver's Tools",
+            "description": null
+          }
+        ],
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      },
+      {
+        "id": "2-4994578",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 1,
+        "optionValue": 3947,
+        "label": "Choose a Tool",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 3930,
+            "label": "Alchemist's Supplies",
+            "description": null
+          },
+          {
+            "id": 3955,
+            "label": "Bagpipes",
+            "description": null
+          },
+          {
+            "id": 3931,
+            "label": "Brewer's Supplies",
+            "description": null
+          },
+          {
+            "id": 3932,
+            "label": "Calligrapher's Supplies",
+            "description": null
+          },
+          {
+            "id": 3933,
+            "label": "Carpenter's Tools",
+            "description": null
+          },
+          {
+            "id": 3934,
+            "label": "Cartographer's Tools",
+            "description": null
+          },
+          {
+            "id": 3935,
+            "label": "Cobbler's Tools",
+            "description": null
+          },
+          {
+            "id": 3936,
+            "label": "Cook's Utensils",
+            "description": null
+          },
+          {
+            "id": 3953,
+            "label": "Dice Set",
+            "description": null
+          },
+          {
+            "id": 3947,
+            "label": "Disguise Kit",
+            "description": null
+          },
+          {
+            "id": 4377,
+            "label": "Dragonchess Set",
+            "description": null
+          },
+          {
+            "id": 3956,
+            "label": "Drum",
+            "description": null
+          },
+          {
+            "id": 3957,
+            "label": "Dulcimer",
+            "description": null
+          },
+          {
+            "id": 3958,
+            "label": "Flute",
+            "description": null
+          },
+          {
+            "id": 3948,
+            "label": "Forgery Kit",
+            "description": null
+          },
+          {
+            "id": 3937,
+            "label": "Glassblower's Tools",
+            "description": null
+          },
+          {
+            "id": 3949,
+            "label": "Herbalism Kit",
+            "description": null
+          },
+          {
+            "id": 3961,
+            "label": "Horn",
+            "description": null
+          },
+          {
+            "id": 3938,
+            "label": "Jeweler's Tools",
+            "description": null
+          },
+          {
+            "id": 3939,
+            "label": "Leatherworker's Tools",
+            "description": null
+          },
+          {
+            "id": 3959,
+            "label": "Lute",
+            "description": null
+          },
+          {
+            "id": 3960,
+            "label": "Lyre",
+            "description": null
+          },
+          {
+            "id": 3940,
+            "label": "Mason's Tools",
+            "description": null
+          },
+          {
+            "id": 3950,
+            "label": "Navigator's Tools",
+            "description": null
+          },
+          {
+            "id": 3941,
+            "label": "Painter's Supplies",
+            "description": null
+          },
+          {
+            "id": 3962,
+            "label": "Pan Flute",
+            "description": null
+          },
+          {
+            "id": 3954,
+            "label": "Playing Card Set",
+            "description": null
+          },
+          {
+            "id": 3951,
+            "label": "Poisoner's Kit",
+            "description": null
+          },
+          {
+            "id": 3942,
+            "label": "Potter's Tools",
+            "description": null
+          },
+          {
+            "id": 3963,
+            "label": "Shawm",
+            "description": null
+          },
+          {
+            "id": 3943,
+            "label": "Smith's Tools",
+            "description": null
+          },
+          {
+            "id": 3952,
+            "label": "Thieves' Tools",
+            "description": null
+          },
+          {
+            "id": 4378,
+            "label": "Three-Dragon Ante Set",
+            "description": null
+          },
+          {
+            "id": 3944,
+            "label": "Tinker's Tools",
+            "description": null
+          },
+          {
+            "id": 4345,
+            "label": "Vehicles (Land)",
+            "description": null
+          },
+          {
+            "id": 5080,
+            "label": "Vehicles (Sea/Air)",
+            "description": null
+          },
+          {
+            "id": 4346,
+            "label": "Vehicles (Water)",
+            "description": null
+          },
+          {
+            "id": 3964,
+            "label": "Viol",
+            "description": null
+          },
+          {
+            "id": 3945,
+            "label": "Weaver's Tools",
+            "description": null
+          },
+          {
+            "id": 3946,
+            "label": "Woodcarver's Tools",
+            "description": null
+          }
+        ],
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      }
+    ],
+    "feat": []
+  },
+  "actions": {
+    "race": [
+      {
+        "id": 1007,
+        "entityTypeId": 222216831,
+        "limitedUse": {
+          "name": null,
+          "statModifierUsesId": null,
+          "resetType": 2,
+          "numberUsed": 0,
+          "minNumberConsumed": 1,
+          "maxNumberConsumed": 1,
+          "maxUses": 1
+        },
+        "name": "Relentless Endurance",
+        "description": null,
+        "snippet": "When you are reduced to 0 HP but not killed, you can drop to 1 HP instead once per long rest.",
+        "abilityModifierStatId": null,
+        "onMissDescription": null,
+        "saveFailDescription": null,
+        "saveSuccessDescription": null,
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false
+        },
+        "activation": {
+          "activationTime": null,
+          "activationType": 8
+        },
+        "attackCustomData": {
+          "name": null,
+          "notes": null,
+          "damageBonus": null,
+          "toHitBonus": null,
+          "toHit": null,
+          "isOffhand": null,
+          "isSilver": null,
+          "isAdamantine": null,
+          "isProficient": null,
+          "saveDcBonus": null,
+          "saveDc": null,
+          "weight": null,
+          "displayAsAttack": null,
+          "cost": null
+        },
+        "componentId": 58,
+        "componentTypeId": 1960452172
+      }
+    ],
+    "class": [
+      {
+        "id": 1011,
+        "entityTypeId": 222216831,
+        "limitedUse": {
+          "name": null,
+          "statModifierUsesId": 6,
+          "resetType": 2,
+          "numberUsed": 0,
+          "minNumberConsumed": 1,
+          "maxNumberConsumed": 1,
+          "maxUses": 0
+        },
+        "name": "Bardic Inspiration",
+        "description": "",
+        "snippet": "As a bonus action, a creature within 60 ft. that can hear you gains an inspiration die ({{scalevalue}}). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome.",
+        "abilityModifierStatId": null,
+        "onMissDescription": "",
+        "saveFailDescription": "",
+        "saveSuccessDescription": "",
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false
+        },
+        "activation": {
+          "activationTime": 1,
+          "activationType": 3
+        },
+        "attackCustomData": {
+          "name": null,
+          "notes": null,
+          "damageBonus": null,
+          "toHitBonus": null,
+          "toHit": null,
+          "isOffhand": null,
+          "isSilver": null,
+          "isAdamantine": null,
+          "isProficient": null,
+          "saveDcBonus": null,
+          "saveDc": null,
+          "weight": null,
+          "displayAsAttack": null,
+          "cost": null
+        },
+        "componentId": 75,
+        "componentTypeId": 12168134
+      }
+    ],
+    "feat": []
+  },
+  "modifiers": {
+    "race": [
+      {
+        "id": "racialTrait_56_1381",
+        "entityId": 2,
+        "entityTypeId": 668550506,
+        "type": "set-base",
+        "subType": "darkvision",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Set Base",
+        "friendlySubtypeName": "Darkvision",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 60,
+        "componentId": 56,
+        "componentTypeId": 1960452172
+      },
+      {
+        "id": "racialTrait_57_1382",
+        "entityId": 17,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "intimidation",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Intimidation",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 57,
+        "componentTypeId": 1960452172
+      },
+      {
+        "id": "racialTrait_99_1648",
+        "entityId": 1,
+        "entityTypeId": 1472902489,
+        "type": "bonus",
+        "subType": "strength-score",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Bonus",
+        "friendlySubtypeName": "Strength Score",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 2,
+        "componentId": 99,
+        "componentTypeId": 1960452172
+      },
+      {
+        "id": "racialTrait_99_1649",
+        "entityId": 3,
+        "entityTypeId": 1472902489,
+        "type": "bonus",
+        "subType": "constitution-score",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Bonus",
+        "friendlySubtypeName": "Constitution Score",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 1,
+        "componentId": 99,
+        "componentTypeId": 1960452172
+      },
+      {
+        "id": "racialTrait_100_1650",
+        "entityId": 1,
+        "entityTypeId": 906033267,
+        "type": "language",
+        "subType": "common",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Language",
+        "friendlySubtypeName": "Common",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 100,
+        "componentTypeId": 1960452172
+      },
+      {
+        "id": "racialTrait_100_1651",
+        "entityId": 8,
+        "entityTypeId": 906033267,
+        "type": "language",
+        "subType": "orc",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Language",
+        "friendlySubtypeName": "Orc",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 100,
+        "componentTypeId": 1960452172
+      },
+      {
+        "id": "racialTrait_58_2050215",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "protection",
+        "subType": "0-hp",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Protection",
+        "friendlySubtypeName": "0 HP",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 1,
+        "componentId": 58,
+        "componentTypeId": 1960452172
+      }
+    ],
+    "class": [
+      {
+        "id": "classFeature_79_1402",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "half-proficiency",
+        "subType": "ability-checks",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Half Proficiency",
+        "friendlySubtypeName": "Ability Checks",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 79,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1483",
+        "entityId": 1,
+        "entityTypeId": 174869515,
+        "type": "proficiency",
+        "subType": "light-armor",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Light Armor",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1484",
+        "entityId": 1,
+        "entityTypeId": 660121713,
+        "type": "proficiency",
+        "subType": "simple-weapons",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Simple Weapons",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1485",
+        "entityId": 1,
+        "entityTypeId": 1782728300,
+        "type": "proficiency",
+        "subType": "crossbow-hand",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Crossbow, Hand",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1486",
+        "entityId": 4,
+        "entityTypeId": 1782728300,
+        "type": "proficiency",
+        "subType": "longsword",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Longsword",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1487",
+        "entityId": 28,
+        "entityTypeId": 1782728300,
+        "type": "proficiency",
+        "subType": "rapier",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Rapier",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1488",
+        "entityId": 30,
+        "entityTypeId": 1782728300,
+        "type": "proficiency",
+        "subType": "shortsword",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Shortsword",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1489",
+        "entityId": 128,
+        "entityTypeId": 2103445194,
+        "type": "proficiency",
+        "subType": "drum",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Drum",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1490",
+        "entityId": 132,
+        "entityTypeId": 2103445194,
+        "type": "proficiency",
+        "subType": "horn",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Horn",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1491",
+        "entityId": 133,
+        "entityTypeId": 2103445194,
+        "type": "proficiency",
+        "subType": "pan-flute",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Pan Flute",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1492",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "proficiency",
+        "subType": "dexterity-saving-throws",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Dexterity Saving Throws",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1493",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "proficiency",
+        "subType": "charisma-saving-throws",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Charisma Saving Throws",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1494",
+        "entityId": 3,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "acrobatics",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Acrobatics",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1495",
+        "entityId": 2,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "athletics",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Athletics",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_460_1496",
+        "entityId": 16,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "deception",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Deception",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 460,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_79_2208",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "half-proficiency",
+        "subType": "initiative",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Half Proficiency",
+        "friendlySubtypeName": "Initiative",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 79,
+        "componentTypeId": 12168134
+      }
+    ],
+    "background": [
+      {
+        "id": "character_7893290_4994575",
+        "entityId": 19,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "persuasion",
+        "dice": null,
+        "restriction": null,
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Persuasion",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      },
+      {
+        "id": "character_7893290_4994576",
+        "entityId": 4,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "sleight-of-hand",
+        "dice": null,
+        "restriction": null,
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Sleight of Hand",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      },
+      {
+        "id": "character_7893290_4994577",
+        "entityId": 121,
+        "entityTypeId": 2103445194,
+        "type": "proficiency",
+        "subType": "dice-set",
+        "dice": null,
+        "restriction": null,
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Dice Set",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      },
+      {
+        "id": "character_7893290_4994578",
+        "entityId": 119,
+        "entityTypeId": 2103445194,
+        "type": "proficiency",
+        "subType": "disguise-kit",
+        "dice": null,
+        "restriction": null,
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Disguise Kit",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 7893290,
+        "componentTypeId": 1581111423
+      }
+    ],
+    "item": [],
+    "feat": [],
+    "condition": []
+  },
+  "classSpells": [
+    {
+      "entityTypeId": 1446578651,
+      "characterClassId": 8861065,
+      "spells": [
+        {
+          "id": 138907,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2290,
+            "name": "Vicious Mockery",
+            "level": 0,
+            "school": "Enchantment",
+            "duration": {
+              "durationInterval": 0,
+              "durationUnit": null,
+              "durationType": "Instantaneous"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p>\r\n<p>This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1
+            ],
+            "componentsDescription": "",
+            "saveDcAbilityId": 5,
+            "healing": null,
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 285,
+            "requiresSavingThrow": true,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "characterlevel",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2290_292",
+                "type": "damage",
+                "subType": "psychic",
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 4,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d4"
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "",
+                "friendlyTypeName": "Damage",
+                "friendlySubtypeName": "Psychic",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [
+                    {
+                      "level": 5,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 2,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "2d4"
+                      },
+                      "value": null,
+                      "details": ""
+                    },
+                    {
+                      "level": 11,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 3,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "3d4"
+                      },
+                      "value": null,
+                      "details": ""
+                    },
+                    {
+                      "level": 17,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 4,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "4d4"
+                      },
+                      "value": null,
+                      "details": ""
+                    }
+                  ],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": [
+                    {
+                      "die": {
+                        "diceCount": 2,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "2d4"
+                      },
+                      "level": 5,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 3,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "3d4"
+                      },
+                      "level": 11,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 4,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "4d4"
+                      },
+                      "level": 17,
+                      "description": ""
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "spell_2290_293",
+                "type": "disadvantage",
+                "subType": "melee-attacks",
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "On target's next attack roll it makes before the end of its next turn",
+                "friendlyTypeName": "Disadvantage",
+                "friendlySubtypeName": "Melee Attacks",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              },
+              {
+                "id": "spell_2290_294",
+                "type": "disadvantage",
+                "subType": "ranged-attacks",
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "On target's next attack roll it makes before the end of its next turn",
+                "friendlyTypeName": "Disadvantage",
+                "friendlySubtypeName": "Ranged Attacks",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              },
+              {
+                "id": "spell_2290_295",
+                "type": "disadvantage",
+                "subType": "spell-attacks",
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "On target's next attack roll it makes before the end of its next turn",
+                "friendlyTypeName": "Disadvantage",
+                "friendlySubtypeName": "Spell Attacks",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": [
+              "Damage",
+              "Debuff"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": false,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 60,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
+          "id": 138892,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2287,
+            "name": "True Strike",
+            "level": 0,
+            "school": "Divination",
+            "duration": {
+              "durationInterval": 1,
+              "durationUnit": "Round",
+              "durationType": "Concentration"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.</p>",
+            "snippet": "",
+            "concentration": true,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              2
+            ],
+            "componentsDescription": "",
+            "saveDcAbilityId": null,
+            "healing": null,
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": false,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 284,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "characterlevel",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2287_287",
+                "type": "advantage",
+                "subType": "melee-attacks",
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "On first attack roll against the target, provided that this spell hasn't ended",
+                "friendlyTypeName": "Advantage",
+                "friendlySubtypeName": "Melee Attacks",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              },
+              {
+                "id": "spell_2287_288",
+                "type": "advantage",
+                "subType": "ranged-attacks",
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "On first attack roll against the target, provided that this spell hasn't ended",
+                "friendlyTypeName": "Advantage",
+                "friendlySubtypeName": "Ranged Attacks",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              },
+              {
+                "id": "spell_2287_289",
+                "type": "advantage",
+                "subType": "spell-attacks",
+                "die": {
+                  "diceCount": null,
+                  "diceValue": null,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": null
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "On first attack roll against the target, provided that this spell hasn't ended",
+                "friendlyTypeName": "Advantage",
+                "friendlySubtypeName": "Spell Attacks",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": [
+              "Foreknowledge"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": false,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 30,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
+          "id": 136080,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2009,
+            "name": "Bane",
+            "level": 1,
+            "school": "Enchantment",
+            "duration": {
+              "durationInterval": 1,
+              "durationUnit": "Minute",
+              "durationType": "Concentration"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 30,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>",
+            "snippet": "",
+            "concentration": true,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1,
+              2,
+              3
+            ],
+            "componentsDescription": "a drop of blood",
+            "saveDcAbilityId": 6,
+            "healing": null,
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 216,
+            "requiresSavingThrow": true,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "spellscale",
+              "higherLevelDefinitions": [
+                {
+                  "level": 1,
+                  "typeId": 1,
+                  "dice": null,
+                  "value": 1,
+                  "details": ""
+                }
+              ],
+              "additionalAttacks": [],
+              "additionalTargets": [
+                {
+                  "targets": 1,
+                  "level": 2,
+                  "description": ""
+                },
+                {
+                  "targets": 2,
+                  "level": 3,
+                  "description": ""
+                },
+                {
+                  "targets": 3,
+                  "level": 4,
+                  "description": ""
+                },
+                {
+                  "targets": 4,
+                  "level": 5,
+                  "description": ""
+                },
+                {
+                  "targets": 5,
+                  "level": 6,
+                  "description": ""
+                },
+                {
+                  "targets": 6,
+                  "level": 7,
+                  "description": ""
+                },
+                {
+                  "targets": 7,
+                  "level": 8,
+                  "description": ""
+                },
+                {
+                  "targets": 8,
+                  "level": 9,
+                  "description": ""
+                }
+              ],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [],
+            "conditions": [],
+            "tags": [
+              "Debuff"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 30,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
+          "id": 136481,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2056,
+            "name": "Cure Wounds",
+            "level": 1,
+            "school": "Evocation",
+            "duration": {
+              "durationInterval": 0,
+              "durationUnit": null,
+              "durationType": "Instantaneous"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1,
+              2
+            ],
+            "componentsDescription": "",
+            "saveDcAbilityId": null,
+            "healing": "1d8",
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 230,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "spellscale",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2056_73",
+                "type": "bonus",
+                "subType": "hit-points",
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 8,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d8"
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "",
+                "friendlyTypeName": "Bonus",
+                "friendlySubtypeName": "Hit Points",
+                "usePrimaryStat": true,
+                "atHigherLevels": {
+                  "scaleType": "spellscale",
+                  "higherLevelDefinitions": [
+                    {
+                      "level": 1,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 1,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "1d8"
+                      },
+                      "value": null,
+                      "details": ""
+                    }
+                  ],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": [
+                    {
+                      "die": {
+                        "diceCount": 2,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "2d8"
+                      },
+                      "level": 2,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 3,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "3d8"
+                      },
+                      "level": 3,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 4,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "4d8"
+                      },
+                      "level": 4,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 5,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "5d8"
+                      },
+                      "level": 5,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 6,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "6d8"
+                      },
+                      "level": 6,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 7,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "7d8"
+                      },
+                      "level": 7,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 8,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "8d8"
+                      },
+                      "level": 8,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 9,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "9d8"
+                      },
+                      "level": 9,
+                      "description": ""
+                    }
+                  ]
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": [
+              "Healing"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Touch",
+            "rangeValue": 0,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
+          "id": 138061,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2140,
+            "name": "Healing Word",
+            "level": 1,
+            "school": "Evocation",
+            "duration": {
+              "durationInterval": 0,
+              "durationUnit": null,
+              "durationType": "Instantaneous"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 3
+            },
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 60,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1
+            ],
+            "componentsDescription": "",
+            "saveDcAbilityId": null,
+            "healing": "1d4",
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 250,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "spellscale",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2140_153",
+                "type": "bonus",
+                "subType": "hit-points",
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 4,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d4"
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "Unaffected: constructs, undead",
+                "friendlyTypeName": "Bonus",
+                "friendlySubtypeName": "Hit Points",
+                "usePrimaryStat": true,
+                "atHigherLevels": {
+                  "scaleType": "spellscale",
+                  "higherLevelDefinitions": [
+                    {
+                      "level": 1,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 1,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "1d4"
+                      },
+                      "value": null,
+                      "details": ""
+                    }
+                  ],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": [
+                    {
+                      "die": {
+                        "diceCount": 2,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "2d4"
+                      },
+                      "level": 2,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 3,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "3d4"
+                      },
+                      "level": 3,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 4,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "4d4"
+                      },
+                      "level": 4,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 5,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "5d4"
+                      },
+                      "level": 5,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 6,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "6d4"
+                      },
+                      "level": 6,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 7,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "7d4"
+                      },
+                      "level": 7,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 8,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "8d4"
+                      },
+                      "level": 8,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 9,
+                        "diceValue": 4,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "9d4"
+                      },
+                      "level": 9,
+                      "description": ""
+                    }
+                  ]
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": [
+              "Healing"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 60,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 3
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
+          "id": 138849,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2278,
+            "name": "Thunderwave",
+            "level": 1,
+            "school": "Evocation",
+            "duration": {
+              "durationInterval": 0,
+              "durationUnit": null,
+              "durationType": "Instantaneous"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Self",
+              "rangeValue": 0,
+              "aoeType": "Cube",
+              "aoeValue": 15
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p>\r\n<p>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1,
+              2
+            ],
+            "componentsDescription": "",
+            "saveDcAbilityId": 3,
+            "healing": null,
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 282,
+            "requiresSavingThrow": true,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "spellscale",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2278_285",
+                "type": "damage",
+                "subType": "thunder",
+                "die": {
+                  "diceCount": 2,
+                  "diceValue": 8,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "2d8"
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "",
+                "friendlyTypeName": "Damage",
+                "friendlySubtypeName": "Thunder",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "spellscale",
+                  "higherLevelDefinitions": [
+                    {
+                      "level": 1,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 1,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "1d8"
+                      },
+                      "value": null,
+                      "details": ""
+                    }
+                  ],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": [
+                    {
+                      "die": {
+                        "diceCount": 3,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "3d8"
+                      },
+                      "level": 2,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 4,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "4d8"
+                      },
+                      "level": 3,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 5,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "5d8"
+                      },
+                      "level": 4,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 6,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "6d8"
+                      },
+                      "level": 5,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 7,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "7d8"
+                      },
+                      "level": 6,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 8,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "8d8"
+                      },
+                      "level": 7,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 9,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "9d8"
+                      },
+                      "level": 8,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 10,
+                        "diceValue": 8,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "10d8"
+                      },
+                      "level": 9,
+                      "description": ""
+                    }
+                  ]
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": [
+              "Damage",
+              "Control"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Self",
+            "rangeValue": 0,
+            "aoeType": "Cube",
+            "aoeValue": 15
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
+          "id": 137991,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2378,
+            "name": "Earth Tremor",
+            "level": 1,
+            "school": "Evocation",
+            "duration": {
+              "durationInterval": null,
+              "durationUnit": null,
+              "durationType": "Instantaneous"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Ranged",
+              "rangeValue": 10,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p>\r\n<p><span><strong>At Higher Levels.</strong>&nbsp;</span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>\r\n<p><span>&nbsp;</span></p>",
+            "snippet": "",
+            "concentration": false,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1,
+              2
+            ],
+            "componentsDescription": "",
+            "saveDcAbilityId": 2,
+            "healing": null,
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": true,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 4,
+            "sourcePageNumber": 155,
+            "requiresSavingThrow": true,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "spellscale",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2378_403",
+                "type": "damage",
+                "subType": "bludgeoning",
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 6,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d6"
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "",
+                "friendlyTypeName": "Damage",
+                "friendlySubtypeName": "Bludgeoning",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "spellscale",
+                  "higherLevelDefinitions": [
+                    {
+                      "level": 1,
+                      "typeId": 15,
+                      "dice": {
+                        "diceCount": 1,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": 0,
+                        "diceString": "1d6"
+                      },
+                      "value": null,
+                      "details": ""
+                    }
+                  ],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": [
+                    {
+                      "die": {
+                        "diceCount": 2,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "2d6"
+                      },
+                      "level": 2,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 3,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "3d6"
+                      },
+                      "level": 3,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 4,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "4d6"
+                      },
+                      "level": 4,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 5,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "5d6"
+                      },
+                      "level": 5,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 6,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "6d6"
+                      },
+                      "level": 6,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 7,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "7d6"
+                      },
+                      "level": 7,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 8,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "8d6"
+                      },
+                      "level": 8,
+                      "description": ""
+                    },
+                    {
+                      "die": {
+                        "diceCount": 9,
+                        "diceValue": 6,
+                        "diceMultiplier": null,
+                        "fixedValue": null,
+                        "diceString": "9d6"
+                      },
+                      "level": 9,
+                      "description": ""
+                    }
+                  ]
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "type": 1,
+                "conditionId": 12,
+                "conditionDuration": 0,
+                "durationUnit": "Round",
+                "exception": ""
+              }
+            ],
+            "tags": [
+              "Damage",
+              "Control"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": true,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Ranged",
+            "rangeValue": 10,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        }
+      ]
+    }
+  ],
+  "customItems": [],
+  "campaign": null,
+  "creatures": []
+}

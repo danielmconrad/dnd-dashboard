@@ -1,0 +1,25 @@
+:local .character {
+  background: #1D2021;
+}
+
+:local .imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+:local .imageContainer::before {
+  content: url('data:image/svg+xml, <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>');
+  width: 100%;
+}
+
+:local .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+:local .name {
+  font-weight: bold;
+}

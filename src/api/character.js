@@ -23,6 +23,7 @@ const character = c => ({
   avatarUrl: c.avatarUrl || c.race.portraitAvatarUrl,
   name: c.name,
   hitPoints: hitPoints(c),
+  notes: c.notes,
 });
 
 export default character;

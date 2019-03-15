@@ -1,7 +1,7 @@
 {
-  "id": 8958758,
-  "readonlyUrl": "https://dndbeyond.com/characters/8958758",
-  "avatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/5365/976/150/153/636854323039249456.png",
+  "id": 7555852,
+  "readonlyUrl": "https://dndbeyond.com/characters/7555852",
+  "avatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/5104/12/150/178/636819830262156845.jpeg",
   "frameAvatarUrl": "",
   "backdropAvatarUrl": "",
   "smallBackdropAvatarUrl": "",
@@ -13,7 +13,7 @@
     "largeBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/486/636453131400280753.jpeg",
     "thumbnailBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/487/636453131400749482.jpeg"
   },
-  "avatarId": 5365976,
+  "avatarId": 5104012,
   "frameAvatarId": null,
   "backdropAvatarId": null,
   "smallBackdropAvatarId": null,
@@ -21,35 +21,35 @@
   "thumbnailAvatarId": null,
   "themeColorId": null,
   "themeColor": null,
-  "name": "Niamh Meara",
+  "name": "Dextuin Morgana",
   "socialName": null,
-  "gender": "Female",
-  "faith": "Torm - God of courage and self sacrifice",
-  "age": 31,
+  "gender": "Male",
+  "faith": "The Code",
+  "age": 41,
   "hair": "Brown",
   "eyes": "Brown",
-  "skin": "Olive",
-  "height": "5'6\"",
-  "weight": 115,
+  "skin": "Pale",
+  "height": "6'1\"",
+  "weight": 180,
   "inspiration": false,
   "baseHitPoints": 18,
-  "bonusHitPoints": 77,
+  "bonusHitPoints": null,
   "overrideHitPoints": null,
-  "removedHitPoints": 7,
-  "temporaryHitPoints": 120,
+  "removedHitPoints": 0,
+  "temporaryHitPoints": 0,
   "currentXp": 900,
-  "alignmentId": 1,
-  "lifestyleId": 7,
+  "alignmentId": 3,
+  "lifestyleId": 6,
   "stats": [
     {
       "id": 1,
       "name": null,
-      "value": 14
+      "value": 12
     },
     {
       "id": 2,
       "name": null,
-      "value": 12
+      "value": 14
     },
     {
       "id": 3,
@@ -59,7 +59,7 @@
     {
       "id": 4,
       "name": null,
-      "value": 8
+      "value": 10
     },
     {
       "id": 5,
@@ -69,7 +69,7 @@
     {
       "id": 6,
       "name": null,
-      "value": 10
+      "value": 8
     }
   ],
   "bonusStats": [
@@ -139,25 +139,22 @@
   "background": {
     "hasCustomBackground": false,
     "definition": {
-      "id": 7,
+      "id": 34,
       "entityTypeId": 1669830167,
-      "name": "Acolyte",
-      "description": "<p>You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric&mdash;performing sacred rites is not the same thing as channeling divine power.</p>\r\n<p>Choose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service. The <a href=\"https://www.dndbeyond.com/compendium/rules/phb/appendix-b-gods-of-the-multiverse\" rel=\"nofollow\">Gods of the Multiverse</a> section contains a sample pantheon, from the Forgotten Realms setting. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.&nbsp;</p>\r\n<div class=\"line character margintop20 marginbottom20\">&nbsp;</div>\r\n<dl>\r\n<dt><strong>Skill Proficiencies:</strong>&nbsp;Insight, Religion</dt>\r\n<dt><strong>Languages:</strong> Two of your choice</dt>\r\n<dt><strong>Equipment:</strong> A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a pouch containing 15 gp</dt>\r\n</dl>\r\n<blockquote>\r\n<p><strong>FEATURE: SHELTER OF THE FAITHFUL</strong></p>\r\n<p>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.</p>\r\n<p>You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</p>\r\n</blockquote>\r\n<div class=\"line character margintop20 marginbottom20\">&nbsp;</div>\r\n<h5>Suggested Characteristics</h5>\r\n<p>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th>d8</th>\r\n<th style=\"text-align:left\">Personality Trait</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I idolize a particular hero of my faith, and constantly refer to that person&rsquo;s deeds and example.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>I see omens in every event and action. The gods try to speak to us, we just need to listen.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>Nothing can shake my optimistic attitude.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>I quote (or misquote) sacred texts and proverbs in almost every situation.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.</td>\r\n</tr>\r\n<tr>\r\n<td>7</td>\r\n<td>I&rsquo;ve enjoyed fine food, drink, and high society among my temple&rsquo;s elite. Rough living grates on me.</td>\r\n</tr>\r\n<tr>\r\n<td>8</td>\r\n<td>I&rsquo;ve spent so long in the temple that I have little practical experience dealing with people in the outside world.</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th>d6</th>\r\n<th style=\"text-align:left\">Ideal</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td><strong>Tradition.</strong> The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td><strong>Charity.</strong> I always try to help those in need, no matter what the personal cost. (Good)</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td><strong>Change.</strong> We must help bring about the changes the gods are constantly working in the world. (Chaotic)</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td><strong>Power.</strong> I hope to one day rise to the top of my faith&rsquo;s religious hierarchy. (Lawful)</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td><strong>Faith.</strong> I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td><strong>Aspiration.</strong> I seek to prove myself worthy of my god&rsquo;s favor by matching my actions against his or her teachings. (Any)</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th>d6</th>\r\n<th style=\"text-align:left\">Bond</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I would die to recover an ancient relic of my faith that was lost long ago.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>I owe my life to the priest who took me in when my parents died.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>Everything I do is for the common people.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>I will do anything to protect the temple where I served.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th>d6</th>\r\n<th style=\"text-align:left\">Flaw</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I judge others harshly, and myself even more severely.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I put too much trust in those who wield power within my temple&rsquo;s hierarchy.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>My piety sometimes leads me to blindly trust those that profess faith in my god.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>I am inflexible in my thinking.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>I am suspicious of strangers and expect the worst of them.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.</td>\r\n</tr>\r\n</tbody>\r\n</table>",
+      "name": "Haunted One",
+      "description": "<h3>Haunted One</h3>\r\n<p>You are haunted by something so terrible that you dare not speak of it. You&rsquo;ve tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you can&rsquo;t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.</p>\r\n<div class=\"line character margintop20 marginbottom20\">&nbsp;</div>\r\n<p><strong><span>Skill Proficiencies:</span></strong>&nbsp;Choose&nbsp;two of Arcana, Investigation, Religion, or Survival</p>\r\n<p><strong><span>Languages:</span></strong>&nbsp;Choose one exotic language (Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, or Undercommon)</p>\r\n<p><strong><span>Equipment:</span></strong>&nbsp;Monster hunter&rsquo;s pack (see sidebar), one trinket of special significance (choose one or roll on the Gothic Trinkets table in this&nbsp;appendix)</p>\r\n<blockquote>\r\n<p><strong>MONSTER HUNTER'S PACK</strong>&nbsp;</p>\r\n<p>You can buy a monster hunter&rsquo;s pack for 33 gp, which is cheaper than buying the items in it individually. It includes a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a steel mirror, a flask of oil, a tinderbox, and&nbsp;3 torches.</p>\r\n</blockquote>\r\n<div class=\"line character margintop20 marginbottom20\">&nbsp;</div>\r\n<h5>Feature: Heart of Darkness</h5>\r\n<p>Those who look into your eyes can see that you have faced unimaginable horror and that you are no stranger to darkness. Though they might fear you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.</p>\r\n<h5>Harrowing Event</h5>\r\n<p>Prior to becoming an adventurer, your path in life was defined by one dark moment, one fateful decision, or one tragedy. Now you feel a darkness threatening to consume you, and you fear there may be no hope of escape. Choose a harrowing event that haunts you, or roll one on the Harrowing Events table.</p>\r\n<p><strong>Harrowing Event</strong></p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th style=\"text-align:center\"><span>d10</span></th>\r\n<th><span>Event</span></th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>A monster that slaughtered dozens of innocent people spared your life, and you don&rsquo;t know why.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>You were born under a dark star. You can feel it watching you, coldly and distantly. Sometimes it beckons you in the dead of night.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>An apparition that has haunted your family for generations now haunts you. You don&rsquo;t know what it wants, and it won&rsquo;t leave you alone.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>Your family has a history of practicing the dark arts. You dabbled once and felt something horrible clutch at your soul, whereupon you fled in terror.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>An oni took your sibling one cold, dark night, and you were unable to stop it.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>You were cursed with lycanthropy and later cured. You are now haunted by the innocents you slaughtered.</td>\r\n</tr>\r\n<tr>\r\n<td>7</td>\r\n<td>A hag kidnapped and raised you. You escaped, but the hag still has a magical hold over you and fills your mind with evil thoughts.</td>\r\n</tr>\r\n<tr>\r\n<td>8</td>\r\n<td>You opened an eldritch tome and saw things unfit for a sane mind. You burned the book, but its words and images are burned into your psyche.</td>\r\n</tr>\r\n<tr>\r\n<td>9</td>\r\n<td>A fiend possessed you as a child. You were locked away but escaped. The fiend is still inside you, but now you try to keep it locked away.</td>\r\n</tr>\r\n<tr>\r\n<td>10</td>\r\n<td>You did terrible things to avenge the murder of someone you loved. You became a monster, and it haunts your waking dreams.</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<h5>Suggested Characteristics</h5>\r\n<p>You have learned to live with the terror that haunts you. You are a survivor, who can be very protective of those who bring light into your darkened life.</p>\r\n<p><strong>Personality Traits</strong></p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th style=\"text-align:center\"><span>d8</span></th>\r\n<th><span>Personality Trait</span></th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I don&rsquo;t run from evil. Evil runs from me.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I like to read and memorize poetry. It keeps me calm and brings me fleeting moments of happiness.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>I spend money freely and live life to the fullest, knowing that tomorrow I might die.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>I live for the thrill of the hunt.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>I don&rsquo;t talk about the thing that torments me. I&rsquo;d rather not burden others with my curse.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>I expect danger around every corner.</td>\r\n</tr>\r\n<tr>\r\n<td>7</td>\r\n<td>I refuse to become a victim, and I will not allow others to be victimized.</td>\r\n</tr>\r\n<tr>\r\n<td>8</td>\r\n<td>I put no trust in divine beings.</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p><strong>Ideals</strong></p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th style=\"text-align:center\"><span>d6</span></th>\r\n<th><span>Ideal</span></th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I try to help those in need, no matter what the personal cost. (Good)</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I&rsquo;ll stop the spirits that haunt me or die trying. (Any)</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>I have a dark calling that puts me above the law. (Chaotic)</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>I like to know my enemy&rsquo;s capabilities and weaknesses before rushing into battle. (Lawful)</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>I&rsquo;m a monster that destroys other monsters, and anything else that gets in my way. (Evil)</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p><strong>Bonds</strong></p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th style=\"text-align:center\"><span>d6</span></th>\r\n<th><span>Bond</span></th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I keep my thoughts and discoveries in a journal. My journal is my legacy.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I would sacrifice my life and my soul to protect the innocent.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>My torment drove away the person I love. I strive to win back the love I&rsquo;ve lost.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>A terrible guilt consumes me. I hope that I can find redemption through my actions.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>There&rsquo;s evil in me, I can feel it. It must never be set free.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>I have a child to protect. I must make the world a safer place for him (or her).</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p><strong>Flaws</strong></p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th style=\"text-align:center\"><span>d6</span></th>\r\n<th><span>Flaw</span></th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>1</td>\r\n<td>I have certain rituals that I must follow every day. I can never break them.</td>\r\n</tr>\r\n<tr>\r\n<td>2</td>\r\n<td>I assume the worst in people.</td>\r\n</tr>\r\n<tr>\r\n<td>3</td>\r\n<td>I feel no compassion for the dead. They&rsquo;re the lucky ones.</td>\r\n</tr>\r\n<tr>\r\n<td>4</td>\r\n<td>I have an addiction.</td>\r\n</tr>\r\n<tr>\r\n<td>5</td>\r\n<td>I am a purveyor of doom and gloom who lives in a world without hope.</td>\r\n</tr>\r\n<tr>\r\n<td>6</td>\r\n<td>I talk to spirits that no one else can see.</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<h3>Gothic Trinkets</h3>\r\n<p>When rolling for a trinket, consider using this table, which is designed for a gothic game.</p>\r\n<p><strong>Trinkets</strong></p>\r\n<table class=\"compendium-left-aligned-table\">\r\n<thead>\r\n<tr>\r\n<th style=\"text-align:center\">d100</th>\r\n<th>Trinket</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr>\r\n<td>01&ndash;02</td>\r\n<td>A picture you drew as a child of your imaginary friend</td>\r\n</tr>\r\n<tr>\r\n<td>03&ndash;04</td>\r\n<td>A lock that opens when blood is dripped in its keyhole</td>\r\n</tr>\r\n<tr>\r\n<td>05&ndash;06</td>\r\n<td>Clothes stolen from a scarecrow</td>\r\n</tr>\r\n<tr>\r\n<td>07&ndash;08</td>\r\n<td>A spinning top carved with four faces: happy, sad, wrathful, and dead</td>\r\n</tr>\r\n<tr>\r\n<td>09&ndash;10</td>\r\n<td>The necklace of a sibling who died on the day you were born</td>\r\n</tr>\r\n<tr>\r\n<td>11&ndash;12</td>\r\n<td>A wig from someone executed by beheading</td>\r\n</tr>\r\n<tr>\r\n<td>13&ndash;14</td>\r\n<td>The unopened letter to you from your dying father</td>\r\n</tr>\r\n<tr>\r\n<td>15&ndash;16</td>\r\n<td>A pocket watch that runs backward for an hour every midnight</td>\r\n</tr>\r\n<tr>\r\n<td>17&ndash;18</td>\r\n<td>A winter coat stolen from a dying soldier</td>\r\n</tr>\r\n<tr>\r\n<td>19&ndash;20</td>\r\n<td>A bottle of invisible ink that can only be read at sunset</td>\r\n</tr>\r\n<tr>\r\n<td>21&ndash;22</td>\r\n<td>A wineskin that refills when interred with a dead person for a night</td>\r\n</tr>\r\n<tr>\r\n<td>23&ndash;24</td>\r\n<td>A set of silverware used by a king for his last meal</td>\r\n</tr>\r\n<tr>\r\n<td>25&ndash;26</td>\r\n<td>A spyglass that always shows the world suffering a terrible storm</td>\r\n</tr>\r\n<tr>\r\n<td>27&ndash;28</td>\r\n<td>A cameo with the profile&rsquo;s face scratched away</td>\r\n</tr>\r\n<tr>\r\n<td>29&ndash;30</td>\r\n<td>A lantern with a black candle that never runs out and that burns with green flame</td>\r\n</tr>\r\n<tr>\r\n<td>31&ndash;32</td>\r\n<td>A teacup from a child&rsquo;s tea set, stained with blood</td>\r\n</tr>\r\n<tr>\r\n<td>33&ndash;34</td>\r\n<td>A little black book that records your dreams, and yours alone, when you sleep</td>\r\n</tr>\r\n<tr>\r\n<td>35&ndash;36</td>\r\n<td>A necklace formed of the interlinked holy symbols of a dozen deities</td>\r\n</tr>\r\n<tr>\r\n<td>37&ndash;38</td>\r\n<td>A hangman&rsquo;s noose that feels heavier than it should</td>\r\n</tr>\r\n<tr>\r\n<td>39&ndash;40</td>\r\n<td>A birdcage into which small birds fly but once inside never eat or leave</td>\r\n</tr>\r\n<tr>\r\n<td>41&ndash;42</td>\r\n<td>A lepidopterist&rsquo;s box filled dead moths with skull-like patterns on their wings</td>\r\n</tr>\r\n<tr>\r\n<td>43&ndash;44</td>\r\n<td>A jar of pickled ghouls&rsquo; tongues</td>\r\n</tr>\r\n<tr>\r\n<td>45&ndash;46</td>\r\n<td>The wooden hand of a notorious pirate</td>\r\n</tr>\r\n<tr>\r\n<td>47&ndash;48</td>\r\n<td>A urn with the ashes of a dead relative</td>\r\n</tr>\r\n<tr>\r\n<td>49&ndash;50</td>\r\n<td>A hand mirror backed with a bronze depiction of a medusa</td>\r\n</tr>\r\n<tr>\r\n<td>51&ndash;52</td>\r\n<td>Pallid leather gloves crafted with ivory fingernails</td>\r\n</tr>\r\n<tr>\r\n<td>53&ndash;54</td>\r\n<td>Dice made from the knuckles of a notorious charlatan</td>\r\n</tr>\r\n<tr>\r\n<td>55&ndash;56</td>\r\n<td>A ring of keys for forgotten locks</td>\r\n</tr>\r\n<tr>\r\n<td>57&ndash;58</td>\r\n<td>Nails from the coffin of a murderer</td>\r\n</tr>\r\n<tr>\r\n<td>59&ndash;60</td>\r\n<td>A key to the family crypt</td>\r\n</tr>\r\n<tr>\r\n<td>61&ndash;62</td>\r\n<td>An bouquet of funerary flowers that always looks and smells fresh</td>\r\n</tr>\r\n<tr>\r\n<td>63&ndash;64</td>\r\n<td>A switch used to discipline you as a child</td>\r\n</tr>\r\n<tr>\r\n<td>65&ndash;66</td>\r\n<td>A music box that plays by itself whenever someone holding it dances</td>\r\n</tr>\r\n<tr>\r\n<td>67&ndash;68</td>\r\n<td>A walking cane with an iron ferule that strikes sparks on stone</td>\r\n</tr>\r\n<tr>\r\n<td>69&ndash;70</td>\r\n<td>A flag from a ship lost at sea</td>\r\n</tr>\r\n<tr>\r\n<td>71&ndash;72</td>\r\n<td>Porcelain doll&rsquo;s head that always seems to be looking at you</td>\r\n</tr>\r\n<tr>\r\n<td>73&ndash;74</td>\r\n<td>A wolf&rsquo;s head wrought in silver that is also a whistle.</td>\r\n</tr>\r\n<tr>\r\n<td>75&ndash;76</td>\r\n<td>A small mirror that shows a much older version of the viewer</td>\r\n</tr>\r\n<tr>\r\n<td>77&ndash;78</td>\r\n<td>Small, worn book of children&rsquo;s nursery rhymes.</td>\r\n</tr>\r\n<tr>\r\n<td>79&ndash;80</td>\r\n<td>A mummified raven claw</td>\r\n</tr>\r\n<tr>\r\n<td>81&ndash;82</td>\r\n<td>A broken pendent of a silver dragon that&rsquo;s always cold to the touch</td>\r\n</tr>\r\n<tr>\r\n<td>83&ndash;84</td>\r\n<td>A small locked box that quietly hums a lovely melody at night but you always forget it in the morning</td>\r\n</tr>\r\n<tr>\r\n<td>85&ndash;86</td>\r\n<td>An inkwell that makes one a little nauseous when staring at it</td>\r\n</tr>\r\n<tr>\r\n<td>87&ndash;88</td>\r\n<td>An old little doll made from a dark, dense wood and missing a hand and a foot</td>\r\n</tr>\r\n<tr>\r\n<td>89&ndash;90</td>\r\n<td>A black executioner&rsquo;s hood</td>\r\n</tr>\r\n<tr>\r\n<td>91&ndash;92</td>\r\n<td>A pouch made of flesh, with a sinew drawstring</td>\r\n</tr>\r\n<tr>\r\n<td>93&ndash;94</td>\r\n<td>A tiny spool of black thread that never runs out</td>\r\n</tr>\r\n<tr>\r\n<td>95&ndash;96</td>\r\n<td>A tiny clockwork figurine of a dancer that&rsquo;s missing a gear and doesn&rsquo;t work</td>\r\n</tr>\r\n<tr>\r\n<td>97&ndash;98</td>\r\n<td>A black wooden pipe that creates puffs of smoke that look like skulls</td>\r\n</tr>\r\n<tr>\r\n<td>99&ndash;00</td>\r\n<td>A vial of perfume, the scent of which only certain creatures can detect</td>\r\n</tr>\r\n</tbody>\r\n</table>",
       "snippet": "",
-      "shortDescription": "<p>You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric&mdash;performing sacred rites is not the same thing as channeling divine power.</p>\r\n<p>Choose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service. The <span style=\"color:#47d18c\"><strong><a style=\"color:#47d18c\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-b-gods-of-the-multiverse\" rel=\"nofollow\">Gods of the Multiverse</a></strong></span>&nbsp;section contains a sample pantheon, from the Forgotten Realms setting. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.&nbsp;</p>",
-      "skillProficienciesDescription": "Insight, Religion",
+      "shortDescription": "<p>You are haunted by something so terrible that you dare not speak of it. You&rsquo;ve tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you can&rsquo;t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.</p>",
+      "skillProficienciesDescription": "Choose two from among Arcana, Investigation, Religion, or Survival",
       "toolProficienciesDescription": "",
-      "languagesDescription": "Two of your choice",
-      "equipmentDescription": "A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a pouch containing 15 gp",
-      "featureName": "Shelter of the Faithful",
-      "featureDescription": "<dl>\r\n<dt></dt>\r\n</dl>\r\n<p>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.</p>\r\n<p>You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</p>\r\n<div>&nbsp;</div>",
+      "languagesDescription": "Choose one exotic language (Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, or Undercommon)",
+      "equipmentDescription": "&nbsp;A monster hunter&rsquo;s pack (see the sidebar), a set of common clothes, and one trinket of special significance (choose one or roll on the Gothic Trinkets table after this background).",
+      "featureName": "Heart of Darkness",
+      "featureDescription": "<p>Those who look into your eyes can see that you have faced unimaginable horror and that you are no stranger to darkness. Though they might fear you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone.</p>",
       "avatarUrl": null,
       "largeAvatarUrl": null,
-      "suggestedCharacteristicsDescription": "<p>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p>\r\n<div>&nbsp;</div>",
-      "suggestedProficiencies": [
-        "Religion",
-        "Insight"
-      ],
+      "suggestedCharacteristicsDescription": "<p>You have learned to live with the terror that haunts you. You are a survivor, who can be very protective of those who bring light into your darkened life.</p>",
+      "suggestedProficiencies": [],
       "suggestedLanguages": [],
       "organization": null,
       "contractsDescription": null,
@@ -165,145 +162,145 @@
       "spellsPostDescription": null,
       "personalityTraits": [
         {
-          "id": 43,
-          "description": "I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.",
+          "id": 742,
+          "description": "I don’t run from evil. Evil runs from me.",
           "diceRoll": 1
         },
         {
-          "id": 44,
-          "description": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+          "id": 743,
+          "description": "I like to read and memorize poetry. It keeps me calm and brings me fleeting moments of happiness.",
           "diceRoll": 2
         },
         {
-          "id": 45,
-          "description": "I see omens in every event and action. The gods try to speak to us, we just need to listen.",
+          "id": 744,
+          "description": "I spend money freely and live life to the fullest, knowing that tomorrow I might die.",
           "diceRoll": 3
         },
         {
-          "id": 46,
-          "description": "Nothing can shake my optimistic attitude.",
+          "id": 745,
+          "description": "I live for the thrill of the hunt.",
           "diceRoll": 4
         },
         {
-          "id": 47,
-          "description": "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+          "id": 746,
+          "description": "I don’t talk about the thing that torments me. I’d rather not burden others with my curse.",
           "diceRoll": 5
         },
         {
-          "id": 48,
-          "description": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+          "id": 747,
+          "description": "I expect danger around every corner.",
           "diceRoll": 6
         },
         {
-          "id": 49,
-          "description": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.",
+          "id": 748,
+          "description": "I refuse to become a victim, and I will not allow others to be victimized.",
           "diceRoll": 7
         },
         {
-          "id": 50,
-          "description": "I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
+          "id": 749,
+          "description": "I put no trust in divine beings.",
           "diceRoll": 8
         }
       ],
       "ideals": [
         {
-          "id": 57,
-          "description": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
+          "id": 750,
+          "description": "I try to help those in need, no matter what the personal cost. (Good)",
           "diceRoll": 1
         },
         {
-          "id": 58,
-          "description": "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
+          "id": 751,
+          "description": "I’ll stop the spirits that haunt me or die trying. (Any)",
           "diceRoll": 2
         },
         {
-          "id": 59,
-          "description": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
+          "id": 752,
+          "description": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
           "diceRoll": 3
         },
         {
-          "id": 60,
-          "description": "Power. I hope to one day rise to the top of my faith’s religious hierarchy. (Lawful)",
+          "id": 753,
+          "description": "I have a dark calling that puts me above the law. (Chaotic)",
           "diceRoll": 4
         },
         {
-          "id": 61,
-          "description": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
+          "id": 754,
+          "description": "I like to know my enemy’s capabilities and weaknesses before rushing into battle. (Lawful)",
           "diceRoll": 5
         },
         {
-          "id": 62,
-          "description": "Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)",
+          "id": 755,
+          "description": "I’m a monster that destroys other monsters, and anything else that gets in my way. (Evil)",
           "diceRoll": 6
         }
       ],
       "bonds": [
         {
-          "id": 51,
-          "description": "I would die to recover an ancient relic of my faith that was lost long ago.",
+          "id": 756,
+          "description": "I keep my thoughts and discoveries in a journal. My journal is my legacy.",
           "diceRoll": 1
         },
         {
-          "id": 52,
-          "description": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+          "id": 757,
+          "description": "I would sacrifice my life and my soul to protect the innocent.",
           "diceRoll": 2
         },
         {
-          "id": 53,
-          "description": "I owe my life to the priest who took me in when my parents died.",
+          "id": 758,
+          "description": "My torment drove away the person I love. I strive to win back the love I’ve lost.",
           "diceRoll": 3
         },
         {
-          "id": 54,
-          "description": "Everything I do is for the common people.",
+          "id": 759,
+          "description": "A terrible guilt consumes me. I hope that I can find redemption through my actions.",
           "diceRoll": 4
         },
         {
-          "id": 55,
-          "description": "I will do anything to protect the temple where I served.",
+          "id": 760,
+          "description": "There’s evil in me, I can feel it. It must never be set free.",
           "diceRoll": 5
         },
         {
-          "id": 56,
-          "description": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.",
+          "id": 761,
+          "description": "I have a child to protect. I must make the world a safer place for him (or her).",
           "diceRoll": 6
         }
       ],
       "flaws": [
         {
-          "id": 63,
-          "description": "I judge others harshly, and myself even more severely.",
+          "id": 762,
+          "description": "I have certain rituals that I must follow every day. I can never break them.",
           "diceRoll": 1
         },
         {
-          "id": 64,
-          "description": "I put too much trust in those who wield power within my temple’s hierarchy.",
+          "id": 763,
+          "description": "I assume the worst in people.",
           "diceRoll": 2
         },
         {
-          "id": 65,
-          "description": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+          "id": 764,
+          "description": "I feel no compassion for the dead. They’re the lucky ones.",
           "diceRoll": 3
         },
         {
-          "id": 66,
-          "description": "I am inflexible in my thinking.",
+          "id": 765,
+          "description": "I have an addiction.",
           "diceRoll": 4
         },
         {
-          "id": 67,
-          "description": "I am suspicious of strangers and expect the worst of them.",
+          "id": 766,
+          "description": "I am a purveyor of doom and gloom who lives in a world without hope.",
           "diceRoll": 5
         },
         {
-          "id": 68,
-          "description": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",
+          "id": 767,
+          "description": "I talk to spirits that no one else can see.",
           "diceRoll": 6
         }
       ]
     },
     "customBackground": {
-      "id": 8958758,
+      "id": 7555852,
       "entityTypeId": 1581111423,
       "name": null,
       "description": null,
@@ -621,18 +618,18 @@
   },
   "notes": {
     "allies": null,
-    "personalPossessions": "a prayer book\n5 sticks of incense\nvestments",
+    "personalPossessions": "Blood Slide Box",
     "otherHoldings": null,
     "organizations": null,
     "enemies": null,
     "backstory": null,
-    "otherNotes": "Bacon ipsum dolor amet sirloin doner buffalo swine rump, capicola jerky sausage andouille pig kevin brisket. Landjaeger andouille tenderloin, bresaola sirloin pastrami ribeye meatloaf shank shoulder tail t-bone boudin pig ham hock. Kielbasa capicola porchetta kevin, picanha cupim shank rump ball tip bacon leberkas. Venison ground round strip steak, landjaeger chicken bacon."
+    "otherNotes": null
   },
   "traits": {
-    "personalityTraits": "Nothing can shake my optimistic attitude.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
-    "ideals": "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
-    "bonds": "I owe my life to the priest who took me in when my parents died.",
-    "flaws": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",
+    "personalityTraits": "I don’t talk about the thing that torments me. I’d rather not burden others with my curse.\nI live for the thrill of the hunt.",
+    "ideals": "I have a dark calling that puts me above the law. (Chaotic)\nI kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
+    "bonds": "There’s evil in me, I can feel it. It must never be set free.\nA terrible guilt consumes me. I hope that I can find redemption through my actions.",
+    "flaws": "I have certain rituals that I must follow every day. I can never break them.\nI have an addiction.",
     "appearance": null
   },
   "preferences": {
@@ -655,50 +652,7 @@
   "lifestyle": null,
   "inventory": [
     {
-      "id": 83503147,
-      "entityTypeId": 1439493548,
-      "definition": {
-        "baseItemId": 6,
-        "baseArmorName": "Scale Mail",
-        "strengthRequirement": null,
-        "armorClass": 14,
-        "stealthCheck": 2,
-        "id": 6,
-        "baseTypeId": 701257905,
-        "entityTypeId": 701257905,
-        "canEquip": true,
-        "magic": false,
-        "name": "Scale Mail",
-        "snippet": null,
-        "weight": 45,
-        "type": "Medium Armor",
-        "description": "<p>This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.</p>",
-        "canAttune": false,
-        "attunementDescription": null,
-        "rarity": "Common",
-        "isHomebrew": false,
-        "version": null,
-        "sourceId": null,
-        "sourcePageNumber": null,
-        "stackable": false,
-        "bundleSize": 1,
-        "avatarUrl": null,
-        "largeAvatarUrl": null,
-        "filterType": "Armor",
-        "cost": 50,
-        "isPack": false,
-        "tags": [
-          "Warding"
-        ],
-        "grantedModifiers": []
-      },
-      "quantity": 1,
-      "isAttuned": false,
-      "equipped": true,
-      "limitedUse": null
-    },
-    {
-      "id": 83208962,
+      "id": 71544186,
       "entityTypeId": 1439493548,
       "definition": {
         "baseItemId": 8,
@@ -737,12 +691,55 @@
       },
       "quantity": 1,
       "isAttuned": false,
-      "equipped": true,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "id": 71544168,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "baseItemId": 16,
+        "baseArmorName": "Chain Mail",
+        "strengthRequirement": 13,
+        "armorClass": 16,
+        "stealthCheck": 2,
+        "id": 16,
+        "baseTypeId": 701257905,
+        "entityTypeId": 701257905,
+        "canEquip": true,
+        "magic": false,
+        "name": "Chain Mail",
+        "snippet": null,
+        "weight": 55,
+        "type": "Heavy Armor",
+        "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": false,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Armor",
+        "cost": 75,
+        "isPack": false,
+        "tags": [
+          "Warding"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
       "limitedUse": null
     },
     {
       "displayAsAttack": null,
-      "id": 83208951,
+      "id": 71544166,
       "entityTypeId": 1439493548,
       "definition": {
         "baseItemId": 11,
@@ -799,7 +796,7 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208953,
+      "id": 82946092,
       "entityTypeId": 1439493548,
       "definition": {
         "baseItemId": 14,
@@ -864,12 +861,207 @@
       },
       "quantity": 1,
       "isAttuned": null,
-      "equipped": true,
+      "equipped": false,
       "limitedUse": null
     },
     {
       "displayAsAttack": null,
-      "id": 83208954,
+      "id": 71544169,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "baseItemId": 15,
+        "damage": {
+          "diceCount": 1,
+          "diceValue": 8,
+          "diceMultiplier": null,
+          "fixedValue": null,
+          "diceString": "1d8"
+        },
+        "damageType": "Piercing",
+        "fixedDamage": null,
+        "properties": [
+          {
+            "id": 24,
+            "name": "Ammunition",
+            "description": "You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield. \r\nIf you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section). A sling must be loaded to deal any damage when used in this way. ",
+            "notes": null
+          },
+          {
+            "id": 25,
+            "name": "Loading",
+            "description": "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. ",
+            "notes": null
+          },
+          {
+            "id": 26,
+            "name": "Range",
+            "description": "A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range. ",
+            "notes": null
+          },
+          {
+            "id": 27,
+            "name": "Two-Handed",
+            "description": "This weapon requires two hands when you attack with it. ",
+            "notes": null
+          }
+        ],
+        "attackType": 2,
+        "categoryId": 1,
+        "range": 80,
+        "longRange": 320,
+        "isMonkWeapon": false,
+        "weaponBehaviors": [],
+        "id": 15,
+        "baseTypeId": 1782728300,
+        "entityTypeId": 1782728300,
+        "canEquip": true,
+        "magic": false,
+        "name": "Crossbow, Light",
+        "snippet": null,
+        "weight": 5,
+        "type": "Crossbow, Light",
+        "description": "<p>Proficiency with a light crossbow allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": false,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Weapon",
+        "cost": 25,
+        "isPack": false,
+        "tags": [
+          "Damage",
+          "Combat"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": null,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 72453545,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "baseItemId": 30,
+        "damage": {
+          "diceCount": 1,
+          "diceValue": 6,
+          "diceMultiplier": null,
+          "fixedValue": null,
+          "diceString": "1d6"
+        },
+        "damageType": "Piercing",
+        "fixedDamage": null,
+        "properties": [
+          {
+            "id": 53,
+            "name": "Finesse",
+            "description": "When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls. ",
+            "notes": null
+          },
+          {
+            "id": 54,
+            "name": "Light",
+            "description": "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. ",
+            "notes": null
+          }
+        ],
+        "attackType": 1,
+        "categoryId": 2,
+        "range": 5,
+        "longRange": 5,
+        "isMonkWeapon": true,
+        "weaponBehaviors": [],
+        "id": 30,
+        "baseTypeId": 1782728300,
+        "entityTypeId": 1782728300,
+        "canEquip": true,
+        "magic": false,
+        "name": "Shortsword",
+        "snippet": null,
+        "weight": 2,
+        "type": "Shortsword",
+        "description": "<p>Proficiency with a shortsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": false,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Weapon",
+        "cost": 10,
+        "isPack": false,
+        "tags": [
+          "Damage",
+          "Combat"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": null,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544171,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Ammunition",
+        "isConsumable": true,
+        "weaponBehaviors": [],
+        "id": 3,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": true,
+        "magic": false,
+        "name": "Crossbow Bolts",
+        "snippet": null,
+        "weight": 1.5,
+        "type": "Gear",
+        "description": "<p>Crossbow bolts are&nbsp;used with&nbsp;a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 20,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 1,
+        "isPack": false,
+        "tags": [
+          "Damage",
+          "Combat"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 20,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544174,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -911,7 +1103,7 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208955,
+      "id": 71544177,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -953,65 +1145,22 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208965,
+      "id": 71544188,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
         "isConsumable": false,
         "weaponBehaviors": [],
-        "id": 38,
+        "id": 36,
         "baseTypeId": 2103445194,
         "entityTypeId": 2103445194,
         "canEquip": false,
         "magic": false,
-        "name": "Clothes, Common",
-        "snippet": null,
-        "weight": 3,
-        "type": "Gear",
-        "description": "<p>This set of clothes could consist of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes.</p>",
-        "canAttune": false,
-        "attunementDescription": null,
-        "rarity": "Common",
-        "isHomebrew": false,
-        "version": null,
-        "sourceId": null,
-        "sourcePageNumber": null,
-        "stackable": true,
-        "bundleSize": 1,
-        "avatarUrl": null,
-        "largeAvatarUrl": null,
-        "filterType": "Other Gear",
-        "cost": 0.5,
-        "isPack": false,
-        "tags": [
-          "Social",
-          "Outerwear"
-        ],
-        "grantedModifiers": []
-      },
-      "quantity": 1,
-      "isAttuned": false,
-      "equipped": false,
-      "limitedUse": null
-    },
-    {
-      "displayAsAttack": null,
-      "id": 83502330,
-      "entityTypeId": 1439493548,
-      "definition": {
-        "subType": "Adventuring Gear",
-        "isConsumable": false,
-        "weaponBehaviors": [],
-        "id": 52,
-        "baseTypeId": 2103445194,
-        "entityTypeId": 2103445194,
-        "canEquip": false,
-        "magic": false,
-        "name": "Hunting Trap",
+        "name": "Chest",
         "snippet": null,
         "weight": 25,
         "type": "Gear",
-        "description": "<p>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</p>",
+        "description": "<p>A chest can hold&nbsp;12 cubic feet/ 300 pounds of gear.</p>",
         "canAttune": false,
         "attunementDescription": null,
         "rarity": "Common",
@@ -1027,19 +1176,190 @@
         "cost": 5,
         "isPack": false,
         "tags": [
-          "Damage",
-          "Utility"
+          "Container"
         ],
         "grantedModifiers": []
       },
-      "quantity": 2,
+      "quantity": 1,
       "isAttuned": false,
       "equipped": false,
       "limitedUse": null
     },
     {
       "displayAsAttack": null,
-      "id": 83208956,
+      "id": 71544189,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 43,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Crowbar",
+        "snippet": null,
+        "weight": 5,
+        "type": "Gear",
+        "description": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 2,
+        "isPack": false,
+        "tags": [
+          "Utility",
+          "Exploration"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544190,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 47,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Hammer",
+        "snippet": null,
+        "weight": 3,
+        "type": "Gear",
+        "description": "<p>This one-handed hammer with an iron head is useful for pounding pitons into a wall.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 1,
+        "isPack": false,
+        "tags": [
+          "Utility"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544193,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 50,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Holy Water (flask)",
+        "snippet": null,
+        "weight": 1,
+        "type": "Gear",
+        "description": "<p>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.</p>\r\n<p>A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 25,
+        "isPack": false,
+        "tags": [
+          "Damage",
+          "Utility",
+          "Combat"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544194,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 60,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Manacles",
+        "snippet": null,
+        "weight": 6,
+        "type": "Gear",
+        "description": "<p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 2,
+        "isPack": false,
+        "tags": [
+          "Control",
+          "Utility"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544179,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -1082,7 +1402,94 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208959,
+      "id": 71544195,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 62,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Mirror, Steel",
+        "snippet": null,
+        "weight": 0.5,
+        "type": "Gear",
+        "description": "<p>A steel mirror is handy when you want to look around corners, signal friends with reflected sunlight, keep an eye on a medusa, make sure that you look good enough to present yourself to the queen, or examine wounds that you&rsquo;ve received on hard-to-see parts of your body.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 5,
+        "isPack": false,
+        "tags": [
+          "Social",
+          "Utility"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544196,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 63,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Oil (flask)",
+        "snippet": null,
+        "weight": 1,
+        "type": "Gear",
+        "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 0.1,
+        "isPack": false,
+        "tags": [
+          "Damage",
+          "Utility",
+          "Combat"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544183,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -1119,14 +1526,14 @@
         ],
         "grantedModifiers": []
       },
-      "quantity": 30,
+      "quantity": 10,
       "isAttuned": false,
       "equipped": false,
       "limitedUse": null
     },
     {
       "displayAsAttack": null,
-      "id": 83208961,
+      "id": 71544185,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -1169,7 +1576,7 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208957,
+      "id": 71544181,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -1205,14 +1612,14 @@
         ],
         "grantedModifiers": []
       },
-      "quantity": 1,
+      "quantity": 2,
       "isAttuned": false,
       "equipped": false,
       "limitedUse": null
     },
     {
       "displayAsAttack": null,
-      "id": 83208958,
+      "id": 71544182,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -1250,14 +1657,14 @@
         ],
         "grantedModifiers": []
       },
-      "quantity": 10,
+      "quantity": 13,
       "isAttuned": false,
       "equipped": false,
       "limitedUse": null
     },
     {
       "displayAsAttack": null,
-      "id": 83208960,
+      "id": 71544184,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Adventuring Gear",
@@ -1299,20 +1706,20 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208964,
+      "id": 71544187,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Holy Symbol",
         "isConsumable": false,
         "weaponBehaviors": [],
-        "id": 159,
+        "id": 160,
         "baseTypeId": 2103445194,
         "entityTypeId": 2103445194,
         "canEquip": false,
         "magic": false,
-        "name": "Amulet",
+        "name": "Emblem",
         "snippet": null,
-        "weight": 1,
+        "weight": 0,
         "type": "Gear",
         "description": "<p>A holy symbol is a representation of a god or pantheon. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in the <a href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/spellcasting#MaterialM\" rel=\"nofollow\">Spellcasting</a> section. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>",
         "canAttune": false,
@@ -1341,7 +1748,49 @@
     },
     {
       "displayAsAttack": null,
-      "id": 83208963,
+      "id": 71544191,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "subType": "Adventuring Gear",
+        "isConsumable": false,
+        "weaponBehaviors": [],
+        "id": 206,
+        "baseTypeId": 2103445194,
+        "entityTypeId": 2103445194,
+        "canEquip": false,
+        "magic": false,
+        "name": "Stake (Wooden)",
+        "snippet": null,
+        "weight": 0,
+        "type": "Gear",
+        "description": "<p>Stakes made out of wood, typically found in a monster hunter's pack.</p>",
+        "canAttune": false,
+        "attunementDescription": null,
+        "rarity": "Common",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": null,
+        "sourcePageNumber": null,
+        "stackable": true,
+        "bundleSize": 3,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Other Gear",
+        "cost": 0,
+        "isPack": false,
+        "tags": [
+          "Utility"
+        ],
+        "grantedModifiers": []
+      },
+      "quantity": 9,
+      "isAttuned": false,
+      "equipped": false,
+      "limitedUse": null
+    },
+    {
+      "displayAsAttack": null,
+      "id": 71544192,
       "entityTypeId": 1439493548,
       "definition": {
         "subType": "Holy Symbol",
@@ -1380,103 +1829,18 @@
       "isAttuned": false,
       "equipped": false,
       "limitedUse": null
-    },
-    {
-      "displayAsAttack": null,
-      "id": 92199682,
-      "entityTypeId": 1439493548,
-      "definition": {
-        "subType": "Adventuring Gear",
-        "isConsumable": false,
-        "weaponBehaviors": [],
-        "id": 217,
-        "baseTypeId": 2103445194,
-        "entityTypeId": 2103445194,
-        "canEquip": false,
-        "magic": false,
-        "name": "Rain Catcher",
-        "snippet": null,
-        "weight": 5,
-        "type": "Gear",
-        "description": "<p>A rain catcher is a simple contraption consisting of a 5-foot-square leather tarp and a wooden frame with legs. When the tarp is stretched across the wooden frame, it forms a basin that can catch 2 gallons of drinking water per inch of rainfall and hold up to 8 gallons. The tarp and wooden frame fold up for easy transport.&nbsp;&nbsp;A rain catcher costs 1 gp and weighs 5 pounds.</p>\r\n<p>Merchant prince Ekene-Afa controls the sale of rain catchers in Port Nyanzaru.</p>",
-        "canAttune": false,
-        "attunementDescription": null,
-        "rarity": "Common",
-        "isHomebrew": false,
-        "version": null,
-        "sourceId": null,
-        "sourcePageNumber": null,
-        "stackable": true,
-        "bundleSize": 1,
-        "avatarUrl": null,
-        "largeAvatarUrl": null,
-        "filterType": "Other Gear",
-        "cost": 1,
-        "isPack": false,
-        "tags": [
-          "Utility"
-        ],
-        "grantedModifiers": []
-      },
-      "quantity": 2,
-      "isAttuned": false,
-      "equipped": false,
-      "limitedUse": null
-    },
-    {
-      "displayAsAttack": null,
-      "id": 92177243,
-      "entityTypeId": 1439493548,
-      "definition": {
-        "subType": null,
-        "isConsumable": false,
-        "weaponBehaviors": [],
-        "id": 4650,
-        "baseTypeId": 2103445194,
-        "entityTypeId": 112130694,
-        "canEquip": true,
-        "magic": true,
-        "name": "Handy Haversack",
-        "snippet": null,
-        "weight": 0,
-        "type": "Wondrous item",
-        "description": "<p>This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.</p>\r\n<p>Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.</p>\r\n<p>The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.</p>\r\n<p>Placing the haversack inside an extradimensional space created by a <strong>bag of holding</strong>, <strong>portable hole</strong>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>",
-        "canAttune": false,
-        "attunementDescription": "",
-        "rarity": "Rare",
-        "isHomebrew": false,
-        "version": null,
-        "sourceId": 3,
-        "sourcePageNumber": null,
-        "stackable": false,
-        "bundleSize": 1,
-        "avatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/19/103/315/315/636382329375511185.jpeg",
-        "largeAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/7/239/1000/1000/636284737702530626.jpeg",
-        "filterType": "Wondrous item",
-        "cost": null,
-        "isPack": false,
-        "tags": [
-          "Utility",
-          "Container"
-        ],
-        "grantedModifiers": []
-      },
-      "quantity": 1,
-      "isAttuned": false,
-      "equipped": true,
-      "limitedUse": null
     }
   ],
   "currencies": {
-    "cp": 400,
-    "sp": 140,
-    "gp": 290,
+    "cp": 0,
+    "sp": 0,
+    "gp": 0,
     "ep": 0,
     "pp": 0
   },
   "classes": [
     {
-      "id": 10143469,
+      "id": 8786313,
       "entityTypeId": 1446578651,
       "level": 3,
       "isStartingClass": true,
@@ -2151,44 +2515,7 @@
   "customProficiencies": [],
   "spellDefenses": null,
   "customActions": [],
-  "characterValues": [
-    {
-      "typeId": 22,
-      "value": -120,
-      "notes": null,
-      "valueId": 92177243,
-      "valueTypeId": 1439493548,
-      "contextId": null,
-      "contextTypeId": null
-    },
-    {
-      "typeId": 10,
-      "value": 3,
-      "notes": null,
-      "valueId": 136483,
-      "valueTypeId": 435869154,
-      "contextId": null,
-      "contextTypeId": null
-    },
-    {
-      "typeId": 10,
-      "value": 3,
-      "notes": null,
-      "valueId": 138062,
-      "valueTypeId": 435869154,
-      "contextId": null,
-      "contextTypeId": null
-    },
-    {
-      "typeId": 10,
-      "value": 4,
-      "notes": null,
-      "valueId": 138584,
-      "valueTypeId": 435869154,
-      "contextId": null,
-      "contextTypeId": null
-    }
-  ],
+  "characterValues": [],
   "conditions": [],
   "deathSaves": {
     "failCount": null,
@@ -2272,6 +2599,8 @@
   ],
   "activeSourceCategories": [
     1,
+    2,
+    3,
     7,
     8
   ],
@@ -2308,7 +2637,7 @@
         "parentChoiceId": null,
         "type": 2,
         "subType": 1,
-        "optionValue": 4098,
+        "optionValue": 4099,
         "label": "Choose a Cleric Skill",
         "isOptional": false,
         "isInfinite": false,
@@ -2348,7 +2677,7 @@
         "parentChoiceId": null,
         "type": 2,
         "subType": 1,
-        "optionValue": 4097,
+        "optionValue": 4098,
         "label": "Choose a Cleric Skill",
         "isOptional": false,
         "isInfinite": false,
@@ -2386,256 +2715,19 @@
     ],
     "background": [
       {
-        "id": "2-2095",
-        "parentChoiceId": null,
-        "type": 2,
-        "subType": 3,
-        "optionValue": 4052,
-        "label": "Choose a Language",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "options": [
-          {
-            "id": 4045,
-            "label": "Abyssal",
-            "description": null
-          },
-          {
-            "id": 4049,
-            "label": "Celestial",
-            "description": null
-          },
-          {
-            "id": 4050,
-            "label": "Common",
-            "description": null
-          },
-          {
-            "id": 4051,
-            "label": "Deep Speech",
-            "description": null
-          },
-          {
-            "id": 4052,
-            "label": "Draconic",
-            "description": null
-          },
-          {
-            "id": 4054,
-            "label": "Dwarvish",
-            "description": null
-          },
-          {
-            "id": 4055,
-            "label": "Elvish",
-            "description": null
-          },
-          {
-            "id": 4056,
-            "label": "Giant",
-            "description": null
-          },
-          {
-            "id": 5064,
-            "label": "Gith",
-            "description": null
-          },
-          {
-            "id": 4061,
-            "label": "Gnomish",
-            "description": null
-          },
-          {
-            "id": 4062,
-            "label": "Goblin",
-            "description": null
-          },
-          {
-            "id": 4063,
-            "label": "Halfling",
-            "description": null
-          },
-          {
-            "id": 4065,
-            "label": "Infernal",
-            "description": null
-          },
-          {
-            "id": 5110,
-            "label": "Kraul",
-            "description": null
-          },
-          {
-            "id": 5109,
-            "label": "Loxodon",
-            "description": null
-          },
-          {
-            "id": 5108,
-            "label": "Minotaur",
-            "description": null
-          },
-          {
-            "id": 4066,
-            "label": "Orc",
-            "description": null
-          },
-          {
-            "id": 4068,
-            "label": "Primordial",
-            "description": null
-          },
-          {
-            "id": 4071,
-            "label": "Sylvan",
-            "description": null
-          },
-          {
-            "id": 4074,
-            "label": "Undercommon",
-            "description": null
-          },
-          {
-            "id": 5111,
-            "label": "Vedalken",
-            "description": null
-          }
-        ],
-        "componentId": 7,
-        "componentTypeId": 1669830167
-      },
-      {
-        "id": "2-2096",
-        "parentChoiceId": null,
-        "type": 2,
-        "subType": 3,
-        "optionValue": 4068,
-        "label": "Choose a Language",
-        "isOptional": false,
-        "isInfinite": false,
-        "defaultSubtypes": [],
-        "options": [
-          {
-            "id": 4045,
-            "label": "Abyssal",
-            "description": null
-          },
-          {
-            "id": 4049,
-            "label": "Celestial",
-            "description": null
-          },
-          {
-            "id": 4050,
-            "label": "Common",
-            "description": null
-          },
-          {
-            "id": 4051,
-            "label": "Deep Speech",
-            "description": null
-          },
-          {
-            "id": 4052,
-            "label": "Draconic",
-            "description": null
-          },
-          {
-            "id": 4054,
-            "label": "Dwarvish",
-            "description": null
-          },
-          {
-            "id": 4055,
-            "label": "Elvish",
-            "description": null
-          },
-          {
-            "id": 4056,
-            "label": "Giant",
-            "description": null
-          },
-          {
-            "id": 5064,
-            "label": "Gith",
-            "description": null
-          },
-          {
-            "id": 4061,
-            "label": "Gnomish",
-            "description": null
-          },
-          {
-            "id": 4062,
-            "label": "Goblin",
-            "description": null
-          },
-          {
-            "id": 4063,
-            "label": "Halfling",
-            "description": null
-          },
-          {
-            "id": 4065,
-            "label": "Infernal",
-            "description": null
-          },
-          {
-            "id": 5110,
-            "label": "Kraul",
-            "description": null
-          },
-          {
-            "id": 5109,
-            "label": "Loxodon",
-            "description": null
-          },
-          {
-            "id": 5108,
-            "label": "Minotaur",
-            "description": null
-          },
-          {
-            "id": 4066,
-            "label": "Orc",
-            "description": null
-          },
-          {
-            "id": 4068,
-            "label": "Primordial",
-            "description": null
-          },
-          {
-            "id": 4071,
-            "label": "Sylvan",
-            "description": null
-          },
-          {
-            "id": 4074,
-            "label": "Undercommon",
-            "description": null
-          },
-          {
-            "id": 5111,
-            "label": "Vedalken",
-            "description": null
-          }
-        ],
-        "componentId": 7,
-        "componentTypeId": 1669830167
-      },
-      {
-        "id": "2-2094",
+        "id": "2-14013",
         "parentChoiceId": null,
         "type": 2,
         "subType": 1,
-        "optionValue": 3783,
+        "optionValue": 3789,
         "label": "Choose a Skill",
         "isOptional": false,
         "isInfinite": false,
         "defaultSubtypes": [
-          "Insight"
+          "Arcana",
+          "Investigation",
+          "Religion",
+          "Survival"
         ],
         "options": [
           {
@@ -2729,20 +2821,23 @@
             "description": null
           }
         ],
-        "componentId": 7,
+        "componentId": 34,
         "componentTypeId": 1669830167
       },
       {
-        "id": "2-2097",
+        "id": "2-102263",
         "parentChoiceId": null,
         "type": 2,
         "subType": 1,
-        "optionValue": 3791,
+        "optionValue": 3796,
         "label": "Choose a Skill",
         "isOptional": false,
         "isInfinite": false,
         "defaultSubtypes": [
-          "Religion"
+          "Arcana",
+          "Investigation",
+          "Religion",
+          "Survival"
         ],
         "options": [
           {
@@ -2836,7 +2931,62 @@
             "description": null
           }
         ],
-        "componentId": 7,
+        "componentId": 34,
+        "componentTypeId": 1669830167
+      },
+      {
+        "id": "2-14021",
+        "parentChoiceId": null,
+        "type": 2,
+        "subType": 3,
+        "optionValue": 4387,
+        "label": "Choose an Exotic Language",
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "options": [
+          {
+            "id": 4385,
+            "label": "Abyssal",
+            "description": null
+          },
+          {
+            "id": 4386,
+            "label": "Celestial",
+            "description": null
+          },
+          {
+            "id": 4387,
+            "label": "Deep Speech",
+            "description": null
+          },
+          {
+            "id": 4388,
+            "label": "Draconic",
+            "description": null
+          },
+          {
+            "id": 4389,
+            "label": "Infernal",
+            "description": null
+          },
+          {
+            "id": 4390,
+            "label": "Primordial",
+            "description": null
+          },
+          {
+            "id": 4391,
+            "label": "Sylvan",
+            "description": null
+          },
+          {
+            "id": 4392,
+            "label": "Undercommon",
+            "description": null
+          }
+        ],
+        "componentId": 34,
         "componentTypeId": 1669830167
       }
     ],
@@ -3382,6 +3532,25 @@
       },
       {
         "id": "classFeature_461_1503",
+        "entityId": 19,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "persuasion",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Persuasion",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 461,
+        "componentTypeId": 12168134
+      },
+      {
+        "id": "classFeature_461_1504",
         "entityId": 13,
         "entityTypeId": 1958004211,
         "type": "proficiency",
@@ -3393,25 +3562,6 @@
         "duration": null,
         "friendlyTypeName": "Proficiency",
         "friendlySubtypeName": "Medicine",
-        "isGranted": false,
-        "bonusTypes": [],
-        "value": null,
-        "componentId": 461,
-        "componentTypeId": 12168134
-      },
-      {
-        "id": "classFeature_461_1504",
-        "entityId": 12,
-        "entityTypeId": 1958004211,
-        "type": "proficiency",
-        "subType": "insight",
-        "dice": null,
-        "restriction": "",
-        "statId": null,
-        "requiresAttunement": false,
-        "duration": null,
-        "friendlyTypeName": "Proficiency",
-        "friendlySubtypeName": "Insight",
         "isGranted": false,
         "bonusTypes": [],
         "value": null,
@@ -3440,79 +3590,60 @@
     ],
     "background": [
       {
-        "id": "background_7_2094",
-        "entityId": 2,
+        "id": "background_34_14013",
+        "entityId": 8,
         "entityTypeId": 1958004211,
         "type": "proficiency",
-        "subType": "athletics",
+        "subType": "investigation",
         "dice": null,
         "restriction": "",
         "statId": null,
         "requiresAttunement": false,
         "duration": null,
         "friendlyTypeName": "Proficiency",
-        "friendlySubtypeName": "Athletics",
+        "friendlySubtypeName": "Investigation",
         "isGranted": false,
         "bonusTypes": [],
         "value": null,
-        "componentId": 7,
+        "componentId": 34,
         "componentTypeId": 1669830167
       },
       {
-        "id": "background_7_2095",
-        "entityId": 11,
+        "id": "background_34_14021",
+        "entityId": 12,
         "entityTypeId": 906033267,
         "type": "language",
-        "subType": "draconic",
+        "subType": "deep-speech",
         "dice": null,
         "restriction": "",
         "statId": null,
         "requiresAttunement": false,
         "duration": null,
         "friendlyTypeName": "Language",
-        "friendlySubtypeName": "Draconic",
+        "friendlySubtypeName": "Deep Speech",
         "isGranted": false,
         "bonusTypes": [],
         "value": null,
-        "componentId": 7,
+        "componentId": 34,
         "componentTypeId": 1669830167
       },
       {
-        "id": "background_7_2096",
-        "entityId": 14,
-        "entityTypeId": 906033267,
-        "type": "language",
-        "subType": "primordial",
-        "dice": null,
-        "restriction": "",
-        "statId": null,
-        "requiresAttunement": false,
-        "duration": null,
-        "friendlyTypeName": "Language",
-        "friendlySubtypeName": "Primordial",
-        "isGranted": false,
-        "bonusTypes": [],
-        "value": null,
-        "componentId": 7,
-        "componentTypeId": 1669830167
-      },
-      {
-        "id": "background_7_2097",
-        "entityId": 10,
+        "id": "background_34_102263",
+        "entityId": 15,
         "entityTypeId": 1958004211,
         "type": "proficiency",
-        "subType": "religion",
+        "subType": "survival",
         "dice": null,
         "restriction": "",
         "statId": null,
         "requiresAttunement": false,
         "duration": null,
         "friendlyTypeName": "Proficiency",
-        "friendlySubtypeName": "Religion",
+        "friendlySubtypeName": "Survival",
         "isGranted": false,
         "bonusTypes": [],
         "value": null,
-        "componentId": 7,
+        "componentId": 34,
         "componentTypeId": 1669830167
       }
     ],
@@ -3523,7 +3654,7 @@
   "classSpells": [
     {
       "entityTypeId": 1446578651,
-      "characterClassId": 10143469,
+      "characterClassId": 8786313,
       "spells": [
         {
           "id": 136020,
@@ -5781,128 +5912,6 @@
           "componentTypeId": 0
         },
         {
-          "id": 138016,
-          "entityTypeId": 435869154,
-          "definition": {
-            "id": 2132,
-            "name": "Guidance",
-            "level": 0,
-            "school": "Divination",
-            "duration": {
-              "durationInterval": 1,
-              "durationUnit": "Minute",
-              "durationType": "Concentration"
-            },
-            "activation": {
-              "activationTime": 1,
-              "activationType": 1
-            },
-            "range": {
-              "origin": "Touch",
-              "rangeValue": 0,
-              "aoeType": null,
-              "aoeValue": null
-            },
-            "asPartOfWeaponAttack": false,
-            "description": "<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.</p>",
-            "snippet": "",
-            "concentration": true,
-            "ritual": false,
-            "rangeArea": null,
-            "damageEffect": null,
-            "components": [
-              1,
-              2
-            ],
-            "componentsDescription": "",
-            "saveDcAbilityId": null,
-            "healing": null,
-            "healingDice": null,
-            "tempHpDice": null,
-            "attackType": null,
-            "canCastAtHigherLevel": false,
-            "isHomebrew": false,
-            "version": null,
-            "sourceId": 2,
-            "sourcePageNumber": 248,
-            "requiresSavingThrow": false,
-            "requiresAttackRoll": false,
-            "atHigherLevels": {
-              "scaleType": "characterlevel",
-              "higherLevelDefinitions": [],
-              "additionalAttacks": [],
-              "additionalTargets": [],
-              "areaOfEffect": [],
-              "duration": [],
-              "creatures": [],
-              "special": [],
-              "points": []
-            },
-            "modifiers": [
-              {
-                "id": "spell_2132_138",
-                "type": "bonus",
-                "subType": "ability-checks",
-                "die": {
-                  "diceCount": 1,
-                  "diceValue": 4,
-                  "diceMultiplier": null,
-                  "fixedValue": null,
-                  "diceString": "1d4"
-                },
-                "count": 1,
-                "duration": 0,
-                "durationUnit": null,
-                "restriction": "1 Use",
-                "friendlyTypeName": "Bonus",
-                "friendlySubtypeName": "Ability Checks",
-                "usePrimaryStat": false,
-                "atHigherLevels": {
-                  "scaleType": "characterlevel",
-                  "higherLevelDefinitions": [],
-                  "additionalAttacks": [],
-                  "additionalTargets": [],
-                  "areaOfEffect": [],
-                  "duration": [],
-                  "creatures": [],
-                  "special": [],
-                  "points": []
-                }
-              }
-            ],
-            "conditions": [],
-            "tags": [
-              "Buff"
-            ],
-            "castingTimeDescription": ""
-          },
-          "prepared": false,
-          "countsAsKnownSpell": true,
-          "usesSpellSlot": false,
-          "castAtLevel": null,
-          "alwaysPrepared": false,
-          "restriction": null,
-          "spellCastingAbilityId": null,
-          "displayAsAttack": null,
-          "additionalDescription": null,
-          "castOnlyAsRitual": false,
-          "ritualCastingType": null,
-          "range": {
-            "origin": "Touch",
-            "rangeValue": 0,
-            "aoeType": null,
-            "aoeValue": null
-          },
-          "activation": {
-            "activationTime": 1,
-            "activationType": 1
-          },
-          "baseLevelAtWill": false,
-          "atWillLimitedUseLevel": null,
-          "componentId": 0,
-          "componentTypeId": 0
-        },
-        {
           "id": 138023,
           "entityTypeId": 435869154,
           "definition": {
@@ -7734,6 +7743,129 @@
           "componentTypeId": 0
         },
         {
+          "id": 138647,
+          "entityTypeId": 435869154,
+          "definition": {
+            "id": 2231,
+            "name": "Resistance",
+            "level": 0,
+            "school": "Abjuration",
+            "duration": {
+              "durationInterval": 1,
+              "durationUnit": "Minute",
+              "durationType": "Concentration"
+            },
+            "activation": {
+              "activationTime": 1,
+              "activationType": 1
+            },
+            "range": {
+              "origin": "Touch",
+              "rangeValue": 0,
+              "aoeType": null,
+              "aoeValue": null
+            },
+            "asPartOfWeaponAttack": false,
+            "description": "<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.</p>",
+            "snippet": "",
+            "concentration": true,
+            "ritual": false,
+            "rangeArea": null,
+            "damageEffect": null,
+            "components": [
+              1,
+              2,
+              3
+            ],
+            "componentsDescription": "a miniature cloak",
+            "saveDcAbilityId": null,
+            "healing": null,
+            "healingDice": null,
+            "tempHpDice": null,
+            "attackType": null,
+            "canCastAtHigherLevel": false,
+            "isHomebrew": false,
+            "version": null,
+            "sourceId": 2,
+            "sourcePageNumber": 272,
+            "requiresSavingThrow": false,
+            "requiresAttackRoll": false,
+            "atHigherLevels": {
+              "scaleType": "characterlevel",
+              "higherLevelDefinitions": [],
+              "additionalAttacks": [],
+              "additionalTargets": [],
+              "areaOfEffect": [],
+              "duration": [],
+              "creatures": [],
+              "special": [],
+              "points": []
+            },
+            "modifiers": [
+              {
+                "id": "spell_2231_242",
+                "type": "bonus",
+                "subType": "saving-throws",
+                "die": {
+                  "diceCount": 1,
+                  "diceValue": 4,
+                  "diceMultiplier": null,
+                  "fixedValue": null,
+                  "diceString": "1d4"
+                },
+                "count": 1,
+                "duration": 0,
+                "durationUnit": null,
+                "restriction": "1 Use",
+                "friendlyTypeName": "Bonus",
+                "friendlySubtypeName": "Saving Throws",
+                "usePrimaryStat": false,
+                "atHigherLevels": {
+                  "scaleType": "characterlevel",
+                  "higherLevelDefinitions": [],
+                  "additionalAttacks": [],
+                  "additionalTargets": [],
+                  "areaOfEffect": [],
+                  "duration": [],
+                  "creatures": [],
+                  "special": [],
+                  "points": []
+                }
+              }
+            ],
+            "conditions": [],
+            "tags": [
+              "Buff"
+            ],
+            "castingTimeDescription": ""
+          },
+          "prepared": false,
+          "countsAsKnownSpell": true,
+          "usesSpellSlot": false,
+          "castAtLevel": null,
+          "alwaysPrepared": false,
+          "restriction": null,
+          "spellCastingAbilityId": null,
+          "displayAsAttack": null,
+          "additionalDescription": null,
+          "castOnlyAsRitual": false,
+          "ritualCastingType": null,
+          "range": {
+            "origin": "Touch",
+            "rangeValue": 0,
+            "aoeType": null,
+            "aoeValue": null
+          },
+          "activation": {
+            "activationTime": 1,
+            "activationType": 1
+          },
+          "baseLevelAtWill": false,
+          "atWillLimitedUseLevel": null,
+          "componentId": 0,
+          "componentTypeId": 0
+        },
+        {
           "id": 138660,
           "entityTypeId": 435869154,
           "definition": {
@@ -7996,7 +8128,7 @@
             ],
             "castingTimeDescription": ""
           },
-          "prepared": true,
+          "prepared": false,
           "countsAsKnownSpell": true,
           "usesSpellSlot": true,
           "castAtLevel": null,
@@ -8120,7 +8252,7 @@
             ],
             "castingTimeDescription": ""
           },
-          "prepared": false,
+          "prepared": true,
           "countsAsKnownSpell": true,
           "usesSpellSlot": true,
           "castAtLevel": null,
