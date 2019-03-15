@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 
 import api from '../../api';
 import Character from '../Character';
+import fromBeyond from '../Character/fromBeyond';
 import './index.css';
 
 const ONE_SECOND = 1000;
 
 const isDev = process.env.NODE_ENV === 'development';
 
+
 class Dashboard extends Component {
   state = {
+    config: null,
     characters: [],
     refreshIdx: 0,
     params: {},
@@ -26,7 +29,14 @@ class Dashboard extends Component {
   componentDidMount() {
     if (!this.state.characterIDs) return;
 
+    api.config()
+      .then(config => this.setState({ config }))
+      .then(() => this.getCharacters());
+  }
+
+  getCharacters() {
     api.characters(this.state.characterIDs)
+      .then(characters => characters.map(c => fromBeyond(this.state.config, c)))
       .then(characters => this.setState({ characters }));
 
     !isDev && setInterval(this.refreshNext, 30 * ONE_SECOND);
@@ -40,7 +50,7 @@ class Dashboard extends Component {
     const {characters} = this.state;
 
     api.character(this.state.characterIDs[this.state.refreshIdx])
-      .then(character => characters[this.state.refreshIdx] = character)
+      .then(character => characters[this.state.refreshIdx] = fromBeyond(character))
       .then(() => this.setState({ characters }))
       .then(() => this.incrementIndex());
   }

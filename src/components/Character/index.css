@@ -13,13 +13,52 @@
 }
 
 :local .image {
-  position: absolute;
-  top: 0;
   left: 0;
+  position: absolute;
   right: 0;
+  top: 0;
   width: 100%;
 }
 
 :local .name {
+  font-size: 1.875em;
   font-weight: bold;
+  margin: 0;
+}
+
+:local .stats {
+  font-size: 1.25em;
+  margin: 0;
+}
+
+:local .stat {
+  margin-right: 1rem;
+}
+
+:local .speed {
+  color: #767676;
+}
+
+:local .ac {
+  color: #1779ba;
+}
+
+:local .healthy {
+  color: #3adb76;
+}
+
+:local .bloodied {
+  color: #ffae00;
+}
+
+:local .critical {
+  color: #cc4b37;
+}
+
+:local .statVal {
+  margin-left: 0.3rem;
+}
+
+:local .conditions {
+  color: #cc4b37;
 }
