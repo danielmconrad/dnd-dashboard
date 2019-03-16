@@ -3,12 +3,11 @@ import React, { Component } from 'react';
 import api from '../../api';
 import Character from '../Character';
 import fromBeyond from '../Character/fromBeyond';
-import './index.css';
+import styles from './index.css';
 
 const ONE_SECOND = 1000;
 
 const isDev = process.env.NODE_ENV === 'development';
-
 
 class Dashboard extends Component {
   state = {
@@ -65,16 +64,12 @@ class Dashboard extends Component {
 
   render() {
     return (
-      <div className="Dashboard padding-horizontal-2">
-        <div className="grid-x margin-bottom-1 grid-margin-x">
-          {this.state.characters.map(character => (
-            <Character
-              key={character.id}
-              character={character}
-              className="cell small-4"
-            />
-          ))}
-        </div>
+      <div className={`${styles.component} grid-x`}>
+        {this.state.characters.map(character => (
+          <div key={character.id} className="cell small-12 medium-6">
+            <Character character={character} className="margin-bottom-half margin-horizontal-half" />
+          </div>
+        ))}
 
         {!this.state.characterIDs && (
           <div>No characters selected!</div>

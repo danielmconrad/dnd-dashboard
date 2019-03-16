@@ -31,9 +31,11 @@ const api = {
 
   fixtures: [
     dextuin,
-    // enrique,
     rando,
-    niamh
+    niamh,
+    rando,
+    niamh,
+    dextuin
   ]
 };
 

@@ -1,0 +1,8 @@
+:local .component {
+  padding: 2rem;
+  text-align: center;
+}
+
+:local .imaginationLink {
+  margin: 0 auto;
+}

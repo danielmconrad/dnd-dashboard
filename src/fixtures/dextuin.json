@@ -36,7 +36,7 @@
     "baseHitPoints": 18,
     "bonusHitPoints": null,
     "overrideHitPoints": null,
-    "removedHitPoints": 0,
+    "removedHitPoints": 16,
     "temporaryHitPoints": 0,
     "currentXp": 900,
     "alignmentId": 3,
@@ -624,7 +624,7 @@
       "organizations": null,
       "enemies": null,
       "backstory": null,
-      "otherNotes": null
+      "otherNotes": "Bacon ipsum dolor amet pork loin turducken spare ribs flank hamburger frankfurter leberkas tri-tip shoulder ball tip shank bacon pastrami alcatra. Ribeye beef buffalo drumstick, pastrami venison biltong alcatra. Prosciutto landjaeger t-bone, short loin sausage ground round pork loin ham hock pig beef. "
     },
     "traits": {
       "personalityTraits": "I don’t talk about the thing that torments me. I’d rather not burden others with my curse.\nI live for the thrill of the hunt.",

@@ -1,9 +1,10 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import './index.css';
+import { Link } from 'react-router-dom';
+import styles from './index.css';
 
-export default () => (
-  <div className="Header margin-bottom-3 padding-vertical-1">
-    {/* <Link to="/">Home</Link> */}
+export default (props) => (
+  <div className={`${styles.component} ${props.className}`}>
+    <Link className="padding-half" to="/">Home</Link>
+    <Link className="padding-half" to="/credits">Credits</Link>
   </div>
 );

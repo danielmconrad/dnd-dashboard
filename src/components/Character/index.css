@@ -3,32 +3,18 @@
 }
 
 :local .imageContainer {
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+  display: block;
 }
 
-:local .imageContainer::before {
-  content: url('data:image/svg+xml, <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>');
-  width: 100%;
-}
-
-:local .image {
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
+:local .nameAndStats {
+  padding: 0.5rem 0.5rem 0 1rem;
+  line-height: 1em;
 }
 
 :local .name {
-  font-size: 1.875em;
   font-weight: bold;
-  margin: 0;
-}
-
-:local .stats {
-  font-size: 1.25em;
-  margin: 0;
+  font-size: 1.2em;
 }
 
 :local .stat {
@@ -59,6 +45,49 @@
   margin-left: 0.3rem;
 }
 
+:local .topNotes,
+:local .conditions {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:local .topNotes {
+  color: #8a8a8a;
+}
+
 :local .conditions {
   color: #cc4b37;
+}
+
+:local .notes {
+  overflow: scroll;
+  padding-bottom: 1rem;
+  margin: 1rem 0 0;
+  display: none;
+}
+
+/* :local .notes::after {
+  content: '';
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 3rem;
+  background: -moz-linear-gradient(top, rgba(29,32,33,0) 0%, rgba(29,32,33,0) 20%, rgba(29,32,33,1) 80%, rgba(29,32,33,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(29,32,33,0) 0%,rgba(29,32,33,0) 20%,rgba(29,32,33,1) 80%,rgba(29,32,33,1) 100%);
+  background: linear-gradient(to bottom, rgba(29,32,33,0) 0%,rgba(29,32,33,0) 20%,rgba(29,32,33,1) 80%,rgba(29,32,33,1) 100%);
+} */
+
+/* iPad Vertical */
+/* ========================================================================== */
+@media print, screen and (min-width: 40em) {
+  :local .nameAndStats {
+    padding-top: 1rem;
+  }
+   :local .character  {
+    font-size: 1.25em;
+  }
 }

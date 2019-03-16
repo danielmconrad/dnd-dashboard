@@ -1,9 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import './index.css';
+import styles from './index.css';
 
-export default () => (
-  <div className="Footer">
-    {/* <Link to="/credits">Credits</Link> */}
+export default (props) => (
+  <div className={`${styles.component} ${props.className}`}>
   </div>
 );
