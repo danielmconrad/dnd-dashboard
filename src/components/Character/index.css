@@ -1,5 +1,6 @@
 :local .character {
   background: #1D2021;
+  overflow: hidden;
 }
 
 :local .imageContainer {
@@ -61,7 +62,7 @@
   color: #cc4b37;
 }
 
-:local .notes {
+:local .bottomNotes {
   overflow: scroll;
   padding-bottom: 1rem;
   margin: 1rem 0 0;

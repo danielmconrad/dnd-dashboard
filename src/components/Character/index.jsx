@@ -1,23 +1,24 @@
 import React from 'react';
 import styles from './index.css';
 
-export default (props) => (
+export default props => (
   <div className={`${styles.character} ${props.className}`}>
     <div className="grid-x">
       <div className="shrink cell small-3 medium-4">
-        <Image {...props} />
+        <Image character={props.character} />
       </div>
       <div className={`${styles.nameAndStats} grid-y cell auto`}>
-        <Name className="cell small-4" {...props} />
-        <Stats className="cell small-4" {...props} />
-        <Conditions className="cell small-4" {...props} />
+        <Name className="cell small-4" character={props.character} />
+        <Stats className="cell small-4" character={props.character} />
+        <Conditions className="cell small-4" character={props.character} />
+        <Notes className={`cell small-4 ${styles.topNotes}`} character={props.character} />
       </div>
     </div>
-    <Notes className={styles.notes} {...props} />
+    <Notes className={styles.bottomNotes} character={props.character} />
   </div>
 );
 
-const Image = (props) => (
+const Image = props => (
   <svg
     className={`${styles.imageContainer} ${props.className}`}
     viewBox="0 0 100 100"
@@ -32,13 +33,13 @@ const Image = (props) => (
   </svg>
 );
 
-const Name = (props) => (
+const Name = props => (
   <div className={`${styles.name} ${props.className}`}>
     {props.character.name}
   </div>
 );
 
-const Stats = (props) => (
+const Stats = props => (
   <div className={`${styles.stats} ${props.className}`}>
     <span className={`${styles.stat} ${styles.speed}`}>
       <i className="fas fa-walking"></i>
@@ -66,17 +67,19 @@ const Stats = (props) => (
   </div>
 );
 
-const Conditions = (props) => (
-  <div className={`${styles.conditions} ${props.className}`}>
-    <i className="fas fa-exclamation-triangle"></i>
-    <span className={styles.statVal}>
-      {props.character.conditions.join(', ')}
-    </span>
-  </div>
+const Conditions = props => (
+  props.character.conditions.length
+    ? <div className={`${styles.conditions} ${props.className}`}>
+        <i className="fas fa-exclamation-triangle"></i>
+        <span className={styles.statVal}>
+          {props.character.conditions.join(', ')}
+        </span>
+      </div>
+    : null
 );
 
-const Notes = (props) => (
-  <div className={`${styles.notes} ${props.className}`}>
-    {props.character.notes.otherNotes}
+const Notes = props => (
+  <div className={`${props.className}`}>
+    {props.character.notes.otherNotes || 'No notes.'}
   </div>
 );
