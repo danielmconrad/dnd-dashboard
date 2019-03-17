@@ -4,7 +4,7 @@ import styles from './index.scss';
 export default props => (
   <div className={`${styles.character} ${props.className} grid-y`}>
     <div className="cell grid-x">
-      <div className="cell small-3 xlarge-4 ">
+      <div className={`${styles.imageContainer} cell small-3 xlarge-4`}>
         <Image character={props.character} />
       </div>
       <div className={`${styles.nameAndStats} cell auto grid-y`}>
@@ -20,15 +20,13 @@ export default props => (
 
 const Image = props => (
   <svg
-    className={`${styles.imageContainer} ${props.className}`}
+    className={`${styles.image} ${props.className}`}
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
   >
     <image
       xlinkHref={props.character.avatarUrl}
-      width="100%"
-      x="0"
-      y="0"
+      width="100%" x="0" y="0"
     />
   </svg>
 );
@@ -41,16 +39,25 @@ const Name = props => (
 
 const Stats = props => (
   <div className={`${styles.stats} ${props.className}`}>
+    {props.character.inspiration && (
+      <span className={`${styles.stat} ${styles.inspiration}`}>
+        <i className="fas fa-sun" />
+      </span>
+    )}
     <span className={`${styles.stat} ${styles.speed}`}>
-      <i className="fas fa-walking"></i>
-      <span className={styles.statVal}>35</span>
+      <i className="fas fa-walking" />
+      <span className={styles.statVal}>
+        {props.character.speed}
+      </span>
     </span>
     <span className={`${styles.stat} ${styles.ac}`}>
-      <i className="fas fa-shield-alt"></i>
-      <span className={styles.statVal}>18</span>
+      <i className="fas fa-shield-alt" />
+      <span className={styles.statVal}>
+        {props.character.ac}
+      </span>
     </span>
-    <span className={`${styles.stat} ${styles.health} ${styles[props.character.hitPoints.status]}`}>
-      <i className="fas fa-heartbeat"></i>
+    <span className={`${styles.stat} ${styles[props.character.hitPoints.status]}`}>
+      <i className="fas fa-heartbeat" />
       {props.character.hitPoints.temp
         ? (
           <span className={styles.statVal}>
@@ -71,7 +78,7 @@ const Conditions = props => (
   props.character.conditions.length
     ? <div className={`${styles.conditions} ${props.className}`}>
         <div className={styles.scroller}>
-          <i className="fas fa-exclamation-triangle"></i>
+          <i className="fas fa-exclamation-triangle" />
           <span className={styles.statVal}>
             {props.character.conditions.join(', ')}
           </span>

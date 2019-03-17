@@ -6,6 +6,10 @@
 }
 
 :local .imageContainer {
+  position: relative;
+}
+
+:local .image {
   width: 100%;
   display: block;
 }
@@ -25,24 +29,28 @@
   margin-right: 1rem;
 }
 
+:local .inspiration {
+  color: $success-color;
+}
+
 :local .speed {
-  color: #767676;
+  color: $secondary-color;
 }
 
 :local .ac {
-  color: #1779ba;
+  color: $primary-color;
 }
 
 :local .healthy {
-  color: #3adb76;
+  color: $success-color;
 }
 
 :local .bloodied {
-  color: #ffae00;
+  color: $warning-color;
 }
 
 :local .critical {
-  color: #cc4b37;
+  color: $alert-color;
 }
 
 :local .statVal {
@@ -59,11 +67,11 @@
 }
 
 :local .topNotes {
-  color: #8a8a8a;
+  color: $dark-gray;
 }
 
 :local .conditions {
-  color: #cc4b37;
+  color: $alert-color;
 }
 
 :local .bottomNotes {
@@ -158,6 +166,7 @@
   :local .character  {
     font-size: 1.3em;
     height: calc(100vh/2 - 4rem);
+    min-height: 12rem;
   }
   :local .imageContainer {
     padding-top: 1rem;

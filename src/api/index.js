@@ -3,6 +3,9 @@ import Axios from 'axios';
 import dextuin from '../fixtures/dextuin.json';
 import rando from '../fixtures/rando.json';
 import niamh from '../fixtures/niamh.json';
+import enrique from '../fixtures/enrique.json';
+import brine from '../fixtures/brine.json';
+
 import characterConfig from '../fixtures/config.json';
 
 const IS_DEV = process.env.NODE_ENV === 'development';
@@ -31,9 +34,8 @@ const api = {
     dextuin,
     rando,
     niamh,
-    rando,
-    niamh,
-    dextuin
+    enrique,
+    brine,
   ]
 };
 

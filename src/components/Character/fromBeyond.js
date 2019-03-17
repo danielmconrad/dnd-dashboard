@@ -47,13 +47,24 @@ const level = (character) => character.classes[0].level;
 
 const valueToModifier = (v) => Math.floor((v - 10) / 2);
 
+const speed = (character) => {
+  const walkingModifier = character.modifiers.race
+    .find(mod => mod.subType === 'innate-speed-walking');
+
+  return walkingModifier
+    ? walkingModifier.value
+    : character.race.weightSpeeds.normal.walk;
+};
+
 export default function fromBeyond(config, character) {
   return {
     id: character.id,
     avatarUrl: character.avatarUrl || character.race.portraitAvatarUrl,
     conditions: conditions(config, character),
     hitPoints: hitPoints(character),
+    inspiration: character.inspiration,
     name: character.name,
     notes: character.notes,
-  }
+    speed: speed(character),
+  };
 };
