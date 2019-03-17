@@ -1,19 +1,20 @@
 const proxy = require('http-proxy-middleware');
 const express = require('express');
 const app = express();
-const config = require('dotenv').config().parsed;
+
+require('dotenv').config();
 
 const proxyMiddleware = proxy('/', {
-  target: config.DND_BEYOND_URL,
+  target: process.env.DND_BEYOND_URL,
   changeOrigin: true,
   protocolRewrite: true,
   onProxyRes(proxyRes) {
-    proxyRes.headers['Access-Control-Allow-Origin'] = config.SITE_URL;
+    proxyRes.headers['Access-Control-Allow-Origin'] = process.env.SITE_URL;
   }
 });
 
 app.use(proxyMiddleware);
 
-app.listen(config.PORT || 3000, () =>
-  console.log(`Listening on port ${config.PORT || 3000}!`)
+app.listen(process.env.PORT || 3000, () =>
+  console.log(`Listening on port ${process.env.PORT || 3000}!`)
 );
