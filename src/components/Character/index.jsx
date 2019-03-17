@@ -2,19 +2,19 @@ import React from 'react';
 import styles from './index.css';
 
 export default props => (
-  <div className={`${styles.character} ${props.className}`}>
-    <div className="grid-x">
-      <div className="shrink cell small-3 medium-4">
+  <div className={`${styles.character} ${props.className} grid-y`}>
+    <div className="cell grid-x">
+      <div className="cell small-3 medium-4">
         <Image character={props.character} />
       </div>
-      <div className={`${styles.nameAndStats} grid-y cell auto`}>
+      <div className={`${styles.nameAndStats} cell auto grid-y`}>
         <Name className="cell small-4" character={props.character} />
         <Stats className="cell small-4" character={props.character} />
         <Conditions className="cell small-4" character={props.character} />
         <Notes className={`cell small-4 ${styles.topNotes}`} character={props.character} />
       </div>
     </div>
-    <Notes className={styles.bottomNotes} character={props.character} />
+    <Notes className={`${styles.bottomNotes} cell auto`} character={props.character} />
   </div>
 );
 
@@ -80,6 +80,8 @@ const Conditions = props => (
 
 const Notes = props => (
   <div className={`${props.className}`}>
-    {props.character.notes.otherNotes || 'No notes.'}
+    <div className={styles.scroller}>
+      {props.character.notes.otherNotes || 'No notes.'}
+    </div>
   </div>
 );

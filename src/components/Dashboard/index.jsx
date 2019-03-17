@@ -5,13 +5,11 @@ import Character from '../Character';
 import fromBeyond from '../Character/fromBeyond';
 import styles from './index.css';
 
-const ONE_SECOND = 1000;
-
-const isDev = process.env.NODE_ENV === 'development';
+// const ONE_SECOND = 1000;
 
 class Dashboard extends Component {
   state = {
-    config: null,
+    characterConfig: null,
     characters: [],
     refreshIdx: 0,
     params: {},
@@ -28,21 +26,25 @@ class Dashboard extends Component {
   componentDidMount() {
     if (!this.state.characterIDs) return;
 
-    api.config()
-      .then(config => this.setState({ config }))
+    api.characterConfig()
+      .then(characterConfig => this.setState({ characterConfig }))
       .then(() => this.getCharacters());
+  }
+
+  componentWillUnmount() {
+    // !config.isDev && clearInterval(this.refreshNext);
   }
 
   getCharacters() {
     api.characters(this.state.characterIDs)
-      .then(characters => characters.map(c => fromBeyond(this.state.config, c)))
+      .then(characters => characters.map(c => this.transformCharacter(c)))
       .then(characters => this.setState({ characters }));
 
-    !isDev && setInterval(this.refreshNext, 30 * ONE_SECOND);
+    // !config.isDev && setInterval(this.refreshNext, 30 * ONE_SECOND);
   }
 
-  componentWillUnmount() {
-    !isDev && clearInterval(this.refreshNext);
+  transformCharacter(character) {
+    return fromBeyond(this.state.characterConfig, character);
   }
 
   refreshNext() {
