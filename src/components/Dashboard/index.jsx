@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import api from '../../api';
 import Character from '../Character';
 import fromBeyond from '../Character/fromBeyond';
-import styles from './index.css';
+import styles from './index.scss';
 
 // const ONE_SECOND = 1000;
 
@@ -67,7 +67,7 @@ class Dashboard extends Component {
   render() {
     return (
       <div className={`${styles.component} grid-container full`}>
-        <div class="grid-x grid-margin-y grid-margin-x">
+        <div className="grid-x grid-margin-y grid-margin-x">
           {this.state.characters.map(character => (
             <div key={character.id} className="cell small-12 medium-6 xlarge-4">
               <Character character={character} className="" />

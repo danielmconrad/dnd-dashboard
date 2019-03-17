@@ -8,8 +8,6 @@ import characterConfig from '../fixtures/config.json';
 const IS_DEV = process.env.NODE_ENV === 'development';
 const API_URL = process.env.REACT_APP_API_URL;
 
-console.log(process.env);
-
 const baseAPI = Axios.create({
   baseURL: API_URL,
   timeout: 10000,
