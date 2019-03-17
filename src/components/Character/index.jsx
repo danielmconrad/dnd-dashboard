@@ -50,10 +50,10 @@ const Stats = props => (
         {props.character.speed}
       </span>
     </span>
-    <span className={`${styles.stat} ${styles.ac}`}>
+    <span className={`${styles.stat} ${styles.armorClass}`}>
       <i className="fas fa-shield-alt" />
       <span className={styles.statVal}>
-        {props.character.ac}
+        {props.character.armorClass}
       </span>
     </span>
     <span className={`${styles.stat} ${styles[props.character.hitPoints.status]}`}>
