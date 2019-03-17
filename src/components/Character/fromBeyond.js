@@ -47,7 +47,7 @@ const level = (character) => character.classes[0].level;
 
 const valueToModifier = (v) => Math.floor((v - 10) / 2);
 
-export default function fromBeyond(config, { character }) {
+export default function fromBeyond(config, character) {
   return {
     id: character.id,
     avatarUrl: character.avatarUrl || character.race.portraitAvatarUrl,
