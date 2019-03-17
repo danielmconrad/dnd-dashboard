@@ -14,6 +14,6 @@ const proxyMiddleware = proxy('/', {
 
 app.use(proxyMiddleware);
 
-app.listen(config.API_PORT, () =>
-  console.log(`Listening on port ${config.API_PORT}!`)
+app.listen(config.PORT || 3000, () =>
+  console.log(`Listening on port ${config.PORT || 3000}!`)
 );
