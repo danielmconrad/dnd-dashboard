@@ -7,9 +7,7 @@ import Home from '../Home';
 import Credits from '../Credits';
 import Dashboard from '../Dashboard';
 
-import 'foundation-sites/dist/css/foundation.css';
-import 'foundation-sites/dist/css/foundation-prototype.min.css';
-import './index.css';
+import './index.scss';
 
 export default () => (
   <HashRouter>

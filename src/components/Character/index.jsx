@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './index.css';
+import styles from './index.scss';
 
 export default props => (
   <div className={`${styles.character} ${props.className} grid-y`}>
     <div className="cell grid-x">
-      <div className="cell small-3 medium-4">
+      <div className="cell small-3 xlarge-4 ">
         <Image character={props.character} />
       </div>
       <div className={`${styles.nameAndStats} cell auto grid-y`}>
@@ -70,10 +70,12 @@ const Stats = props => (
 const Conditions = props => (
   props.character.conditions.length
     ? <div className={`${styles.conditions} ${props.className}`}>
-        <i className="fas fa-exclamation-triangle"></i>
-        <span className={styles.statVal}>
-          {props.character.conditions.join(', ')}
-        </span>
+        <div className={styles.scroller}>
+          <i className="fas fa-exclamation-triangle"></i>
+          <span className={styles.statVal}>
+            {props.character.conditions.join(', ')}
+          </span>
+        </div>
       </div>
     : null
 );

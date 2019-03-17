@@ -66,16 +66,18 @@ class Dashboard extends Component {
 
   render() {
     return (
-      <div className={`${styles.component} grid-x`}>
-        {this.state.characters.map(character => (
-          <div key={character.id} className="cell small-12 medium-6">
-            <Character character={character} className="margin-bottom-half margin-horizontal-half" />
-          </div>
-        ))}
+      <div className={`${styles.component} grid-container full`}>
+        <div class="grid-x grid-margin-y grid-margin-x">
+          {this.state.characters.map(character => (
+            <div key={character.id} className="cell small-12 medium-6 xlarge-4">
+              <Character character={character} className="" />
+            </div>
+          ))}
 
-        {!this.state.characterIDs && (
-          <div>No characters selected!</div>
-        )}
+          {!this.state.characterIDs && (
+            <div>No characters selected!</div>
+          )}
+        </div>
       </div>
     );
   }

@@ -1,3 +1,5 @@
+@import '../App/settings';
+
 :local .character {
   background: #1D2021;
   overflow: hidden;
@@ -9,7 +11,7 @@
 }
 
 :local .nameAndStats {
-  padding: 0.5rem 0.5rem 0 1rem;
+  padding: 0.75rem 0.5rem 0 1rem;
   line-height: 1em;
   overflow: hidden;
 }
@@ -47,6 +49,7 @@
   margin-left: 0.3rem;
 }
 
+:local .name,
 :local .topNotes,
 :local .conditions {
   margin: 0;
@@ -89,9 +92,54 @@
 
 /* PORTRAIT */
 /* ========================================================================== */
-@media screen and (min-width: 40em) and (orientation: portrait) {
+@include breakpoint(medium portrait) {
   :local .character {
-    height: calc(100vh/3 - 6rem);
+    height: calc(100vh/3 - 3rem);
+  }
+  :local .imageContainer {
+    padding: 0.5rem;
+  }
+  :local .nameAndStats {
+    padding-top: 1rem;
+  }
+  :local .topNotes {
+    display: none;
+  }
+  :local .bottomNotes {
+    display: block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@include breakpoint(large portrait) {
+  :local .character  {
+    font-size: 1.25em;
+  }
+  :local .imageContainer {
+    padding: 1rem;
+  }
+  :local .bottomNotes {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  :local .nameAndStats {
+    padding-top: 1.5rem;
+  }
+}
+
+/* LANDSCAPE */
+/* ========================================================================== */
+@include breakpoint(medium landscape) {
+  :local .nameAndStats {
+    padding-top: 1rem;
+  }
+}
+
+@include breakpoint(large landscape) {
+  :local .character  {
+    font-size: 1.25em;
+    height: calc(100vh/3 - 3rem);
   }
   :local .imageContainer {
     padding: 0.5rem;
@@ -104,37 +152,23 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
-  :local .nameAndStats {
-    padding-top: 1rem;
-  }
-  :local .character  {
-    font-size: 1.25em;
-  }
 }
 
-/* Large and up */
-@media screen and (min-width: 64em) and (orientation: portrait) {
-  :local .imageContainer {
-    padding: 1rem;
+@include breakpoint(xlarge landscape) {
+  :local .character  {
+    font-size: 1.3em;
+    height: calc(100vh/2 - 4rem);
   }
-  :local .bottomNotes {
-    display: block;
+  :local .imageContainer {
+    padding-top: 1rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
   :local .nameAndStats {
     padding-top: 1.5rem;
   }
-  :local .character  {
-    font-size: 1.5em;
+  :local .bottomNotes {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-}
-
-/* LANDSCAPE */
-/* ========================================================================== */
-@media screen and (min-width: 40em) and (orientation: landscape) {
-}
-
-/* Large and up */
-@media screen and (min-width: 64em) and (orientation: landscape) {
 }
