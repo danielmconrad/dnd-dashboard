@@ -83,7 +83,7 @@ class Dashboard extends Component {
   }
 
   countdownPercentage(characterIdx) {
-    if (characterIdx !== this.state.characterIdx) return 100;
+    if (characterIdx !== this.state.characterIdx) return 0;
     return 100 - ((this.state.countCurrent - 1) / this.state.refreshInterval) * 100;
   }
 
