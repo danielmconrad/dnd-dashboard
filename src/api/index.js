@@ -1,10 +1,11 @@
 import Axios from 'axios';
 
-import dextuin from '../fixtures/dextuin.json';
-import rando from '../fixtures/rando.json';
-import niamh from '../fixtures/niamh.json';
-import enrique from '../fixtures/enrique.json';
 import brine from '../fixtures/brine.json';
+import dextuin from '../fixtures/dextuin.json';
+import enrique from '../fixtures/enrique.json';
+import niamh from '../fixtures/niamh.json';
+import ollie from '../fixtures/ollie.json';
+import rando from '../fixtures/rando.json';
 
 import characterConfig from '../fixtures/config.json';
 
@@ -26,16 +27,15 @@ const api = {
     ? Promise.resolve(api.fixtures.find(char => char.id === parseInt(id)))
     : baseAPI.get(`/character/${id}/json`).then(resp => resp.data),
 
-  characters: ids => IS_DEV
-    ? Promise.resolve(api.fixtures)
-    : Promise.all(ids.map(id => api.character(id))),
+  characters: ids => Promise.all(ids.map(id => api.character(id))),
 
   fixtures: [
-    dextuin,
-    rando,
-    niamh,
-    enrique,
     brine,
+    dextuin,
+    enrique,
+    niamh,
+    ollie,
+    rando,
   ]
 };
 

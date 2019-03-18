@@ -11,24 +11,29 @@ export default props => (
         <Name className="cell small-4" character={props.character} />
         <Stats className="cell small-4" character={props.character} />
         <Conditions className="cell small-4" character={props.character} />
-        <Notes className={`cell small-4 ${styles.topNotes}`} character={props.character} />
+        <Notes className={`${styles.topNotes} cell small-4`} character={props.character} />
       </div>
     </div>
     <Notes className={`${styles.bottomNotes} cell auto`} character={props.character} />
+    {props.character.inspiration && (
+      <i className={`${styles.inspiration} fas fa-sun`} />
+    )}
   </div>
 );
 
 const Image = props => (
-  <svg
-    className={`${styles.image} ${props.className}`}
-    viewBox="0 0 100 100"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <image
-      xlinkHref={props.character.avatarUrl}
-      width="100%" x="0" y="0"
+  <div className={`${styles.imageWrapper} ${props.className}`}>
+    <svg
+      className={styles.imageSizer}
+      viewBox="0 0 100 100"
+      xmlns="http://www.w3.org/2000/svg"
     />
-  </svg>
+    <img
+      className={styles.image}
+      src={props.character.avatarUrl}
+      alt={props.character.name}
+    />
+  </div>
 );
 
 const Name = props => (
@@ -39,11 +44,6 @@ const Name = props => (
 
 const Stats = props => (
   <div className={`${styles.stats} ${props.className}`}>
-    {props.character.inspiration && (
-      <span className={`${styles.stat} ${styles.inspiration}`}>
-        <i className="fas fa-sun" />
-      </span>
-    )}
     <span className={`${styles.stat} ${styles.speed}`}>
       <i className="fas fa-walking" />
       <span className={styles.statVal}>

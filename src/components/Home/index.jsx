@@ -4,7 +4,7 @@ import styles from './index.scss';
 
 const DASHBOARDS = {
   'Imagation Station': [
-    9912582, 7893290, 7555852
+    9912582, 7893290, 7555852, 7901953
   ],
   'Tomb of Annihilation': [
     9912582, 7893290, 7555852, 7893290, 7555852, 9912582
