@@ -23,7 +23,7 @@ const api = {
     : baseAPI.get('/api/config/json').then(resp => resp.data),
 
   character: id => IS_DEV
-    ? Promise.resolve(api.fixtures.find(_id => _id === id))
+    ? Promise.resolve(api.fixtures.find(char => char.id === parseInt(id)))
     : baseAPI.get(`/character/${id}/json`).then(resp => resp.data),
 
   characters: ids => IS_DEV
