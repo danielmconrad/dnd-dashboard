@@ -38,7 +38,13 @@ const Image = props => (
 
 const Name = props => (
   <div className={`${styles.name} ${props.className}`}>
-    {props.character.name}
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={`https://www.dndbeyond.com/characters/${props.character.id}`}
+    >
+      {props.character.name}
+    </a>
   </div>
 );
 
