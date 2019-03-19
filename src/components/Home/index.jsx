@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './index.scss';
 
 const DASHBOARDS = {
-  'Imagation Station': [
+  'Imagination Station': [
     9912582, 7893290, 7555852, 7901953
   ],
   'Tomb of Annihilation': [

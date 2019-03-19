@@ -4,13 +4,7 @@ import styles from './index.scss';
 
 export default props => (
   <div className={`${styles.component} ${props.className}`}>
-    <div className="grid-x">
-      <div className="cell small-6">
-        <Link to="/">Home</Link>
-      </div>
-      <div className="cell small-6 text-right">
-        <Link to="/credits">Credits</Link>
-      </div>
-    </div>
+    <Link className={styles.a} to="/">Home</Link>
+    <Link className={styles.a} to="/credits">Credits</Link>
   </div>
 );

@@ -1,8 +1,10 @@
+@import '../App/settings';
+
 :local .component {
   padding-bottom: 1rem;
 }
 
-:local .component a {
-  color: #999;
+:local .a {
   padding: 1rem;
+  color: $dark-gray;
 }

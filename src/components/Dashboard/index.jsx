@@ -6,6 +6,7 @@ import fromBeyond from '../Character/fromBeyond';
 import styles from './index.scss';
 
 const ONE_SECOND = 1000;
+const REFRESH_INTERVAL = 15;
 
 class Dashboard extends Component {
   state = {
@@ -13,39 +14,48 @@ class Dashboard extends Component {
     characterIDs: [],
     characterIdx: 0,
     characters: [],
+    countCurrent: null,
+    didError: false,
+    isLoadingCharacters: false,
+    isLoadingConfig: false,
+    isMissingIDs: false,
     params: {},
     refreshInterval: 15,
   }
 
   componentWillMount() {
-    this.countDown = this.countDown.bind(this);
-    this.getCharacters = this.getCharacters.bind(this);
+    const characterIDs = (this.props.match.params.characterIDs || '').split(',');
 
     return this.setState({
-      countCurrent: this.state.refreshInterval,
-      characterIDs: (this.props.match.params.characterIDs || '').split(',')
+      characterIDs: characterIDs,
+      isMissingIDs: !characterIDs.length,
     });
   }
 
   componentDidMount() {
-    if (!this.state.characterIDs) return;
-
-   return api.characterConfig()
-      .then(characterConfig => this.setState({ characterConfig }))
-      .then(() => this.getCharacters())
-      .then(() => setInterval(this.countDown, ONE_SECOND));
+    this.loadCharacters().then(() => this.restartCountdown());
   }
 
   componentWillUnmount() {
+    this.stopCoundown();
+  }
+
+  restartCountdown() {
+    this.setState({ countCurrent: REFRESH_INTERVAL });
+    this.countDown = setInterval(() => this.tick(), ONE_SECOND);
+  }
+
+  stopCoundown() {
     clearInterval(this.countDown);
   }
 
-  countDown() {
+  tick() {
     if (this.state.countCurrent === 1) {
-      return this.getCurrentCharacter().then(() => this.setState({
-        characterIdx: this.getNextCharacterIdx(),
-        countCurrent: this.state.refreshInterval
-      }));
+      this.stopCoundown();
+
+      return this.getCurrentCharacter()
+        .then(() => this.setState({characterIdx: this.getNextCharacterIdx() }))
+        .then(() => this.restartCountdown());
     }
 
     return this.setState({ countCurrent: this.state.countCurrent - 1 });
@@ -58,10 +68,15 @@ class Dashboard extends Component {
     return this.state.characterIdx + 1;
   }
 
-  getCharacters() {
-    return api.characters(this.state.characterIDs)
+  loadCharacters() {
+    return this.state.characterIDs &&
+      Promise.resolve(this.setState({ isLoadingConfig: true }))
+      .then(() => api.characterConfig())
+      .then(characterConfig => this.setState({ characterConfig, isLoadingConfig: false, isLoadingCharacters: true }))
+      .then(() => api.characters(this.state.characterIDs))
       .then(characters => characters.map(c => this.transformCharacter(c)))
-      .then(characters => this.setState({ characters }));
+      .then(characters => this.setState({ characters, isLoadingCharacters: false }))
+      .catch(() => this.setState({ didError: true, isLoadingCharacters: false }))
   }
 
   getCurrentCharacter() {
@@ -88,6 +103,22 @@ class Dashboard extends Component {
   }
 
   render() {
+    if (this.state.isMissingIDs) return (
+      <p className="text-center">Missing Character IDs.</p>
+    );
+
+    if (this.state.isLoadingConfig) return (
+      <p className="text-center">Loading Configuration...</p>
+    );
+
+    if (this.state.isLoadingCharacters) return (
+      <p className="text-center">Loading Characters...</p>
+    );
+
+    if (this.state.didError) return (
+      <p className="text-center">Something went wrong.</p>
+    );
+
     return (
       <div className={`${styles.component} grid-container full`}>
         <div className="grid-x grid-margin-y grid-margin-x">

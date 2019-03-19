@@ -8,11 +8,15 @@ html, body, #root, #app {
   width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: #000;
-  color: white;
+  color: $dark-gray;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 10px;
@@ -20,6 +24,17 @@ body {
   @include breakpoint(medium) {
     padding: 20px;
   }
+}
+
+a {
+  color: $light-gray;
+  transition: color 0.2s ease-in;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: white;
 }
 
 ::-webkit-scrollbar {
