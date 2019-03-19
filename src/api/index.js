@@ -3,6 +3,7 @@ import Axios from 'axios';
 import brine from '../fixtures/brine.json';
 import dextuin from '../fixtures/dextuin.json';
 import enrique from '../fixtures/enrique.json';
+import gnome from '../fixtures/gnome.json';
 import niamh from '../fixtures/niamh.json';
 import ollie from '../fixtures/ollie.json';
 import rando from '../fixtures/rando.json';
@@ -33,6 +34,7 @@ const api = {
     brine,
     dextuin,
     enrique,
+    gnome,
     niamh,
     ollie,
     rando,
