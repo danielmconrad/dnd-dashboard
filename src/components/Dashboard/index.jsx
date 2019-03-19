@@ -104,19 +104,19 @@ class Dashboard extends Component {
 
   render() {
     if (this.state.isMissingIDs) return (
-      <p className="text-center">Missing Character IDs.</p>
+      <p className={styles.info}>Missing Character IDs.</p>
     );
 
     if (this.state.isLoadingConfig) return (
-      <p className="text-center">Loading Configuration...</p>
+      <p className={styles.info}>Loading Configuration...</p>
     );
 
     if (this.state.isLoadingCharacters) return (
-      <p className="text-center">Loading Characters...</p>
+      <p className={styles.info}>Loading Characters...</p>
     );
 
     if (this.state.didError) return (
-      <p className="text-center">Something went wrong.</p>
+      <p className={styles.info}>Something went wrong.</p>
     );
 
     return (
