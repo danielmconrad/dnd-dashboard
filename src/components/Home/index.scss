@@ -1,10 +1,18 @@
+@import '../App/settings';
+
 :local .component {
-  padding: 2rem;
   text-align: center;
 }
 
 :local .dashboardLink {
-  display: block;
+  display: inline-block;
   margin: 1rem;
+  width: 20rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: $medium-gray;
   font-family: 'ZCOOL XiaoWei', serif;
+  background-color: rgb(17,17,17);
+  margin: 2rem;
+  max-width: 75%;
 }

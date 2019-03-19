@@ -7,7 +7,7 @@ const DASHBOARDS = {
     9912582, 7893290, 7555852, 7901953
   ],
   'Tomb of Annihilation': [
-    9912582, 7893290, 7555852, 7893290, 7555852, 9912582
+    8958758
   ],
 };
 
@@ -16,14 +16,13 @@ class Home extends Component {
     return (
       <div className={`${styles.component}`}>
         {Object.keys(DASHBOARDS).map(key => (
-          <p key={key}>
-            <Link
-              className={`button radius ${styles.dashboardLink}`}
-              to={`/dashboard/${DASHBOARDS[key].join(',')}`}
-            >
-              {key}
-            </Link>
-          </p>
+          <Link
+            key={key}
+            className={styles.dashboardLink}
+            to={`/dashboard/${DASHBOARDS[key].join(',')}`}
+          >
+            {key}
+          </Link>
         ))}
       </div>
     );
