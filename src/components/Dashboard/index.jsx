@@ -16,6 +16,7 @@ class Dashboard extends Component {
     characters: [],
     countCurrent: null,
     didError: false,
+    err: null,
     isLoadingCharacters: false,
     isLoadingConfig: false,
     isMissingIDs: false,
@@ -76,7 +77,7 @@ class Dashboard extends Component {
       .then(() => api.characters(this.state.characterIDs))
       .then(characters => characters.map(c => this.transformCharacter(c)))
       .then(characters => this.setState({ characters, isLoadingCharacters: false }))
-      .catch(() => this.setState({ didError: true, isLoadingCharacters: false }))
+      .catch(err => this.setState({ err: err, didError: true, isLoadingCharacters: false }))
   }
 
   getCurrentCharacter() {
@@ -116,7 +117,7 @@ class Dashboard extends Component {
     );
 
     if (this.state.didError) return (
-      <p className={styles.info}>Something went wrong.</p>
+      <p className={styles.info}>Something went wrong. {this.state.err.message}</p>
     );
 
     return (

@@ -15,9 +15,14 @@ const armorClass = (character) => {
     .map(i => i.definition.armorClass)
     .reduce((acc, cur) => acc + cur, 0);
 
+  const withoutArmor = character.modifiers.class
+    .find(mod => mod.subType === 'unarmored-armor-class');
+
+  const armorModifier = withoutArmor ? withoutArmor.value : 0;
+
   const dexMod = statModifier(character, STAT.DEX);
 
-  return dexMod + (armor || defaultArmor);
+  return dexMod + (armor || defaultArmor + armorModifier);
 };
 
 const conditions = (config, character) => character.conditions.map(cond =>

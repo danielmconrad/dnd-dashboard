@@ -21,11 +21,11 @@ const baseAPI = Axios.create({
 
 const api = {
   characterConfig: () => IS_DEV
-    ? resolveAFter(characterConfig, 2000)
+    ? resolveAFter(characterConfig, 100)
     : baseAPI.get('/api/config/json').then(resp => resp.data),
 
   character: id => IS_DEV
-    ? resolveAFter(api.fixtures.find(char => char.id === parseInt(id)), 3000)
+    ? resolveAFter(api.fixtures.find(char => char.id === parseInt(id)), 100)
     : baseAPI.get(`/character/${id}/json`).then(resp => resp.data),
 
   characters: ids => Promise.all(ids.map(id => api.character(id))),
