@@ -64,6 +64,8 @@ const hitPointStatus = (hitPointPercentage) => {
 const level = (character) => character.classes[0].level;
 
 const speed = (character) => {
+  if (character.customSpeeds.length) return character.customSpeeds[0].distance;
+
   const walkingModifier = character.modifiers.race
     .find(mod => mod.subType === 'innate-speed-walking');
 
