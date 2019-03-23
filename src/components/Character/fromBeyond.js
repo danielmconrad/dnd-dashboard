@@ -8,21 +8,22 @@ const STAT = {
 };
 
 const armorClass = (character) => {
-  const defaultArmor = 10;
+  const hasArmor = character.inventory
+    .find(i => i.equipped && i.definition.armorClass > 10);
 
-  const armor = character.inventory
+  const armorAndShields = character.inventory
     .filter(i => i.equipped && !!i.definition.armorClass)
-    .map(i => i.definition.armorClass)
-    .reduce((acc, cur) => acc + cur, 0);
+    .map(i => i.definition.armorClass + i.definition.grantedModifiers.reduce((acc, cur) => acc + cur.value, 0))
+    .reduce((acc, cur) => acc + cur, hasArmor ? 0 : 10);
 
-  const withoutArmor = character.modifiers.class
+  const unarmoredModifier = character.modifiers.class
     .find(mod => mod.subType === 'unarmored-armor-class');
 
-  const armorModifier = withoutArmor ? withoutArmor.value : 0;
+  const armorModifier = !hasArmor && unarmoredModifier ? unarmoredModifier.value : 0;
 
   const dexMod = statModifier(character, STAT.DEX);
 
-  return dexMod + (armor || defaultArmor + armorModifier);
+  return dexMod + armorAndShields + armorModifier;
 };
 
 const conditions = (config, character) => character.conditions.map(cond =>

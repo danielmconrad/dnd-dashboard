@@ -21,7 +21,7 @@
   "thumbnailAvatarId": null,
   "themeColorId": null,
   "themeColor": null,
-  "name": "Brine The Salty",
+  "name": "Hanz Jagoff II",
   "socialName": null,
   "gender": null,
   "faith": null,
@@ -265,7 +265,7 @@
         },
         {
           "id": 88,
-          "description": "Someone I loved died because of I mistake I made. That will never happen again.",
+          "description": "Someone I loved died because of a mistake I made. That will never happen again.",
           "diceRoll": 6
         }
       ],
@@ -512,7 +512,7 @@
     "organizations": null,
     "enemies": null,
     "backstory": null,
-    "otherNotes": null
+    "otherNotes": "Training: Attack, Defense Dong Size: Punitive"
   },
   "traits": {
     "personalityTraits": null,
@@ -539,7 +539,72 @@
     "enforceMulticlassRules": true
   },
   "lifestyle": null,
-  "inventory": [],
+  "inventory": [
+    {
+      "id": 96542173,
+      "entityTypeId": 1439493548,
+      "definition": {
+        "baseItemId": 8,
+        "baseArmorName": "Shield",
+        "strengthRequirement": null,
+        "armorClass": 2,
+        "stealthCheck": 1,
+        "id": 5157,
+        "baseTypeId": 701257905,
+        "entityTypeId": 112130694,
+        "canEquip": true,
+        "magic": true,
+        "name": "Shield, +2",
+        "snippet": "",
+        "weight": 6,
+        "type": "Shield",
+        "description": "<p>While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.</p>",
+        "canAttune": false,
+        "attunementDescription": "",
+        "rarity": "Rare",
+        "isHomebrew": false,
+        "version": null,
+        "sourceId": 3,
+        "sourcePageNumber": 200,
+        "stackable": false,
+        "bundleSize": 1,
+        "avatarUrl": null,
+        "largeAvatarUrl": null,
+        "filterType": "Armor",
+        "cost": null,
+        "isPack": false,
+        "tags": [
+          "Combat",
+          "Warding"
+        ],
+        "grantedModifiers": [
+          {
+            "id": "armor_5157_492",
+            "entityId": null,
+            "entityTypeId": null,
+            "type": "bonus",
+            "subType": "armor-class",
+            "dice": null,
+            "restriction": "",
+            "statId": null,
+            "requiresAttunement": false,
+            "duration": null,
+            "friendlyTypeName": "Bonus",
+            "friendlySubtypeName": "Armor Class",
+            "isGranted": true,
+            "bonusTypes": [],
+            "value": 2,
+            "componentId": 5157,
+            "componentTypeId": 112130694
+          }
+        ]
+      },
+      "quantity": 1,
+      "isAttuned": false,
+      "equipped": true,
+      "limitedUse": null
+    }
+  ],
   "currencies": {
     "cp": 0,
     "sp": 0,
@@ -1493,7 +1558,28 @@
       ]
     }
   ],
-  "feats": [],
+  "feats": [
+    {
+      "componentTypeId": 1960452172,
+      "componentId": 103,
+      "definition": {
+        "id": 16938,
+        "entityTypeId": 1088085227,
+        "name": "Firearm Specialist",
+        "description": "<p>You are adept at using guns effectively.</p>\r\n<ul>\r\n<li>You gain proficiency with Firearms.</li>\r\n<li>If you roll a misfire on an attack with a firearm, you can use your reaction to roll a d20. If the number rolled is higher than the weapon&rsquo;s misfire score, the firearm does not misfire. You cannot use this feature of this feat again until you complete a short or long rest.</li>\r\n<li>When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded firearm with the<em>&nbsp;light</em>&nbsp;property you are holding.</li>\r\n</ul>",
+        "snippet": "You gain proficiency with Firearms. If you roll a misfire on an attack with a firearm, you can use your reaction to roll a d20. If the number rolled is higher than the weapon’s misfire score, the firearm does not misfire. You cannot use this feature of this feat again until you complete a short or long rest. When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded firearm with the light property you are holding.",
+        "activation": {
+          "activationTime": null,
+          "activationType": null
+        },
+        "features": null,
+        "sourceId": 31,
+        "sourcePageNumber": null,
+        "creatureRules": [],
+        "prerequisites": []
+      }
+    }
+  ],
   "customDefenseAdjustments": [],
   "customSenses": [],
   "customSpeeds": [],
@@ -1501,7 +1587,12 @@
   "spellDefenses": null,
   "customActions": [],
   "characterValues": [],
-  "conditions": [],
+  "conditions": [
+    {
+      "id": 4,
+      "level": 1
+    }
+  ],
   "deathSaves": {
     "failCount": null,
     "successCount": null,
@@ -1584,6 +1675,8 @@
   ],
   "activeSourceCategories": [
     1,
+    2,
+    3,
     7,
     8
   ],
@@ -1910,7 +2003,7 @@
         "parentChoiceId": null,
         "type": 6,
         "subType": null,
-        "optionValue": null,
+        "optionValue": 16938,
         "label": "Choose a Feat",
         "isOptional": false,
         "isInfinite": false,
@@ -3069,7 +3162,70 @@
         "componentTypeId": 12168134
       }
     ],
-    "feat": []
+    "feat": [
+      {
+        "id": 33003,
+        "entityTypeId": 222216831,
+        "limitedUse": {
+          "name": null,
+          "statModifierUsesId": null,
+          "resetType": 1,
+          "numberUsed": 0,
+          "minNumberConsumed": 1,
+          "maxNumberConsumed": 1,
+          "maxUses": 1,
+          "operator": 1
+        },
+        "name": "Firearm Specialist",
+        "description": null,
+        "snippet": "You gain proficiency with Firearms. If you roll a misfire on an attack with a firearm, you can use your reaction to roll a d20. If the number rolled is higher than the weapon’s misfire score, the firearm does not misfire. You cannot use this feature of this feat again until you complete a short or long rest. When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded firearm with the light property you are holding.",
+        "abilityModifierStatId": null,
+        "onMissDescription": null,
+        "saveFailDescription": null,
+        "saveSuccessDescription": null,
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": null,
+        "value": null,
+        "damageTypeId": null,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": null,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false
+        },
+        "activation": {
+          "activationTime": null,
+          "activationType": null
+        },
+        "attackCustomData": {
+          "name": null,
+          "notes": null,
+          "damageBonus": null,
+          "toHitBonus": null,
+          "toHit": null,
+          "isOffhand": null,
+          "isSilver": null,
+          "isAdamantine": null,
+          "isProficient": null,
+          "saveDcBonus": null,
+          "saveDc": null,
+          "weight": null,
+          "displayAsAttack": null,
+          "cost": null
+        },
+        "componentId": 16938,
+        "componentTypeId": 1088085227
+      }
+    ]
   },
   "modifiers": {
     "race": [
@@ -3553,8 +3709,48 @@
         "componentTypeId": 1669830167
       }
     ],
-    "item": [],
-    "feat": [],
+    "item": [
+      {
+        "id": "armor_5157_492",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "bonus",
+        "subType": "armor-class",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Bonus",
+        "friendlySubtypeName": "Armor Class",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 2,
+        "componentId": 5157,
+        "componentTypeId": 112130694
+      }
+    ],
+    "feat": [
+      {
+        "id": "feat_16938_2725320",
+        "entityId": 3,
+        "entityTypeId": 660121713,
+        "type": "proficiency",
+        "subType": "firearms",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Firearms",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 16938,
+        "componentTypeId": 1088085227
+      }
+    ],
     "condition": []
   },
   "classSpells": [
