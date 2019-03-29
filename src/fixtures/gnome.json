@@ -1,7 +1,7 @@
 {
   "id": 10121413,
   "readonlyUrl": "https://dndbeyond.com/characters/10121413",
-  "avatarUrl": "",
+  "avatarUrl": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/413/150/150/636377884703064507.jpeg",
   "frameAvatarUrl": "",
   "backdropAvatarUrl": "",
   "smallBackdropAvatarUrl": "",
@@ -13,7 +13,7 @@
     "largeBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/558/636453169377593443.jpeg",
     "thumbnailBackdropAvatarUrl": "https://media-waterdeep.cursecdn.com/avatars/61/559/636453169378067426.jpeg"
   },
-  "avatarId": null,
+  "avatarId": 17413,
   "frameAvatarId": null,
   "backdropAvatarId": null,
   "smallBackdropAvatarId": null,
@@ -21,7 +21,7 @@
   "thumbnailAvatarId": null,
   "themeColorId": null,
   "themeColor": null,
-  "name": "Gnome Homo",
+  "name": "Gnome",
   "socialName": null,
   "gender": null,
   "faith": null,
@@ -32,8 +32,8 @@
   "height": null,
   "weight": null,
   "inspiration": false,
-  "baseHitPoints": 0,
-  "bonusHitPoints": null,
+  "baseHitPoints": 12,
+  "bonusHitPoints": 6,
   "overrideHitPoints": null,
   "removedHitPoints": 0,
   "temporaryHitPoints": 0,
@@ -568,7 +568,7 @@
     "organizations": null,
     "enemies": null,
     "backstory": null,
-    "otherNotes": null
+    "otherNotes": "Training:Attack, Defense Dong Size: Dec at best"
   },
   "traits": {
     "personalityTraits": null,
@@ -1236,8 +1236,23 @@
   "customProficiencies": [],
   "spellDefenses": null,
   "customActions": [],
-  "characterValues": [],
-  "conditions": [],
+  "characterValues": [
+    {
+      "typeId": 2,
+      "value": 3,
+      "notes": "mage armor",
+      "valueId": null,
+      "valueTypeId": null,
+      "contextId": null,
+      "contextTypeId": null
+    }
+  ],
+  "conditions": [
+    {
+      "id": 4,
+      "level": 1
+    }
+  ],
   "deathSaves": {
     "failCount": null,
     "successCount": null,
@@ -1690,7 +1705,7 @@
         "parentChoiceId": null,
         "type": 2,
         "subType": 1,
-        "optionValue": null,
+        "optionValue": 3789,
         "label": "Choose a Skill",
         "isOptional": false,
         "isInfinite": false,
@@ -1797,7 +1812,7 @@
         "parentChoiceId": null,
         "type": 2,
         "subType": 1,
-        "optionValue": null,
+        "optionValue": 3800,
         "label": "Choose a Skill",
         "isOptional": false,
         "isInfinite": false,
@@ -2410,6 +2425,25 @@
     ],
     "background": [
       {
+        "id": "background_7_2094",
+        "entityId": 8,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "investigation",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Investigation",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 7,
+        "componentTypeId": 1669830167
+      },
+      {
         "id": "background_7_2095",
         "entityId": 2,
         "entityTypeId": 906033267,
@@ -2422,6 +2456,25 @@
         "duration": null,
         "friendlyTypeName": "Language",
         "friendlySubtypeName": "Dwarvish",
+        "isGranted": false,
+        "bonusTypes": [],
+        "value": null,
+        "componentId": 7,
+        "componentTypeId": 1669830167
+      },
+      {
+        "id": "background_7_2097",
+        "entityId": 19,
+        "entityTypeId": 1958004211,
+        "type": "proficiency",
+        "subType": "persuasion",
+        "dice": null,
+        "restriction": "",
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Proficiency",
+        "friendlySubtypeName": "Persuasion",
         "isGranted": false,
         "bonusTypes": [],
         "value": null,
